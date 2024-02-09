@@ -1,0 +1,1123 @@
+
+> formalization-scripts@1.0.0 check
+> npm-run-all --sequential build "check-call-sot -- {1}" -- ../build/theory.p
+
+
+> formalization-scripts@1.0.0 build
+> node dependencies-manager.mjs
+
+
+> formalization-scripts@1.0.0 check-call-sot
+> python RemoteSoT.py --system=Vampire---4.8 ../build/theory.p
+
+% SZS start RequiredInformation
+% Congratulations - you have become a registered power user of SystemOnTPTP, at IP address 145.126.*.
+% Please consider donating to the TPTP project - see www.tptp.org for details.
+% When you donate this message will disappear.
+% If you do not donate a random delay might be added to your processing time.
+% Happy days ... you were not selected for a random delay.
+% SZS end RequiredInformation
+% Checking upload ...
+% Checker ran ...
+% No errors ...
+Vampire---4.8   system information being retrieved
+Vampire---4.8's non-default parameters being retrieved
+Vampire---4.8's SOT_vThIPB does not need preparation
+Vampire---4.8   being executed on SOT_vThIPB using /home/tptp/Systems/Vampire---4.8/run_vampire '/tmp/H5buxBcRdq/SOT_vThIPB' 300 THM
+% START OF SYSTEM OUTPUT
+Running first-order theorem proving
+Running: /home/tptp/Systems/Vampire---4.8/vampire_z3_rel_static_master_6827 --mode portfolio --schedule snake_tptp_uns -p tptp --output_axiom_names on -m 16384 --cores 7 -t 300 /tmp/tmp.4OrT3jXOnf/Vampire---4.8_57452
+% (57508)Running in auto input_syntax mode. Trying TPTP
+% (57511)dis+1002_1:1_aac=none:bd=off:sac=on:sos=on:spb=units:i=3:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/3Mi)
+% (57515)dis+1010_1:50_awrs=decay:awrsf=128:nwc=10.0:s2pl=no:sp=frequency:ss=axioms:i=39:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/39Mi)
+% (57515)Refutation not found, incomplete strategy% (57515)------------------------------
+% (57515)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57515)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57515)Termination reason: Refutation not found, incomplete strategy
+
+% (57515)Memory used [KB]: 1378
+% (57515)Time elapsed: 0.003 s
+% (57515)Instructions burned: 3 (million)
+% (57515)------------------------------
+% (57515)------------------------------
+% (57511)Instruction limit reached!
+% (57511)------------------------------
+% (57511)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57511)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57511)Termination reason: Unknown
+% (57511)Termination phase: Preprocessing 2
+
+% (57511)Memory used [KB]: 1549
+% (57511)Time elapsed: 0.004 s
+% (57511)Instructions burned: 4 (million)
+% (57511)------------------------------
+% (57511)------------------------------
+% (57512)lrs+10_5:1_br=off:fde=none:nwc=3.0:sd=1:sgt=10:sos=on:ss=axioms:urr=on:i=51:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/51Mi)
+% (57514)dis+21_1:1_av=off:sos=on:sp=frequency:ss=included:to=lpo:i=15:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/15Mi)
+% (57510)lrs+10_1:1_gsp=on:sd=1:sgt=32:sos=on:ss=axioms:i=13:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/13Mi)
+% (57512)Refutation not found, incomplete strategy% (57512)------------------------------
+% (57512)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57512)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57512)Termination reason: Refutation not found, incomplete strategy
+
+% (57512)Memory used [KB]: 1377
+% (57512)Time elapsed: 0.003 s
+% (57512)Instructions burned: 3 (million)
+% (57512)------------------------------
+% (57512)------------------------------
+% (57510)Refutation not found, incomplete strategy% (57510)------------------------------
+% (57510)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57510)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57510)Termination reason: Refutation not found, incomplete strategy
+
+% (57510)Memory used [KB]: 1377
+% (57510)Time elapsed: 0.003 s
+% (57510)Instructions burned: 3 (million)
+% (57510)------------------------------
+% (57510)------------------------------
+% (57514)Refutation not found, incomplete strategy% (57514)------------------------------
+% (57514)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57514)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57514)Termination reason: Refutation not found, incomplete strategy
+
+% (57514)Memory used [KB]: 1766
+% (57514)Time elapsed: 0.010 s
+% (57514)Instructions burned: 10 (million)
+% (57514)------------------------------
+% (57514)------------------------------
+% (57513)lrs+10_1:1024_nm=0:nwc=5.0:ss=axioms:i=13:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/13Mi)
+% (57509)dis+1002_1:12_drc=off:fd=preordered:tgt=full:i=99978:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/99978Mi)
+% (57513)Refutation not found, incomplete strategy% (57513)------------------------------
+% (57513)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57513)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57513)Termination reason: Refutation not found, incomplete strategy
+
+% (57513)Memory used [KB]: 1377
+% (57513)Time elapsed: 0.003 s
+% (57513)Instructions burned: 2 (million)
+% (57513)------------------------------
+% (57513)------------------------------
+% (57516)lrs+2_1:1_lcm=reverse:lma=on:sos=all:spb=goal_then_units:ss=included:urr=on:i=39:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/39Mi)
+% (57517)dis+10_1:1_newcnf=on:sgt=8:sos=on:ss=axioms:to=lpo:urr=on:i=49:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/49Mi)
+% (57517)Refutation not found, incomplete strategy% (57517)------------------------------
+% (57517)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57517)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57517)Termination reason: Refutation not found, incomplete strategy
+
+% (57517)Memory used [KB]: 1377
+% (57517)Time elapsed: 0.003 s
+% (57517)Instructions burned: 3 (million)
+% (57517)------------------------------
+% (57517)------------------------------
+% (57516)Refutation not found, incomplete strategy% (57516)------------------------------
+% (57516)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57516)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57516)Termination reason: Refutation not found, incomplete strategy
+
+% (57516)Memory used [KB]: 1878
+% (57516)Time elapsed: 0.007 s
+% (57516)Instructions burned: 12 (million)
+% (57516)------------------------------
+% (57516)------------------------------
+% (57518)lrs+10_1:1_br=off:sos=on:ss=axioms:st=2.0:urr=on:i=33:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/33Mi)
+% (57519)lrs+10_1:1_ep=R:lcm=predicate:lma=on:sos=all:spb=goal:ss=included:i=12:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/12Mi)
+% (57518)Refutation not found, incomplete strategy% (57518)------------------------------
+% (57518)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57518)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57518)Termination reason: Refutation not found, incomplete strategy
+
+% (57518)Memory used [KB]: 1377
+% (57518)Time elapsed: 0.003 s
+% (57518)Instructions burned: 2 (million)
+% (57518)------------------------------
+% (57518)------------------------------
+% (57519)Refutation not found, incomplete strategy% (57519)------------------------------
+% (57519)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57519)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57519)Termination reason: Refutation not found, incomplete strategy
+
+% (57519)Memory used [KB]: 1832
+% (57519)Time elapsed: 0.006 s
+% (57519)Instructions burned: 11 (million)
+% (57519)------------------------------
+% (57519)------------------------------
+% (57520)lrs+10_1:2_br=off:nm=4:ss=included:urr=on:i=7:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/7Mi)
+% (57521)lrs+10_1:4_av=off:bs=unit_only:bsr=unit_only:ep=RS:s2a=on:sos=on:sp=frequency:to=lpo:i=16:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/16Mi)
+% (57520)Instruction limit reached!
+% (57520)------------------------------
+% (57520)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57520)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57520)Termination reason: Unknown
+% (57520)Termination phase: Property scanning
+
+% (57520)Memory used [KB]: 1713
+% (57520)Time elapsed: 0.005 s
+% (57520)Instructions burned: 9 (million)
+% (57520)------------------------------
+% (57520)------------------------------
+% (57521)Refutation not found, incomplete strategy% (57521)------------------------------
+% (57521)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57521)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57521)Termination reason: Refutation not found, incomplete strategy
+
+% (57521)Memory used [KB]: 1837
+% (57521)Time elapsed: 0.009 s
+% (57521)Instructions burned: 12 (million)
+% (57521)------------------------------
+% (57521)------------------------------
+% (57522)lrs+10_1:32_br=off:nm=16:sd=2:ss=axioms:st=2.0:urr=on:i=51:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/51Mi)
+% (57522)Refutation not found, incomplete strategy% (57522)------------------------------
+% (57522)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57522)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57522)Termination reason: Refutation not found, incomplete strategy
+
+% (57522)Memory used [KB]: 1377
+% (57522)Time elapsed: 0.002 s
+% (57522)Instructions burned: 2 (million)
+% (57522)------------------------------
+% (57522)------------------------------
+% (57523)lrs+10_1:1_ins=3:sp=reverse_frequency:spb=goal:to=lpo:i=3:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/3Mi)
+% (57525)lrs+1011_1:1_fd=preordered:fsd=on:sos=on:thsq=on:thsqc=64:thsqd=32:uwa=ground:i=50:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/50Mi)
+% (57523)Instruction limit reached!
+% (57523)------------------------------
+% (57523)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57523)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57523)Termination reason: Unknown
+% (57523)Termination phase: Preprocessing 1
+
+% (57523)Memory used [KB]: 1508
+% (57523)Time elapsed: 0.003 s
+% (57523)Instructions burned: 4 (million)
+% (57523)------------------------------
+% (57523)------------------------------
+% (57524)lrs+10_1:1_drc=off:sp=reverse_frequency:spb=goal:to=lpo:i=7:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/7Mi)
+% (57524)Instruction limit reached!
+% (57524)------------------------------
+% (57524)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57524)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57524)Termination reason: Unknown
+% (57524)Termination phase: Property scanning
+
+% (57524)Memory used [KB]: 1713
+% (57524)Time elapsed: 0.006 s
+% (57524)Instructions burned: 8 (million)
+% (57524)------------------------------
+% (57524)------------------------------
+% (57525)Refutation not found, incomplete strategy% (57525)------------------------------
+% (57525)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57525)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57525)Termination reason: Refutation not found, incomplete strategy
+
+% (57525)Memory used [KB]: 1873
+% (57525)Time elapsed: 0.007 s
+% (57525)Instructions burned: 11 (million)
+% (57525)------------------------------
+% (57525)------------------------------
+% (57527)ott+1010_1:1_sd=2:sos=on:sp=occurrence:ss=axioms:urr=on:i=2:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/2Mi)
+% (57527)Instruction limit reached!
+% (57527)------------------------------
+% (57527)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57527)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57527)Termination reason: Unknown
+% (57527)Termination phase: Saturation
+
+% (57527)Memory used [KB]: 1444
+% (57527)Time elapsed: 0.003 s
+% (57527)Instructions burned: 3 (million)
+% (57527)------------------------------
+% (57527)------------------------------
+% (57526)fmb+10_1:1_nm=2:i=3:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/3Mi)
+% (57526)Instruction limit reached!
+% (57526)------------------------------
+% (57526)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57526)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57526)Termination reason: Unknown
+% (57526)Termination phase: Preprocessing 1
+
+% (57526)Memory used [KB]: 1492
+% (57526)Time elapsed: 0.003 s
+% (57526)Instructions burned: 3 (million)
+% (57526)------------------------------
+% (57526)------------------------------
+% (57528)dis-10_3:2_amm=sco:ep=RS:fsr=off:nm=10:sd=2:sos=on:ss=axioms:st=3.0:i=11:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/11Mi)
+% (57528)Refutation not found, incomplete strategy% (57528)------------------------------
+% (57528)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57528)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57528)Termination reason: Refutation not found, incomplete strategy
+
+% (57528)Memory used [KB]: 1377
+% (57528)Time elapsed: 0.003 s
+% (57528)Instructions burned: 3 (million)
+% (57528)------------------------------
+% (57528)------------------------------
+% (57529)dis+1010_1:1_bs=on:ep=RS:erd=off:newcnf=on:nwc=10.0:s2a=on:sgt=32:ss=axioms:i=30:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/30Mi)
+% (57530)ott+21_1:1_erd=off:s2a=on:sac=on:sd=1:sgt=64:sos=on:ss=included:st=3.0:to=lpo:urr=on:i=99:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/99Mi)
+% (57529)Refutation not found, incomplete strategy% (57529)------------------------------
+% (57529)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57529)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57529)Termination reason: Refutation not found, incomplete strategy
+
+% (57529)Memory used [KB]: 1378
+% (57529)Time elapsed: 0.004 s
+% (57529)Instructions burned: 2 (million)
+% (57529)------------------------------
+% (57529)------------------------------
+% (57531)dis+1010_2:3_fs=off:fsr=off:nm=0:nwc=5.0:s2a=on:s2agt=32:i=82:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/82Mi)
+% (57530)Refutation not found, incomplete strategy% (57530)------------------------------
+% (57530)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57530)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57530)Termination reason: Refutation not found, incomplete strategy
+
+% (57530)Memory used [KB]: 1829
+% (57530)Time elapsed: 0.007 s
+% (57530)Instructions burned: 13 (million)
+% (57530)------------------------------
+% (57530)------------------------------
+% (57533)dis+21_1:1_ep=RS:nwc=10.0:s2a=on:s2at=1.5:i=50:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/50Mi)
+% (57532)dis+10_1:1_av=off:sos=on:sp=reverse_arity:ss=included:st=2.0:to=lpo:urr=ec_only:i=45:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/45Mi)
+% (57532)Refutation not found, incomplete strategy% (57532)------------------------------
+% (57532)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57532)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57532)Termination reason: Refutation not found, incomplete strategy
+
+% (57532)Memory used [KB]: 1835
+% (57532)Time elapsed: 0.007 s
+% (57532)Instructions burned: 12 (million)
+% (57532)------------------------------
+% (57532)------------------------------
+% (57533)Refutation not found, incomplete strategy% (57533)------------------------------
+% (57533)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57533)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57533)Termination reason: Refutation not found, incomplete strategy
+
+% (57533)Memory used [KB]: 1870
+% (57533)Time elapsed: 0.013 s
+% (57533)Instructions burned: 25 (million)
+% (57533)------------------------------
+% (57533)------------------------------
+% (57531)Instruction limit reached!
+% (57531)------------------------------
+% (57531)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57531)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57531)Termination reason: Unknown
+% (57531)Termination phase: Saturation
+
+% (57531)Memory used [KB]: 2402
+% (57531)Time elapsed: 0.060 s
+% (57531)Instructions burned: 82 (million)
+% (57531)------------------------------
+% (57531)------------------------------
+% (57534)lrs+11_1:1_plsq=on:plsqc=1:plsqr=32,1:ss=included:i=95:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2997ds/95Mi)
+% (57535)lrs+1011_1:1_fd=preordered:fsd=on:sos=on:thsq=on:thsqc=64:thsqd=32:uwa=ground:i=99:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2997ds/99Mi)
+% (57535)Refutation not found, incomplete strategy% (57535)------------------------------
+% (57535)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57535)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57535)Termination reason: Refutation not found, incomplete strategy
+
+% (57535)Memory used [KB]: 1874
+% (57535)Time elapsed: 0.008 s
+% (57535)Instructions burned: 11 (million)
+% (57535)------------------------------
+% (57535)------------------------------
+% (57534)First to succeed.
+% (57536)dis+21_1:1_aac=none:abs=on:er=known:fde=none:fsr=off:nwc=5.0:s2a=on:s2at=4.0:sp=const_frequency:to=lpo:urr=ec_only:i=25:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2997ds/25Mi)
+% SZS status Satisfiable for Vampire---4
+% (57534)# SZS output start Saturation.
+cnf(u1205,axiom,
+    ~gufo_ia_IntrinsicAspect(X0) | gufo_i_Aspect(X0)).
+
+cnf(u1246,axiom,
+    ~gufo_i_ConcreteIndividual(X0) | gufo_i_Endurant(X0) | gufo_i_Event(X0) | gufo_i_Situation(X0)).
+
+cnf(u1436,axiom,
+    ~gufo_i_Situation(X0) | ~gufo_i_Endurant(X0)).
+
+cnf(u1391,axiom,
+    ~gufo_s_concernsNonRigidType(X1,X0) | gufo_s_TemporaryInstantiationSituation(X1)).
+
+cnf(u1402,axiom,
+    ~gufo_o_isObjectProperPartOf(X1,X0) | owl_Thing(X1)).
+
+cnf(u1509,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X3,X0) | ~gufo_s_standsInQualifiedInstantiation(X2,X0) | X2 = X3).
+
+cnf(u1384,axiom,
+    ~gufo_t_EndurantType(X0) | gufo_et_NonRigidType(X0) | gufo_et_RigidType(X0)).
+
+cnf(u1228,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X1,X0) | gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u1421,axiom,
+    ~gufo_t_RelationshipType(X0) | gufo_i_Type(X0)).
+
+cnf(u1422,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u1369,axiom,
+    ~gufo_et_NonRigidType(X2) | X1 = X2 | ~gufo_s_TemporaryInstantiationSituation(X0) | ~gufo_s_concernsNonRigidType(X0,X1) | ~gufo_et_NonRigidType(X1) | ~gufo_s_concernsNonRigidType(X0,X2)).
+
+cnf(u1435,axiom,
+    ~gufo_et_NonRigidType(X0) | gufo_t_EndurantType(X0)).
+
+cnf(u1462,axiom,
+    ~gufo_ea_Relator(X0) | owl_Thing(X0)).
+
+cnf(u1281,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u1444,axiom,
+    ~gufo_s_concernsRelatedEndurant(X1,X0) | owl_Thing(X0)).
+
+cnf(u1282,axiom,
+    ~gufo_s_concernsTemporaryWhole(X0,X1) | owl_Thing(X1)).
+
+cnf(u1254,axiom,
+    ~gufo_o_VariableCollection(X0) | gufo_o_Collection(X0)).
+
+cnf(u1236,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | gufo_i_Situation(X0)).
+
+cnf(u1356,axiom,
+    ~gufo_e_isEventProperPartOf(X1,X0) | owl_Thing(X1)).
+
+cnf(u1311,axiom,
+    ~gufo_s_concernsConstitutedEndurant(X1,X0) | owl_Thing(X1)).
+
+cnf(u1304,axiom,
+    ~gufo_ia_isAspectProperPartOf(X1,X0) | owl_Thing(X0)).
+
+cnf(u1322,axiom,
+    ~gufo_ea_Relator(X0) | gufo_ia_ExtrinsicAspect(X0)).
+
+cnf(u1429,axiom,
+    ~gufo_i_Object(X0) | ~gufo_i_Aspect(X0)).
+
+cnf(u1255,axiom,
+    ~gufo_o_FixedCollection(X0) | gufo_o_Collection(X0)).
+
+cnf(u1276,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | gufo_i_Endurant(sK6(X0))).
+
+cnf(u1469,axiom,
+    ~gufo_o_VariableCollection(X0) | ~gufo_o_FixedCollection(X0)).
+
+cnf(u1443,axiom,
+    ~gufo_et_RigidType(X0) | owl_Thing(X0)).
+
+cnf(u1470,axiom,
+    ~gufo_i_Individual(X0) | owl_Thing(X0)).
+
+cnf(u1289,axiom,
+    ~gufo_et_NonSortal(X0) | owl_Thing(X0)).
+
+cnf(u1482,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,X1) | gufo_i_isProperPartOf(X0,X1)).
+
+cnf(u1355,axiom,
+    ~gufo_s_standsIn(X1,X0) | owl_Thing(X0)).
+
+cnf(u1319,axiom,
+    ~gufo_s_concernsConstitutedEndurant(X1,X0) | owl_Thing(X0)).
+
+cnf(u1329,axiom,
+    ~gufo_t_ConcreteIndividualType(X0) | ~gufo_t_RelationshipType(X0)).
+
+cnf(u1364,axiom,
+    ~gufo_ea_ExtrinsicMode(X0) | owl_Thing(X0)).
+
+cnf(u1273,axiom,
+    ~gufo_s_concernsRelationshipType(X0,X1) | owl_Thing(X0)).
+
+cnf(u1330,axiom,
+    ~gufo_i_Endurant(X0) | owl_Thing(X0)).
+
+cnf(u1263,axiom,
+    ~gufo_et_AntiRigidType(X0) | gufo_et_NonRigidType(X0)).
+
+cnf(u1404,axiom,
+    ~gufo_s_standsInQualifiedParthood(X0,X1) | gufo_s_TemporaryParthoodSituation(X1)).
+
+cnf(u1349,axiom,
+    ~gufo_et_Sortal(X0) | gufo_t_EndurantType(X0)).
+
+cnf(u1214,axiom,
+    ~gufo_o_VariableCollection(X0) | owl_Thing(X0)).
+
+cnf(u1489,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | gufo_s_concernsConstitutedEndurant(X0,sK17(X0))).
+
+cnf(u1479,axiom,
+    ~gufo_ia_inheresIn(X0,X0)).
+
+cnf(u1490,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | ~gufo_s_concernsConstitutedEndurant(X0,X2) | ~gufo_i_Object(X2) | X1 = X2 | ~gufo_s_concernsConstitutedEndurant(X0,X1) | ~gufo_i_Object(X1)).
+
+cnf(u1389,axiom,
+    ~gufo_s_QualityValueAttributionSituation(X0) | gufo_s_concernsQualityType(X0,sK11(X0))).
+
+cnf(u1472,axiom,
+    ~gufo_ia_isAspectProperPartOf(X1,X0) | owl_Thing(X1)).
+
+cnf(u1363,axiom,
+    ~gufo_o_Quantity(X0) | ~gufo_o_Collection(X0)).
+
+cnf(u1390,axiom,
+    ~gufo_s_QualityValueAttributionSituation(X0) | gufo_t_EndurantType(sK11(X0))).
+
+cnf(u1337,axiom,
+    ~gufo_i_ConcreteIndividual(X0) | gufo_i_Individual(X0)).
+
+cnf(u1403,axiom,
+    ~gufo_o_isObjectProperPartOf(X1,X0) | gufo_o_isObjectProperPartOf(X2,X0) | ~gufo_o_isObjectProperPartOf(X2,X1)).
+
+cnf(u1302,axiom,
+    ~gufo_ia_inheresIn(X0,X1) | owl_Thing(X1)).
+
+cnf(u1284,axiom,
+    ~gufo_i_Aspect(X0) | gufo_ia_IntrinsicAspect(X0) | gufo_ia_ExtrinsicAspect(X0)).
+
+cnf(u1219,axiom,
+    ~gufo_ia_Quality(X0) | owl_Thing(X0)).
+
+cnf(u1204,axiom,
+    ~gufo_ia_inheresIn(X1,X0) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u1487,axiom,
+    ~gufo_s_concernsQualityType(X1,X0) | ~gufo_s_concernsQualityType(X1,X2) | X0 = X2).
+
+cnf(u1497,axiom,
+    ~gufo_et_SemiRigidType(X0) | ~gufo_et_AntiRigidType(X0)).
+
+cnf(u1324,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X0,X1) | owl_Thing(X0)).
+
+cnf(u1216,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | gufo_i_Endurant(sK0(X0))).
+
+cnf(u1397,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | gufo_s_standsInQualifiedConstitution(sK12(X0),X0)).
+
+cnf(u1409,axiom,
+    ~gufo_i_isProperPartOf(X0,X1) | owl_Thing(X0)).
+
+cnf(u1410,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X0,X1) | gufo_s_standsIn(X0,X1)).
+
+cnf(u1309,axiom,
+    ~gufo_i_AbstractIndividual(X0) | owl_Thing(X0)).
+
+cnf(u1283,axiom,
+    ~gufo_e_isEventProperPartOf(X1,X0) | gufo_i_isProperPartOf(X1,X0)).
+
+cnf(u1310,axiom,
+    ~gufo_o_isSubCollectionOf(X0,X1) | owl_Thing(X0)).
+
+cnf(u1253,axiom,
+    ~gufo_s_standsIn(X0,X1) | gufo_i_Situation(X1)).
+
+cnf(u1227,axiom,
+    ~gufo_ea_Relator(X0) | ~gufo_ea_ExtrinsicMode(X0)).
+
+cnf(u1439,axiom,
+    ~gufo_et_RigidType(X0) | gufo_t_EndurantType(X0)).
+
+cnf(u1432,axiom,
+    ~gufo_ia_IntrinsicAspect(X0) | gufo_ia_inheresIn(X0,sK15(X0))).
+
+cnf(u1323,axiom,
+    ~gufo_s_concernsTemporaryWhole(X0,X1) | owl_Thing(X0)).
+
+cnf(u1242,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | gufo_i_Endurant(sK1(X0))).
+
+cnf(u1332,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | owl_Thing(X0)).
+
+cnf(u1344,axiom,
+    ~gufo_ia_inheresIn(X0,X1) | ~gufo_ia_inheresIn(X1,X0)).
+
+cnf(u1417,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X0,X1) | owl_Thing(X1)).
+
+cnf(u1264,axiom,
+    rdfs_Literal(X0) | owl_Thing(X0)).
+
+cnf(u1317,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | gufo_t_RelationshipType(sK8(X0))).
+
+cnf(u1483,axiom,
+    ~gufo_o_Collection(X0) | gufo_i_Object(X0)).
+
+cnf(u1510,axiom,
+    ~owl_Thing(sK2)).
+
+cnf(u1457,axiom,
+    ~gufo_i_Endurant(X0) | gufo_i_Aspect(X0) | gufo_i_Object(X0)).
+
+cnf(u1492,axiom,
+    ~gufo_ia_IntrinsicAspect(X0) | ~gufo_ia_ExtrinsicAspect(X0)).
+
+cnf(u1447,axiom,
+    ~gufo_ea_ExtrinsicMode(X0) | ~gufo_i_ConcreteIndividual(X3) | X2 = X3 | ~gufo_i_ConcreteIndividual(X2) | ~gufo_ia_inheresIn(X0,X2) | ~gufo_ia_inheresIn(X0,X3)).
+
+cnf(u1458,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X0,X1) | gufo_s_standsIn(X0,X1)).
+
+cnf(u1331,axiom,
+    ~gufo_ea_mediates(X0,X1) | gufo_ea_Relator(X0)).
+
+cnf(u1250,axiom,
+    ~gufo_ea_mediates(X1,X0) | owl_Thing(X1)).
+
+cnf(u1275,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | gufo_s_standsInQualifiedInstantiation(sK6(X0),X0)).
+
+cnf(u1359,axiom,
+    ~gufo_s_concernsTemporaryWhole(X0,X1) | ~gufo_s_concernsTemporaryWhole(X0,X2) | X1 = X2).
+
+cnf(u1477,axiom,
+    ~gufo_e_isEventProperPartOf(X0,X1) | gufo_i_Event(X0)).
+
+cnf(u1352,axiom,
+    ~gufo_o_isObjectProperPartOf(X1,X0) | gufo_i_Object(X0)).
+
+cnf(u1213,axiom,
+    ~gufo_s_QualityValueAttributionSituation(X0) | gufo_i_Situation(X0)).
+
+cnf(u1272,axiom,
+    ~gufo_i_Type(X0) | owl_Thing(X0)).
+
+cnf(u1392,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | gufo_i_Situation(X0)).
+
+cnf(u1491,axiom,
+    ~gufo_o_isSubQuantityOf(X0,X1) | gufo_o_Quantity(X0)).
+
+cnf(u1465,axiom,
+    ~gufo_ia_isAspectProperPartOf(X1,X2) | gufo_ia_isAspectProperPartOf(X1,X0) | ~gufo_ia_isAspectProperPartOf(X2,X0)).
+
+cnf(u1377,axiom,
+    ~gufo_s_standsInQualifiedParthood(X0,X1) | owl_Thing(X0)).
+
+cnf(u1412,axiom,
+    ~gufo_e_isEventProperPartOf(X0,X1) | gufo_i_Event(X1)).
+
+cnf(u1367,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | gufo_s_concernsNonRigidType(X0,sK10(X0))).
+
+cnf(u1378,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X0,X1) | gufo_s_TemporaryInstantiationSituation(X1)).
+
+cnf(u1222,axiom,
+    ~gufo_ia_IntrinsicAspect(X0) | gufo_ia_IntrinsicMode(X0) | gufo_ia_Quality(X0)).
+
+cnf(u1452,axiom,
+    ~gufo_et_NonRigidType(X0) | gufo_et_AntiRigidType(X0) | gufo_et_SemiRigidType(X0)).
+
+cnf(u1223,axiom,
+    ~gufo_ia_ExtrinsicAspect(X0) | gufo_ea_ExtrinsicMode(X0) | gufo_ea_Relator(X0)).
+
+cnf(u1407,axiom,
+    ~gufo_ia_inheresIn(X1,X0) | owl_Thing(X1)).
+
+cnf(u1290,axiom,
+    ~gufo_ia_IntrinsicAspect(X0) | owl_Thing(X0)).
+
+cnf(u1262,axiom,
+    ~gufo_o_isSubCollectionOf(X1,X0) | gufo_o_isObjectProperPartOf(X1,X0)).
+
+cnf(u1400,axiom,
+    ~gufo_s_standsInQualifiedParthood(X1,X0) | owl_Thing(X0)).
+
+cnf(u1244,axiom,
+    ~gufo_i_Event(X0) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u1210,axiom,
+    ~gufo_s_concernsNonRigidType(X1,X0) | owl_Thing(X1)).
+
+cnf(u1437,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X0,X1) | owl_Thing(X0)).
+
+cnf(u1411,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u1438,axiom,
+    ~gufo_ea_mediates(X0,X1) | ~gufo_ea_mediates(X1,X0)).
+
+cnf(u1385,axiom,
+    ~gufo_i_Situation(X0) | ~gufo_i_Event(X0)).
+
+cnf(u1350,axiom,
+    ~gufo_t_EndurantType(X0) | gufo_et_NonSortal(X0) | gufo_et_Sortal(X0)).
+
+cnf(u1241,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | gufo_s_concernsRelatedEndurant(X0,sK1(X0))).
+
+cnf(u1460,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X0,X1) | owl_Thing(X1)).
+
+cnf(u1287,axiom,
+    ~gufo_ea_mediates(X0,X0)).
+
+cnf(u1298,axiom,
+    ~gufo_e_historicallyDependsOn(X1,X0) | gufo_i_ConcreteIndividual(X1)).
+
+cnf(u1231,axiom,
+    ~gufo_i_Individual(X0) | gufo_i_AbstractIndividual(X0) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u1252,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X0,X1) | gufo_i_Endurant(X0)).
+
+cnf(u1372,axiom,
+    ~gufo_s_concernsQualityType(X1,X0) | gufo_t_EndurantType(X0)).
+
+cnf(u1327,axiom,
+    ~gufo_s_concernsConstitutedEndurant(X0,X1) | gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u1338,axiom,
+    ~gufo_et_SemiRigidType(X0) | owl_Thing(X0)).
+
+cnf(u1445,axiom,
+    ~gufo_s_concernsQualityType(X1,X0) | owl_Thing(X1)).
+
+cnf(u1320,axiom,
+    ~gufo_ea_externallyDependsOn(X1,X0) | owl_Thing(X1)).
+
+cnf(u1357,axiom,
+    ~gufo_s_QualityValueAttributionSituation(X0) | owl_Thing(X0)).
+
+cnf(u1459,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X1,X0) | gufo_i_Endurant(X1)).
+
+cnf(u1358,axiom,
+    ~gufo_ea_externallyDependsOn(X1,X0) | owl_Thing(X0)).
+
+cnf(u1305,axiom,
+    ~gufo_i_isProperPartOf(X0,X1) | gufo_i_isProperPartOf(X0,X2) | ~gufo_i_isProperPartOf(X1,X2)).
+
+cnf(u1498,axiom,
+    ~gufo_o_isSubQuantityOf(X0,X1) | owl_Thing(X0)).
+
+cnf(u1249,axiom,
+    ~gufo_o_isSubQuantityOf(X1,X0) | owl_Thing(X0)).
+
+cnf(u1480,axiom,
+    ~gufo_o_isSubCollectionOf(X1,X0) | gufo_o_Collection(X0)).
+
+cnf(u1371,axiom,
+    ~gufo_et_AntiRigidType(X0) | owl_Thing(X0)).
+
+cnf(u1398,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | gufo_i_Object(sK12(X0))).
+
+cnf(u1380,axiom,
+    ~gufo_i_Event(X0) | ~gufo_i_Endurant(X0)).
+
+cnf(u1335,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X1,X0) | owl_Thing(X0)).
+
+cnf(u1279,axiom,
+    ~gufo_ia_ExtrinsicAspect(X0) | gufo_i_Aspect(X0)).
+
+cnf(u1292,axiom,
+    ~gufo_s_concernsNonRigidType(X0,X1) | owl_Thing(X1)).
+
+cnf(u1365,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | gufo_i_Situation(X0)).
+
+cnf(u1505,axiom,
+    ~gufo_t_RelationshipType(X3) | X2 = X3 | ~gufo_s_concernsRelationshipType(X0,X3) | ~gufo_t_RelationshipType(X2) | ~gufo_s_concernsRelationshipType(X0,X2)).
+
+cnf(u1506,axiom,
+    ~gufo_i_Endurant(X2) | ~gufo_i_Endurant(X1) | ~gufo_s_standsInQualifiedAttribution(X1,X0) | ~gufo_s_standsInQualifiedAttribution(X2,X0) | X1 = X2).
+
+cnf(u1495,axiom,
+    ~gufo_e_isEventProperPartOf(X1,X2) | ~gufo_e_isEventProperPartOf(X0,X1) | gufo_e_isEventProperPartOf(X0,X2)).
+
+cnf(u1405,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X0,X1) | gufo_s_standsIn(X0,X1)).
+
+cnf(u1488,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | gufo_i_Object(sK17(X0))).
+
+cnf(u1406,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | owl_Thing(X0)).
+
+cnf(u1379,axiom,
+    ~gufo_o_FixedCollection(X0) | owl_Thing(X0)).
+
+cnf(u1221,axiom,
+    ~gufo_ia_Quality(X0) | gufo_ia_IntrinsicAspect(X0)).
+
+cnf(u1418,axiom,
+    owl_Thing(sK13)).
+
+cnf(u1318,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | gufo_s_concernsRelationshipType(X0,sK8(X0))).
+
+cnf(u1291,axiom,
+    ~rdfs_Literal(X0) | ~owl_Thing(X0)).
+
+cnf(u1261,axiom,
+    ~gufo_ea_Relator(X0) | gufo_i_Endurant(sK3(X0))).
+
+cnf(u1300,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | gufo_s_concernsTemporaryWhole(X0,sK7(X0))).
+
+cnf(u1209,axiom,
+    ~gufo_et_SemiRigidType(X0) | gufo_et_NonRigidType(X0)).
+
+cnf(u1440,axiom,
+    ~gufo_ia_Quality(X0) | ~gufo_ia_IntrinsicMode(X0)).
+
+cnf(u1340,axiom,
+    ~gufo_o_isSubCollectionOf(X1,X0) | ~gufo_o_isSubCollectionOf(X0,X2) | gufo_o_isSubCollectionOf(X1,X2)).
+
+cnf(u1478,axiom,
+    ~gufo_i_Event(X0) | owl_Thing(X0)).
+
+cnf(u1425,axiom,
+    ~gufo_s_concernsRelationshipType(X1,X0) | gufo_s_TemporaryRelationshipSituation(X1)).
+
+cnf(u1299,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | ~gufo_i_Endurant(X3) | X2 = X3 | ~gufo_s_concernsTemporaryWhole(X0,X2) | ~gufo_i_Endurant(X2) | ~gufo_s_concernsTemporaryWhole(X0,X3)).
+
+cnf(u1415,axiom,
+    ~gufo_ia_ExtrinsicAspect(X0) | owl_Thing(X0)).
+
+cnf(u1426,axiom,
+    ~gufo_s_standsIn(X0,X1) | owl_Thing(X0)).
+
+cnf(u1325,axiom,
+    ~gufo_s_concernsRelationshipType(X0,X1) | owl_Thing(X1)).
+
+cnf(u1408,axiom,
+    ~gufo_et_NonSortal(X0) | gufo_t_EndurantType(X0)).
+
+cnf(u1326,axiom,
+    ~gufo_s_concernsRelatedEndurant(X0,X1) | gufo_i_Endurant(X1)).
+
+cnf(u1269,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | gufo_i_Endurant(sK5(X0))).
+
+cnf(u1218,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u1243,axiom,
+    ~gufo_i_Situation(X0) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u1466,axiom,
+    ~gufo_o_isSubQuantityOf(X0,X1) | gufo_o_isObjectProperPartOf(X0,X1)).
+
+cnf(u1448,axiom,
+    ~gufo_ea_ExtrinsicMode(X0) | gufo_i_ConcreteIndividual(sK16(X0))).
+
+cnf(u1339,axiom,
+    ~gufo_t_EndurantType(X0) | gufo_t_ConcreteIndividualType(X0)).
+
+cnf(u1258,axiom,
+    sK3(X0) != sK4(X0) | ~gufo_ea_Relator(X0)).
+
+cnf(u1240,axiom,
+    ~gufo_ia_inheresIn(X1,X2) | ~gufo_ia_inheresIn(X1,X0) | X0 = X2).
+
+cnf(u1485,axiom,
+    ~gufo_o_isSubCollectionOf(X1,X0) | owl_Thing(X0)).
+
+cnf(u1360,axiom,
+    ~gufo_e_historicallyDependsOn(X1,X0) | owl_Thing(X1)).
+
+cnf(u1486,axiom,
+    ~gufo_et_RigidType(X0) | ~gufo_et_NonRigidType(X0)).
+
+cnf(u1333,axiom,
+    ~gufo_s_concernsQualityType(X1,X0) | owl_Thing(X0)).
+
+cnf(u1345,axiom,
+    ~gufo_s_QualityValueAttributionSituation(X0) | gufo_i_Endurant(sK9(X0))).
+
+cnf(u1463,axiom,
+    ~gufo_o_Collection(X0) | owl_Thing(X0)).
+
+cnf(u1346,axiom,
+    ~gufo_s_QualityValueAttributionSituation(X0) | gufo_s_standsInQualifiedAttribution(sK9(X0),X0)).
+
+cnf(u1266,axiom,
+    ~gufo_i_Object(X0) | gufo_i_Endurant(X0)).
+
+cnf(u1420,axiom,
+    ~gufo_ea_mediates(X0,X1) | gufo_i_Endurant(X1)).
+
+cnf(u1375,axiom,
+    ~gufo_i_Aspect(X0) | owl_Thing(X0)).
+
+cnf(u1368,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | gufo_et_NonRigidType(sK10(X0))).
+
+cnf(u1203,axiom,
+    ~gufo_i_AbstractIndividual(X0) | gufo_i_Individual(X0)).
+
+cnf(u1280,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X0,X1) | owl_Thing(X1)).
+
+cnf(u1446,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,X1) | owl_Thing(X1)).
+
+cnf(u1393,axiom,
+    ~gufo_s_concernsRelationshipType(X1,X2) | X0 = X2 | ~gufo_s_concernsRelationshipType(X1,X0)).
+
+cnf(u1428,axiom,
+    ~gufo_ea_mediates(X1,X0) | owl_Thing(X0)).
+
+cnf(u1394,axiom,
+    ~gufo_et_Sortal(X0) | ~gufo_et_NonSortal(X0)).
+
+cnf(u1220,axiom,
+    ~gufo_ia_IntrinsicMode(X0) | gufo_ia_IntrinsicAspect(X0)).
+
+cnf(u1288,axiom,
+    ~gufo_o_isSubQuantityOf(X1,X2) | ~gufo_o_isSubQuantityOf(X0,X1) | gufo_o_isSubQuantityOf(X0,X2)).
+
+cnf(u1306,axiom,
+    ~gufo_s_standsInQualifiedParthood(X0,X1) | gufo_i_Endurant(X0)).
+
+cnf(u1468,axiom,
+    ~gufo_i_Situation(X0) | owl_Thing(X0)).
+
+cnf(u1295,axiom,
+    ~gufo_s_concernsNonRigidType(X0,X1) | gufo_et_NonRigidType(X1)).
+
+cnf(u1278,axiom,
+    ~gufo_e_historicallyDependsOn(X0,X1) | gufo_i_ConcreteIndividual(X1)).
+
+cnf(u1413,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u1239,axiom,
+    ~gufo_i_Aspect(X0) | gufo_i_Endurant(X0)).
+
+cnf(u1260,axiom,
+    ~gufo_ea_Relator(X0) | gufo_i_Endurant(sK4(X0))).
+
+cnf(u1208,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X1,X0) | gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u1453,axiom,
+    ~gufo_s_concernsRelationshipType(X0,X1) | gufo_t_RelationshipType(X1)).
+
+cnf(u1328,axiom,
+    ~gufo_t_ConcreteIndividualType(X0) | gufo_i_Type(X0)).
+
+cnf(u1454,axiom,
+    ~gufo_et_Sortal(X0) | owl_Thing(X0)).
+
+cnf(u1401,axiom,
+    ~gufo_s_concernsQualityType(X1,X0) | gufo_s_QualityValueAttributionSituation(X1)).
+
+cnf(u1217,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | gufo_s_standsInQualifiedParthood(sK0(X0),X0)).
+
+cnf(u1366,axiom,
+    ~gufo_o_isSubCollectionOf(X0,X1) | gufo_o_Collection(X0)).
+
+cnf(u1313,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X0,X1) | gufo_i_Endurant(X0)).
+
+cnf(u1257,axiom,
+    ~gufo_ea_Relator(X0) | gufo_ea_mediates(X0,sK4(X0))).
+
+cnf(u1303,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X0,X1) | owl_Thing(X0)).
+
+cnf(u1314,axiom,
+    ~gufo_i_Endurant(X0) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u1247,axiom,
+    rdfs_Literal(sK2)).
+
+cnf(u1268,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | gufo_s_standsInQualifiedRelationship(sK5(X0),X0)).
+
+cnf(u1388,axiom,
+    ~gufo_s_QualityValueAttributionSituation(X0) | ~gufo_s_concernsQualityType(X0,X2) | ~gufo_t_EndurantType(X3) | ~gufo_t_EndurantType(X2) | X2 = X3 | ~gufo_s_concernsQualityType(X0,X3)).
+
+cnf(u1336,axiom,
+    ~gufo_t_EndurantType(X0) | owl_Thing(X0)).
+
+cnf(u1473,axiom,
+    ~gufo_ea_externallyDependsOn(X1,X0) | gufo_i_Endurant(X0)).
+
+cnf(u1474,axiom,
+    ~gufo_ia_IntrinsicMode(X0) | owl_Thing(X0)).
+
+cnf(u1373,axiom,
+    ~gufo_s_concernsConstitutedEndurant(X0,X1) | gufo_i_Endurant(X1)).
+
+cnf(u1374,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X0,X1) | owl_Thing(X0)).
+
+cnf(u1321,axiom,
+    ~gufo_t_RelationshipType(X0) | owl_Thing(X0)).
+
+cnf(u1503,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | X1 = X2 | ~gufo_s_standsInQualifiedRelationship(X1,X0) | ~gufo_s_standsInQualifiedRelationship(X2,X0)).
+
+cnf(u1265,axiom,
+    ~gufo_s_concernsRelatedEndurant(X0,X1) | ~gufo_s_concernsRelatedEndurant(X0,X2) | X1 = X2).
+
+cnf(u1496,axiom,
+    ~gufo_i_Object(X0) | owl_Thing(X0)).
+
+cnf(u1387,axiom,
+    ~gufo_e_historicallyDependsOn(X1,X0) | owl_Thing(X0)).
+
+cnf(u1229,axiom,
+    ~gufo_ia_inheresIn(X0,X1) | gufo_i_Aspect(X0)).
+
+cnf(u1206,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,X1) | gufo_i_Object(X0)).
+
+cnf(u1481,axiom,
+    ~gufo_ia_isAspectProperPartOf(X1,X0) | gufo_i_isProperPartOf(X1,X0)).
+
+cnf(u1308,axiom,
+    ~gufo_ea_externallyDependsOn(X0,X0)).
+
+cnf(u1381,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X0,X1) | gufo_i_Endurant(X0)).
+
+cnf(u1207,axiom,
+    ~gufo_i_Type(X0) | ~gufo_i_Individual(X0)).
+
+cnf(u1504,axiom,
+    ~gufo_i_Object(X1) | ~gufo_s_standsInQualifiedConstitution(X2,X0) | ~gufo_s_standsInQualifiedConstitution(X1,X0) | ~gufo_i_Object(X2) | X1 = X2).
+
+cnf(u1293,axiom,
+    ~gufo_i_isProperPartOf(X0,X1) | owl_Thing(X1)).
+
+cnf(u1294,axiom,
+    ~gufo_s_concernsRelatedEndurant(X1,X0) | owl_Thing(X1)).
+
+cnf(u1395,axiom,
+    ~gufo_o_Quantity(X0) | gufo_i_Object(X0)).
+
+cnf(u1237,axiom,
+    ~gufo_e_isEventProperPartOf(X0,X1) | owl_Thing(X1)).
+
+cnf(u1423,axiom,
+    ~gufo_ea_ExtrinsicMode(X0) | gufo_ea_externallyDependsOn(X0,sK14(X0))).
+
+cnf(u1434,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | owl_Thing(X0)).
+
+cnf(u1416,axiom,
+    ~gufo_o_isSubQuantityOf(X1,X0) | gufo_o_Quantity(X0)).
+
+cnf(u1334,axiom,
+    ~gufo_et_NonRigidType(X0) | owl_Thing(X0)).
+
+cnf(u1307,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u1277,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | owl_Thing(X0)).
+
+cnf(u1226,axiom,
+    ~gufo_i_ConcreteIndividual(X0) | owl_Thing(X0)).
+
+cnf(u1251,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u1248,axiom,
+    ~gufo_s_concernsRelatedEndurant(X0,X1) | gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u1301,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | gufo_i_Endurant(sK7(X0))).
+
+cnf(u1494,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | gufo_i_Situation(X0)).
+
+cnf(u1441,axiom,
+    ~gufo_s_concernsTemporaryWhole(X0,X1) | gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u1476,axiom,
+    ~gufo_t_ConcreteIndividualType(X0) | owl_Thing(X0)).
+
+cnf(u1431,axiom,
+    ~gufo_ia_IntrinsicAspect(X0) | gufo_i_ConcreteIndividual(sK15(X0))).
+
+cnf(u1442,axiom,
+    ~gufo_o_Quantity(X0) | owl_Thing(X0)).
+
+cnf(u1341,axiom,
+    ~gufo_s_concernsNonRigidType(X2,X0) | ~gufo_s_concernsNonRigidType(X2,X1) | X0 = X1).
+
+cnf(u1424,axiom,
+    ~gufo_ea_ExtrinsicMode(X0) | gufo_i_ConcreteIndividual(sK14(X0))).
+
+cnf(u1315,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u1342,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u1234,axiom,
+    ~gufo_ea_externallyDependsOn(X1,X0) | gufo_ea_ExtrinsicMode(X1)).
+
+cnf(u1259,axiom,
+    ~gufo_ea_Relator(X0) | gufo_ea_mediates(X0,sK3(X0))).
+
+cnf(u1354,axiom,
+    ~gufo_ia_isAspectProperPartOf(X1,X0) | gufo_i_Aspect(X0)).
+
+cnf(u1464,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X0,X1) | gufo_s_TemporaryRelationshipSituation(X1)).
+
+cnf(u1256,axiom,
+    ~gufo_o_Collection(X0) | gufo_o_VariableCollection(X0) | gufo_o_FixedCollection(X0)).
+
+cnf(u1501,axiom,
+    ~gufo_s_standsInQualifiedParthood(X3,X0) | X2 = X3 | ~gufo_s_standsInQualifiedParthood(X2,X0)).
+
+cnf(u1376,axiom,
+    ~gufo_ia_isAspectProperPartOf(X0,X1) | gufo_i_Aspect(X0)).
+
+cnf(u1475,axiom,
+    ~gufo_s_concernsTemporaryWhole(X1,X0) | gufo_i_Endurant(X0)).
+
+cnf(u1449,axiom,
+    ~gufo_ea_ExtrinsicMode(X0) | gufo_ia_inheresIn(X0,sK16(X0))).
+
+cnf(u1211,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X0,X1) | gufo_s_standsIn(X0,X1)).
+
+cnf(u1414,axiom,
+    ~gufo_i_ConcreteIndividual(X0) | ~gufo_i_AbstractIndividual(X0)).
+
+cnf(u1361,axiom,
+    ~gufo_s_standsInQualifiedParthood(X1,X0) | gufo_s_standsIn(X1,X0)).
+
+cnf(u1351,axiom,
+    ~gufo_ea_ExtrinsicMode(X0) | gufo_ia_ExtrinsicAspect(X0)).
+
+cnf(u1362,axiom,
+    ~gufo_e_historicallyDependsOn(X2,X1) | gufo_e_historicallyDependsOn(X2,X0) | ~gufo_e_historicallyDependsOn(X1,X0)).
+
+% (57534)# SZS output end Saturation.
+% (57534)------------------------------
+% (57534)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (57534)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (57534)Termination reason: Satisfiable
+
+% (57534)Memory used [KB]: 1858
+% (57534)Time elapsed: 0.013 s
+% (57534)Instructions burned: 17 (million)
+% (57534)------------------------------
+% (57534)------------------------------
+% (57508)Success in time 0.26 s
+% Vampire---4.8 exiting
+
+% END OF SYSTEM OUTPUT
+RESULT: SOT_vThIPB - Vampire---4.8 says Satisfiable - CPU = 0.63 WC = 1.08 
+OUTPUT: SOT_vThIPB - Vampire---4.8 says Saturation - CPU = 0.63 WC = 1.08 
+

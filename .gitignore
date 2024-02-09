@@ -1,0 +1,31 @@
+# System files
+.DS_Store
+
+# Auxiliary/generated LaTex files
+*.abs
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pyg
+*.synctex.gz
+*.toc
+*.xmpdata
+*.xmpi
+
+# Visual Studio Code files
+.vscode/
+
+# Eclipse
+.project
+src-gen/
+
+# Visual Paradigm Files
+**/*.vpp.lck
+**/*.vpp.bak_*
+
+# NodeJS
+scripts/node_modules

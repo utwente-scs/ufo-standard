@@ -1,0 +1,4962 @@
+
+> formalization-scripts@1.0.0 check
+> npm-run-all --sequential build "check-call-sot -- {1}" -- ../build/ufo-instances.p
+
+
+> formalization-scripts@1.0.0 build
+> node dependencies-manager.mjs
+
+
+> formalization-scripts@1.0.0 check-call-sot
+> python RemoteSoT.py --system=Vampire---4.8 ../build/ufo-instances.p
+
+% SZS start RequiredInformation
+% Congratulations - you have become a registered power user of SystemOnTPTP, at IP address 145.126.*.
+% Please consider donating to the TPTP project - see www.tptp.org for details.
+% When you donate this message will disappear.
+% If you do not donate a random delay might be added to your processing time.
+% Happy days ... you were not selected for a random delay.
+% SZS end RequiredInformation
+% Checking upload ...
+% Checker ran ...
+% No errors ...
+Vampire---4.8   system information being retrieved
+Vampire---4.8's non-default parameters being retrieved
+Vampire---4.8's SOT_qRAhiP does not need preparation
+Vampire---4.8   being executed on SOT_qRAhiP using /home/tptp/Systems/Vampire---4.8/run_vampire '/tmp/lURAQ8AjzI/SOT_qRAhiP' 300 THM
+% START OF SYSTEM OUTPUT
+Running first-order theorem proving
+Running: /home/tptp/Systems/Vampire---4.8/vampire_z3_rel_static_master_6827 --mode portfolio --schedule snake_tptp_uns -p tptp --output_axiom_names on -m 16384 --cores 7 -t 300 /tmp/tmp.6Y1jR1JF9g/Vampire---4.8_58248
+% (58303)Running in auto input_syntax mode. Trying TPTP
+% (58306)dis+1002_1:1_aac=none:bd=off:sac=on:sos=on:spb=units:i=3:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/3Mi)
+% (58310)dis+1010_1:50_awrs=decay:awrsf=128:nwc=10.0:s2pl=no:sp=frequency:ss=axioms:i=39:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/39Mi)
+% (58306)Instruction limit reached!
+% (58306)------------------------------
+% (58306)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58306)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58306)Termination reason: Unknown
+% (58306)Termination phase: Preprocessing 1
+
+% (58306)Memory used [KB]: 1509
+% (58306)Time elapsed: 0.003 s
+% (58306)Instructions burned: 3 (million)
+% (58306)------------------------------
+% (58306)------------------------------
+% (58310)Refutation not found, incomplete strategy% (58310)------------------------------
+% (58310)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58310)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58310)Termination reason: Refutation not found, incomplete strategy
+
+% (58310)Memory used [KB]: 1384
+% (58310)Time elapsed: 0.004 s
+% (58310)Instructions burned: 4 (million)
+% (58310)------------------------------
+% (58310)------------------------------
+% (58309)dis+21_1:1_av=off:sos=on:sp=frequency:ss=included:to=lpo:i=15:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/15Mi)
+% (58305)lrs+10_1:1_gsp=on:sd=1:sgt=32:sos=on:ss=axioms:i=13:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/13Mi)
+% (58305)Refutation not found, incomplete strategy% (58305)------------------------------
+% (58305)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58305)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58305)Termination reason: Refutation not found, incomplete strategy
+
+% (58305)Memory used [KB]: 1400
+% (58305)Time elapsed: 0.003 s
+% (58305)Instructions burned: 3 (million)
+% (58305)------------------------------
+% (58305)------------------------------
+% (58307)lrs+10_5:1_br=off:fde=none:nwc=3.0:sd=1:sgt=10:sos=on:ss=axioms:urr=on:i=51:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/51Mi)
+% (58307)Refutation not found, incomplete strategy% (58307)------------------------------
+% (58307)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58307)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58307)Termination reason: Refutation not found, incomplete strategy
+
+% (58307)Memory used [KB]: 1400
+% (58307)Time elapsed: 0.003 s
+% (58307)Instructions burned: 3 (million)
+% (58307)------------------------------
+% (58307)------------------------------
+% (58309)Instruction limit reached!
+% (58309)------------------------------
+% (58309)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58309)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58309)Termination reason: Unknown
+% (58309)Termination phase: Saturation
+
+% (58309)Memory used [KB]: 2180
+% (58309)Time elapsed: 0.012 s
+% (58309)Instructions burned: 17 (million)
+% (58309)------------------------------
+% (58309)------------------------------
+% (58308)lrs+10_1:1024_nm=0:nwc=5.0:ss=axioms:i=13:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/13Mi)
+% (58304)dis+1002_1:12_drc=off:fd=preordered:tgt=full:i=99978:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/99978Mi)
+% (58308)Refutation not found, incomplete strategy% (58308)------------------------------
+% (58308)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58308)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58308)Termination reason: Refutation not found, incomplete strategy
+
+% (58308)Memory used [KB]: 1384
+% (58308)Time elapsed: 0.004 s
+% (58308)Instructions burned: 3 (million)
+% (58308)------------------------------
+% (58308)------------------------------
+% (58311)lrs+2_1:1_lcm=reverse:lma=on:sos=all:spb=goal_then_units:ss=included:urr=on:i=39:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/39Mi)
+% (58314)lrs+10_1:1_ep=R:lcm=predicate:lma=on:sos=all:spb=goal:ss=included:i=12:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/12Mi)
+% (58315)lrs+10_1:2_br=off:nm=4:ss=included:urr=on:i=7:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/7Mi)
+% (58311)Refutation not found, incomplete strategy% (58311)------------------------------
+% (58311)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58311)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58311)Termination reason: Refutation not found, incomplete strategy
+
+% (58311)Memory used [KB]: 2141
+% (58311)Time elapsed: 0.011 s
+% (58311)Instructions burned: 20 (million)
+% (58311)------------------------------
+% (58311)------------------------------
+% (58315)Instruction limit reached!
+% (58315)------------------------------
+% (58315)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58315)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58315)Termination reason: Unknown
+% (58315)Termination phase: Preprocessing 3
+
+% (58315)Memory used [KB]: 1747
+% (58315)Time elapsed: 0.004 s
+% (58315)Instructions burned: 7 (million)
+% (58315)------------------------------
+% (58315)------------------------------
+% (58312)dis+10_1:1_newcnf=on:sgt=8:sos=on:ss=axioms:to=lpo:urr=on:i=49:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/49Mi)
+% (58314)Instruction limit reached!
+% (58314)------------------------------
+% (58314)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58314)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58314)Termination reason: Unknown
+% (58314)Termination phase: Property scanning
+
+% (58314)Memory used [KB]: 1960
+% (58314)Time elapsed: 0.007 s
+% (58314)Instructions burned: 14 (million)
+% (58314)------------------------------
+% (58314)------------------------------
+% (58312)Refutation not found, incomplete strategy% (58312)------------------------------
+% (58312)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58312)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58312)Termination reason: Refutation not found, incomplete strategy
+
+% (58312)Memory used [KB]: 1384
+% (58312)Time elapsed: 0.003 s
+% (58312)Instructions burned: 3 (million)
+% (58312)------------------------------
+% (58312)------------------------------
+% (58316)lrs+10_1:4_av=off:bs=unit_only:bsr=unit_only:ep=RS:s2a=on:sos=on:sp=frequency:to=lpo:i=16:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/16Mi)
+% (58313)lrs+10_1:1_br=off:sos=on:ss=axioms:st=2.0:urr=on:i=33:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2999ds/33Mi)
+% (58313)Refutation not found, incomplete strategy% (58313)------------------------------
+% (58313)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58313)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58313)Termination reason: Refutation not found, incomplete strategy
+
+% (58313)Memory used [KB]: 1400
+% (58313)Time elapsed: 0.003 s
+% (58313)Instructions burned: 3 (million)
+% (58313)------------------------------
+% (58313)------------------------------
+% (58316)Instruction limit reached!
+% (58316)------------------------------
+% (58316)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58316)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58316)Termination reason: Unknown
+% (58316)Termination phase: Saturation
+
+% (58316)Memory used [KB]: 2097
+% (58316)Time elapsed: 0.008 s
+% (58316)Instructions burned: 16 (million)
+% (58316)------------------------------
+% (58316)------------------------------
+% (58319)lrs+10_1:1_drc=off:sp=reverse_frequency:spb=goal:to=lpo:i=7:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/7Mi)
+% (58320)lrs+1011_1:1_fd=preordered:fsd=on:sos=on:thsq=on:thsqc=64:thsqd=32:uwa=ground:i=50:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/50Mi)
+% (58318)lrs+10_1:1_ins=3:sp=reverse_frequency:spb=goal:to=lpo:i=3:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/3Mi)
+% (58319)Instruction limit reached!
+% (58319)------------------------------
+% (58319)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58319)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58319)Termination reason: Unknown
+% (58319)Termination phase: Preprocessing 3
+
+% (58319)Memory used [KB]: 1843
+% (58319)Time elapsed: 0.005 s
+% (58319)Instructions burned: 9 (million)
+% (58319)------------------------------
+% (58319)------------------------------
+% (58318)Instruction limit reached!
+% (58318)------------------------------
+% (58318)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58318)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58318)Termination reason: Unknown
+% (58318)Termination phase: Preprocessing 1
+
+% (58318)Memory used [KB]: 1528
+% (58318)Time elapsed: 0.003 s
+% (58318)Instructions burned: 3 (million)
+% (58318)------------------------------
+% (58318)------------------------------
+% (58322)ott+1010_1:1_sd=2:sos=on:sp=occurrence:ss=axioms:urr=on:i=2:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/2Mi)
+% (58322)Instruction limit reached!
+% (58322)------------------------------
+% (58322)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58322)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58322)Termination reason: Unknown
+% (58322)Termination phase: SInE selection
+
+% (58322)Memory used [KB]: 1376
+% (58322)Time elapsed: 0.004 s
+% (58322)Instructions burned: 2 (million)
+% (58322)------------------------------
+% (58322)------------------------------
+% (58317)lrs+10_1:32_br=off:nm=16:sd=2:ss=axioms:st=2.0:urr=on:i=51:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/51Mi)
+% (58317)Refutation not found, incomplete strategy% (58317)------------------------------
+% (58317)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58317)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58317)Termination reason: Refutation not found, incomplete strategy
+
+% (58317)Memory used [KB]: 1400
+% (58317)Time elapsed: 0.003 s
+% (58317)Instructions burned: 3 (million)
+% (58317)------------------------------
+% (58317)------------------------------
+% (58320)Refutation not found, incomplete strategy% (58320)------------------------------
+% (58320)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58320)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58320)Termination reason: Refutation not found, incomplete strategy
+
+% (58320)Memory used [KB]: 2164
+% (58320)Time elapsed: 0.011 s
+% (58320)Instructions burned: 19 (million)
+% (58320)------------------------------
+% (58320)------------------------------
+% (58321)fmb+10_1:1_nm=2:i=3:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/3Mi)
+% (58321)Instruction limit reached!
+% (58321)------------------------------
+% (58321)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58321)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58321)Termination reason: Unknown
+% (58321)Termination phase: Preprocessing 1
+
+% (58321)Memory used [KB]: 1526
+% (58321)Time elapsed: 0.003 s
+% (58321)Instructions burned: 3 (million)
+% (58321)------------------------------
+% (58321)------------------------------
+% (58323)dis-10_3:2_amm=sco:ep=RS:fsr=off:nm=10:sd=2:sos=on:ss=axioms:st=3.0:i=11:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/11Mi)
+% (58323)Refutation not found, incomplete strategy% (58323)------------------------------
+% (58323)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58323)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58323)Termination reason: Refutation not found, incomplete strategy
+
+% (58323)Memory used [KB]: 1400
+% (58323)Time elapsed: 0.003 s
+% (58323)Instructions burned: 3 (million)
+% (58323)------------------------------
+% (58323)------------------------------
+% (58326)dis+1010_2:3_fs=off:fsr=off:nm=0:nwc=5.0:s2a=on:s2agt=32:i=82:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/82Mi)
+% (58324)dis+1010_1:1_bs=on:ep=RS:erd=off:newcnf=on:nwc=10.0:s2a=on:sgt=32:ss=axioms:i=30:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/30Mi)
+% (58324)Refutation not found, incomplete strategy% (58324)------------------------------
+% (58324)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58324)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58324)Termination reason: Refutation not found, incomplete strategy
+
+% (58324)Memory used [KB]: 1400
+% (58324)Time elapsed: 0.003 s
+% (58324)Instructions burned: 2 (million)
+% (58324)------------------------------
+% (58324)------------------------------
+% (58325)ott+21_1:1_erd=off:s2a=on:sac=on:sd=1:sgt=64:sos=on:ss=included:st=3.0:to=lpo:urr=on:i=99:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/99Mi)
+% (58328)dis+21_1:1_ep=RS:nwc=10.0:s2a=on:s2at=1.5:i=50:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/50Mi)
+% (58327)dis+10_1:1_av=off:sos=on:sp=reverse_arity:ss=included:st=2.0:to=lpo:urr=ec_only:i=45:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2998ds/45Mi)
+% (58325)Refutation not found, incomplete strategy% (58325)------------------------------
+% (58325)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58325)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58325)Termination reason: Refutation not found, incomplete strategy
+
+% (58325)Memory used [KB]: 2092
+% (58325)Time elapsed: 0.009 s
+% (58325)Instructions burned: 18 (million)
+% (58325)------------------------------
+% (58325)------------------------------
+% (58327)Refutation not found, incomplete strategy% (58327)------------------------------
+% (58327)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58327)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58327)Termination reason: Refutation not found, incomplete strategy
+
+% (58327)Memory used [KB]: 2096
+% (58327)Time elapsed: 0.011 s
+% (58327)Instructions burned: 18 (million)
+% (58327)------------------------------
+% (58327)------------------------------
+% (58328)Instruction limit reached!
+% (58328)------------------------------
+% (58328)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58328)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58328)Termination reason: Unknown
+% (58328)Termination phase: Saturation
+
+% (58328)Memory used [KB]: 2520
+% (58328)Time elapsed: 0.048 s
+% (58328)Instructions burned: 51 (million)
+% (58328)------------------------------
+% (58328)------------------------------
+% (58329)lrs+11_1:1_plsq=on:plsqc=1:plsqr=32,1:ss=included:i=95:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2997ds/95Mi)
+% (58330)lrs+1011_1:1_fd=preordered:fsd=on:sos=on:thsq=on:thsqc=64:thsqd=32:uwa=ground:i=99:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2997ds/99Mi)
+% (58326)Instruction limit reached!
+% (58326)------------------------------
+% (58326)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58326)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58326)Termination reason: Unknown
+% (58326)Termination phase: Saturation
+
+% (58326)Memory used [KB]: 3563
+% (58326)Time elapsed: 0.067 s
+% (58326)Instructions burned: 82 (million)
+% (58326)------------------------------
+% (58326)------------------------------
+% (58330)Refutation not found, incomplete strategy% (58330)------------------------------
+% (58330)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58330)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58330)Termination reason: Refutation not found, incomplete strategy
+
+% (58330)Memory used [KB]: 2162
+% (58330)Time elapsed: 0.010 s
+% (58330)Instructions burned: 18 (million)
+% (58330)------------------------------
+% (58330)------------------------------
+% (58332)dis+2_3:1_aac=none:abs=on:ep=R:lcm=reverse:nwc=10.0:sos=on:sp=const_frequency:spb=units:urr=ec_only:i=8:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2997ds/8Mi)
+% (58332)Instruction limit reached!
+% (58332)------------------------------
+% (58332)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58332)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58332)Termination reason: Unknown
+% (58332)Termination phase: Preprocessing 3
+
+% (58332)Memory used [KB]: 1844
+% (58332)Time elapsed: 0.005 s
+% (58332)Instructions burned: 9 (million)
+% (58332)------------------------------
+% (58332)------------------------------
+% (58331)dis+21_1:1_aac=none:abs=on:er=known:fde=none:fsr=off:nwc=5.0:s2a=on:s2at=4.0:sp=const_frequency:to=lpo:urr=ec_only:i=25:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2997ds/25Mi)
+% (58334)lrs+1010_1:1_afq=1.1:anc=none:bd=off:sd=2:sos=on:ss=axioms:i=92:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2997ds/92Mi)
+% (58334)Refutation not found, incomplete strategy% (58334)------------------------------
+% (58334)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58334)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58334)Termination reason: Refutation not found, incomplete strategy
+
+% (58334)Memory used [KB]: 1384
+% (58334)Time elapsed: 0.002 s
+% (58334)Instructions burned: 2 (million)
+% (58334)------------------------------
+% (58334)------------------------------
+% (58333)lrs-11_1:1_nm=0:sac=on:sd=4:ss=axioms:st=3.0:i=24:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2997ds/24Mi)
+% (58333)Refutation not found, incomplete strategy% (58333)------------------------------
+% (58333)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58333)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58333)Termination reason: Refutation not found, incomplete strategy
+
+% (58333)Memory used [KB]: 1400
+% (58333)Time elapsed: 0.003 s
+% (58333)Instructions burned: 3 (million)
+% (58333)------------------------------
+% (58333)------------------------------
+% (58331)Instruction limit reached!
+% (58331)------------------------------
+% (58331)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58331)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58331)Termination reason: Unknown
+% (58331)Termination phase: Saturation
+
+% (58331)Memory used [KB]: 2342
+% (58331)Time elapsed: 0.046 s
+% (58331)Instructions burned: 26 (million)
+% (58331)------------------------------
+% (58331)------------------------------
+% (58335)lrs+1011_1:1_afp=100000:afq=1.4:bd=preordered:cond=fast:fde=unused:gs=on:gsem=on:irw=on:lma=on:nm=16:sd=1:sos=all:sp=const_min:ss=axioms:i=7:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2997ds/7Mi)
+% (58335)Refutation not found, incomplete strategy% (58335)------------------------------
+% (58335)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58335)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58335)Termination reason: Refutation not found, incomplete strategy
+
+% (58335)Memory used [KB]: 1385
+% (58335)Time elapsed: 0.003 s
+% (58335)Instructions burned: 3 (million)
+% (58335)------------------------------
+% (58335)------------------------------
+% (58329)First to succeed.
+% (58336)lrs+11_1:1_bd=off:sd=2:sos=all:sp=unary_frequency:ss=axioms:i=87:si=on:rawr=on:rtra=on_0 on Vampire---4 for (2997ds/87Mi)
+% (58336)Refutation not found, incomplete strategy% (58336)------------------------------
+% (58336)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58336)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58336)Termination reason: Refutation not found, incomplete strategy
+
+% (58336)Memory used [KB]: 1384
+% (58336)Time elapsed: 0.002 s
+% (58336)Instructions burned: 3 (million)
+% (58336)------------------------------
+% (58336)------------------------------
+% SZS status Satisfiable for Vampire---4
+% (58329)# SZS output start Saturation.
+cnf(u3012,axiom,
+    ~gufo_i_Object(sK115)).
+
+cnf(u3031,axiom,
+    ~gufo_i_Object(sK61)).
+
+cnf(u3189,axiom,
+    ~gufo_s_concernsConstitutedEndurant(sK143,X0) | ~gufo_i_Object(X0) | sK95(sK143) = X0).
+
+cnf(u3192,axiom,
+    gufo_i_Object(sK95(sK143))).
+
+cnf(u3223,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X0,sK143) | sK132(sK143) = X0 | ~gufo_i_Object(X0)).
+
+cnf(u3226,axiom,
+    gufo_i_Object(sK132(sK143))).
+
+cnf(u3559,axiom,
+    ~gufo_ia_inheresIn(sK38,X0) | sK90(sK38) = X0).
+
+cnf(u3562,axiom,
+    gufo_i_ConcreteIndividual(sK90(sK38))).
+
+cnf(u3576,axiom,
+    gufo_i_Object(sK95(sK60))).
+
+cnf(u3580,axiom,
+    ~gufo_s_concernsConstitutedEndurant(sK60,X0) | sK95(sK60) = X0 | ~gufo_i_Object(X0)).
+
+cnf(u3590,axiom,
+    gufo_i_Object(sK95(sK114))).
+
+cnf(u3594,axiom,
+    ~gufo_s_concernsConstitutedEndurant(sK114,X0) | ~gufo_i_Object(X0) | sK95(sK114) = X0).
+
+cnf(u3656,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X0,sK60) | ~gufo_i_Object(X0) | sK132(sK60) = X0).
+
+cnf(u3659,axiom,
+    gufo_i_Object(sK132(sK60))).
+
+cnf(u3670,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X0,sK114) | sK132(sK114) = X0 | ~gufo_i_Object(X0)).
+
+cnf(u3673,axiom,
+    gufo_i_Object(sK132(sK114))).
+
+cnf(u4096,axiom,
+    gufo_ea_ExtrinsicMode(sK104)).
+
+cnf(u4140,axiom,
+    gufo_rt_MaterialRelationshipType(sK26)).
+
+cnf(u4143,axiom,
+    ~gufo_rt_ComparativeRelationshipType(sK26)).
+
+cnf(u4186,axiom,
+    ~gufo_ia_ExtrinsicAspect(sK142)).
+
+cnf(u4191,axiom,
+    sK141 = sK90(sK142)).
+
+cnf(u2179,axiom,
+    gufo_i_Endurant(sK51)).
+
+cnf(u3117,axiom,
+    ~gufo_t_EndurantType(sK31)).
+
+cnf(u3712,axiom,
+    ~gufo_i_Individual(sK151)).
+
+cnf(u2520,axiom,
+    owl_Thing(sK24(X0)) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u1606,axiom,
+    ~gufo_o_isCollectionMemberOf(X0,X1) | gufo_i_Object(X0)).
+
+cnf(u2283,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(sK143)).
+
+cnf(u1820,axiom,
+    ~gufo_et_NonSortal(X0) | owl_Thing(X0)).
+
+cnf(u2201,axiom,
+    owl_Thing(sK20)).
+
+cnf(u2094,axiom,
+    ~gufo_s_concernsTemporaryWhole(X1,X0) | owl_Thing(X0)).
+
+cnf(u3131,axiom,
+    gufo_i_Type(sK87)).
+
+cnf(u3313,axiom,
+    ~gufo_i_ConcreteIndividual(sK119)).
+
+cnf(u1960,axiom,
+    gufo_s_concernsNonRigidType(sK107,sK108)).
+
+cnf(u1612,axiom,
+    ~gufo_s_concernsConstitutedEndurant(X0,X1) | gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u2010,axiom,
+    ~gufo_e_broughtAbout(X0,X1) | gufo_i_Situation(X1)).
+
+cnf(u3435,axiom,
+    gufo_i_ConcreteIndividual(sK130)).
+
+cnf(u3935,axiom,
+    gufo_i_ConcreteIndividual(sK133(sK116))).
+
+cnf(u1752,axiom,
+    ~gufo_e_wasCreatedIn(X1,X0) | owl_Thing(X1)).
+
+cnf(u2231,axiom,
+    gufo_i_Situation(sK143)).
+
+cnf(u3540,axiom,
+    ~gufo_ia_inheresIn(sK90(sK7),sK7)).
+
+cnf(u3748,axiom,
+    gufo_i_Individual(sK41)).
+
+cnf(u2535,axiom,
+    gufo_i_Event(sK35)).
+
+cnf(u2892,axiom,
+    gufo_s_standsInQualifiedParthood(sK39(sK127),sK127)).
+
+cnf(u2818,axiom,
+    gufo_i_Individual(sK113)).
+
+cnf(u1765,axiom,
+    ~gufo_ea_mediates(X1,X0) | owl_Thing(X1)).
+
+cnf(u2806,axiom,
+    gufo_s_TemporaryParthoodSituation(sK127)).
+
+cnf(u3114,axiom,
+    ~gufo_et_NonSortal(sK112)).
+
+cnf(u1819,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X0,X1) | gufo_s_TemporaryConstitutionSituation(X1)).
+
+cnf(u1713,axiom,
+    ~gufo_et_Role(X0) | ~gufo_et_Phase(X0)).
+
+cnf(u2511,axiom,
+    owl_Thing(sK63)).
+
+cnf(u1763,axiom,
+    ~gufo_ia_IntrinsicMode(X0) | gufo_ia_IntrinsicAspect(X0)).
+
+cnf(u1975,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X0,X1) | gufo_i_Endurant(X0)).
+
+cnf(u2917,axiom,
+    ~gufo_ea_mediates(sK56,sK57)).
+
+cnf(u2017,axiom,
+    ~gufo_qa_QualityValue(X0) | gufo_i_AbstractIndividual(X0)).
+
+cnf(u2738,axiom,
+    owl_Thing(sK103(X0)) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u2587,axiom,
+    gufo_i_Object(sK23)).
+
+cnf(u3525,axiom,
+    gufo_i_Endurant(sK39(sK127))).
+
+cnf(u2928,axiom,
+    gufo_s_concernsNonRigidType(sK113,sK103(sK113))).
+
+cnf(u3235,axiom,
+    ~gufo_s_concernsTemporaryWhole(sK11,X0) | sK133(sK11) = X0).
+
+cnf(u1970,axiom,
+    gufo_ia_IntrinsicAspect(X0) | gufo_ia_ExtrinsicAspect(X0) | ~gufo_i_Aspect(X0)).
+
+cnf(u2720,axiom,
+    gufo_i_Event(sK105)).
+
+cnf(u1572,axiom,
+    ~gufo_ea_Relator(X0) | gufo_i_Endurant(sK1(X0))).
+
+cnf(u3211,axiom,
+    owl_Thing(sK131(sK130))).
+
+cnf(u2825,axiom,
+    ~gufo_ho_categorizes(sK49,X0)).
+
+cnf(u2028,axiom,
+    gufo_i_Object(sK132(X0)) | ~gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u2302,axiom,
+    ~gufo_t_RelationshipType(sK91)).
+
+cnf(u2512,axiom,
+    gufo_o_Collection(sK64)).
+
+cnf(u1762,axiom,
+    ~gufo_i_AbstractIndividual(X0) | ~gufo_i_ConcreteIndividual(X0)).
+
+cnf(u2193,axiom,
+    gufo_et_NonRigidType(sK125)).
+
+cnf(u2086,axiom,
+    gufo_qa_hasBeginPoint(sK147,sK148)).
+
+cnf(u2943,axiom,
+    gufo_i_Individual(sK126)).
+
+cnf(u1837,axiom,
+    gufo_et_Mixin(sK75)).
+
+cnf(u1723,axiom,
+    gufo_ia_isAspectProperPartOf(sK41,sK42)).
+
+cnf(u3218,axiom,
+    owl_Thing(sK132(sK143))).
+
+cnf(u1977,axiom,
+    ~gufo_et_Sortal(X0) | owl_Thing(X0)).
+
+cnf(u2108,axiom,
+    owl_Thing(sK38)).
+
+cnf(u2027,axiom,
+    ~gufo_s_concernsTemporaryWhole(X1,X0) | gufo_s_TemporaryParthoodSituation(X1)).
+
+cnf(u2693,axiom,
+    ~gufo_i_Object(sK9)).
+
+cnf(u3129,axiom,
+    gufo_i_Type(sK75)).
+
+cnf(u2691,axiom,
+    owl_Thing(sK9)).
+
+cnf(u3740,axiom,
+    gufo_i_Individual(sK142)).
+
+cnf(u3433,axiom,
+    gufo_i_Individual(sK90(sK52))).
+
+cnf(u3216,axiom,
+    gufo_s_standsIn(sK132(sK143),sK143)).
+
+cnf(u2909,axiom,
+    gufo_i_Individual(sK56)).
+
+cnf(u1860,axiom,
+    rdfs_Literal(sK81)).
+
+cnf(u3409,axiom,
+    gufo_i_ConcreteIndividual(sK7)).
+
+cnf(u2038,axiom,
+    ~gufo_i_Endurant(X0) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u1808,axiom,
+    ~gufo_et_AntiRigidType(X0) | gufo_et_NonRigidType(X0)).
+
+cnf(u1780,axiom,
+    gufo_et_Sortal(X0) | ~gufo_et_Kind(X0)).
+
+cnf(u1600,axiom,
+    ~gufo_ho_categorizes(X1,X0) | ~gufo_t_ConcreteIndividualType(X1)).
+
+cnf(u3439,axiom,
+    gufo_i_ConcreteIndividual(sK95(sK143))).
+
+cnf(u2374,axiom,
+    gufo_i_ConcreteIndividual(sK14)).
+
+cnf(u3047,axiom,
+    gufo_i_isProperPartOf(sK22,sK23)).
+
+cnf(u3642,axiom,
+    ~gufo_i_Individual(sK21)).
+
+cnf(u2294,axiom,
+    ~gufo_i_ConcreteIndividual(sK59)).
+
+cnf(u2604,axiom,
+    gufo_i_Endurant(sK13)).
+
+cnf(u1613,axiom,
+    gufo_s_standsInQualifiedAttribution(sK13,sK12)).
+
+cnf(u2212,axiom,
+    gufo_t_EndurantType(sK68)).
+
+cnf(u2101,axiom,
+    ~gufo_e_Participation(X0) | X2 = X3 | ~gufo_e_participatedIn(X2,X0) | ~gufo_e_participatedIn(X3,X0)).
+
+cnf(u1859,axiom,
+    ~gufo_e_isEventProperPartOf(X1,X0) | owl_Thing(X0)).
+
+cnf(u2396,axiom,
+    gufo_i_ConcreteIndividual(sK100)).
+
+cnf(u2045,axiom,
+    ~gufo_qa_hasAssociatedQualityValueType(X0,X1) | gufo_t_AbstractIndividualType(X1)).
+
+cnf(u2306,axiom,
+    ~owl_Thing(sK5)).
+
+cnf(u1823,axiom,
+    gufo_i_ConcreteIndividual(sK72(X0)) | ~gufo_ea_ExtrinsicMode(X0)).
+
+cnf(u2077,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | gufo_i_Situation(X0)).
+
+cnf(u2188,axiom,
+    gufo_i_Type(sK109)).
+
+cnf(u1767,axiom,
+    ~gufo_ea_Relator(X0) | ~gufo_ea_ExtrinsicMode(X0)).
+
+cnf(u2226,axiom,
+    gufo_t_EndurantType(sK43)).
+
+cnf(u2410,axiom,
+    gufo_s_TemporaryRelationshipSituation(sK79)).
+
+cnf(u2419,axiom,
+    gufo_i_Individual(sK147)).
+
+cnf(u2813,axiom,
+    gufo_i_Situation(sK127)).
+
+cnf(u2091,axiom,
+    gufo_et_SubKind(sK151)).
+
+cnf(u2120,axiom,
+    gufo_et_AntiRigidType(sK68)).
+
+cnf(u1870,axiom,
+    ~gufo_s_isSituationProperPartOf(X0,X1) | owl_Thing(X0)).
+
+cnf(u3239,axiom,
+    gufo_i_Individual(sK24(X0)) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u1790,axiom,
+    ~gufo_e_historicallyDependsOn(X1,X0) | gufo_e_historicallyDependsOn(X2,X0) | ~gufo_e_historicallyDependsOn(X2,X1)).
+
+cnf(u1818,axiom,
+    gufo_s_concernsRelationshipType(X0,sK70(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2224,axiom,
+    gufo_i_Type(sK149)).
+
+cnf(u2916,axiom,
+    gufo_ia_inheresIn(sK38,sK90(sK38))).
+
+cnf(u2745,axiom,
+    gufo_i_Object(sK120)).
+
+cnf(u1610,axiom,
+    gufo_qa_QualityValue(sK10)).
+
+cnf(u2016,axiom,
+    gufo_s_concernsRelatedEndurant(X0,sK128(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2417,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(sK79)).
+
+cnf(u2721,axiom,
+    gufo_i_ConcreteIndividual(sK105)).
+
+cnf(u2708,axiom,
+    gufo_i_Individual(sK96)).
+
+cnf(u1573,axiom,
+    ~gufo_ea_Relator(X0) | gufo_i_Endurant(sK0(X0))).
+
+cnf(u2614,axiom,
+    owl_Thing(sK25)).
+
+cnf(u3348,axiom,
+    gufo_i_Individual(sK83)).
+
+cnf(u2500,axiom,
+    gufo_i_AbstractIndividual(sK74)).
+
+cnf(u2319,axiom,
+    ~gufo_i_Individual(sK19)).
+
+cnf(u1877,axiom,
+    gufo_i_ConcreteIndividual(sK90(X0)) | ~gufo_ia_IntrinsicAspect(X0)).
+
+cnf(u3140,axiom,
+    ~gufo_i_Endurant(sK32)).
+
+cnf(u2611,axiom,
+    gufo_i_Endurant(sK38)).
+
+cnf(u2181,axiom,
+    gufo_i_Endurant(sK69)).
+
+cnf(u1825,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u1727,axiom,
+    ~gufo_e_isEventProperPartOf(X1,X0) | owl_Thing(X1)).
+
+cnf(u2915,axiom,
+    gufo_ia_inheresIn(sK7,sK90(sK7))).
+
+cnf(u1769,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X0,X1) | gufo_i_Endurant(X0)).
+
+cnf(u2514,axiom,
+    gufo_i_Object(sK64)).
+
+cnf(u2824,axiom,
+    gufo_t_AbstractIndividualType(sK49)).
+
+cnf(u2031,axiom,
+    ~gufo_qa_hasAssociatedQualityValueType(X0,X1) | gufo_t_EndurantType(X0)).
+
+cnf(u2285,axiom,
+    gufo_et_NonRigidType(sK75)).
+
+cnf(u2744,axiom,
+    ~gufo_o_Collection(sK120)).
+
+cnf(u2195,axiom,
+    gufo_et_NonRigidType(sK144)).
+
+cnf(u3133,axiom,
+    gufo_i_Type(sK108)).
+
+cnf(u2536,axiom,
+    gufo_qa_QualityValue(sK94)).
+
+cnf(u2499,axiom,
+    owl_Thing(sK74)).
+
+cnf(u3437,axiom,
+    gufo_i_ConcreteIndividual(sK135)).
+
+cnf(u3201,axiom,
+    gufo_i_Individual(sK117)).
+
+cnf(u2217,axiom,
+    gufo_i_Object(sK36)).
+
+cnf(u1622,axiom,
+    ~gufo_et_Mixin(X0) | owl_Thing(X0)).
+
+cnf(u1836,axiom,
+    gufo_qa_hasEndPoint(sK73,sK74)).
+
+cnf(u2110,axiom,
+    owl_Thing(sK125)).
+
+cnf(u2926,axiom,
+    gufo_i_Individual(sK8)).
+
+cnf(u1570,axiom,
+    ~gufo_ea_Relator(X0) | gufo_ea_mediates(X0,sK1(X0))).
+
+cnf(u1976,axiom,
+    ~gufo_i_Aspect(X0) | gufo_i_Endurant(X0)).
+
+cnf(u2521,axiom,
+    owl_Thing(sK96)).
+
+cnf(u2026,axiom,
+    ~gufo_i_Aspect(X0) | owl_Thing(X0)).
+
+cnf(u3451,axiom,
+    gufo_i_Individual(sK79)).
+
+cnf(u1768,axiom,
+    ~gufo_e_participatedIn(X1,X0) | owl_Thing(X1)).
+
+cnf(u2119,axiom,
+    ~gufo_et_PhaseMixin(sK68)).
+
+cnf(u2497,axiom,
+    ~gufo_i_Situation(sK8)).
+
+cnf(u3231,axiom,
+    owl_Thing(sK133(sK11))).
+
+cnf(u2551,axiom,
+    gufo_i_AbstractIndividual(sK94)).
+
+cnf(u3534,axiom,
+    gufo_i_ConcreteIndividual(sK72(sK77))).
+
+cnf(u2908,axiom,
+    gufo_ia_inheresIn(sK77,sK72(sK77))).
+
+cnf(u1835,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X1,X0) | owl_Thing(X0)).
+
+cnf(u2527,axiom,
+    owl_Thing(sK3)).
+
+cnf(u3130,axiom,
+    gufo_i_Type(sK86)).
+
+cnf(u1863,axiom,
+    gufo_e_broughtAbout(sK82,sK83)).
+
+cnf(u2933,axiom,
+    gufo_s_standsInQualifiedInstantiation(sK124(sK113),sK113)).
+
+cnf(u2033,axiom,
+    ~gufo_et_SubKind(X0) | gufo_et_Sortal(X0)).
+
+cnf(u2626,axiom,
+    ~gufo_i_Situation(sK138)).
+
+cnf(u3237,axiom,
+    ~gufo_i_Endurant(sK12)).
+
+cnf(u3532,axiom,
+    ~gufo_ia_inheresIn(sK72(sK77),sK77)).
+
+cnf(u2603,axiom,
+    owl_Thing(sK34)).
+
+cnf(u3843,axiom,
+    gufo_i_Individual(sK39(sK11))).
+
+cnf(u3251,axiom,
+    gufo_i_ConcreteIndividual(sK95(X0)) | ~gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u3213,axiom,
+    gufo_i_Individual(sK13)).
+
+cnf(u2907,axiom,
+    gufo_ia_inheresIn(sK130,sK72(sK130))).
+
+cnf(u1846,axiom,
+    ~gufo_o_Quantity(X0) | ~gufo_o_Collection(X0)).
+
+cnf(u2736,axiom,
+    gufo_i_Situation(sK66)).
+
+cnf(u1588,axiom,
+    ~gufo_t_AbstractIndividualType(X0) | ~gufo_ho_partitions(X0,X1)).
+
+cnf(u1858,axiom,
+    ~gufo_qa_hasBeginPoint(X0,X1) | time_Instant(X1)).
+
+cnf(u2841,axiom,
+    gufo_i_ConcreteIndividual(sK115)).
+
+cnf(u2044,axiom,
+    ~gufo_qa_hasReifiedQualityValue(X1,X0) | owl_Thing(X0)).
+
+cnf(u2528,axiom,
+    ~gufo_i_Endurant(sK3)).
+
+cnf(u1778,axiom,
+    ~gufo_ea_mediates(X1,X0) | owl_Thing(X0)).
+
+cnf(u3727,axiom,
+    gufo_i_Individual(sK32)).
+
+cnf(u3531,axiom,
+    ~gufo_ia_inheresIn(sK77,X0) | sK72(sK77) = X0).
+
+cnf(u2209,axiom,
+    gufo_et_NonSortal(sK68)).
+
+cnf(u3774,axiom,
+    gufo_i_Individual(sK9)).
+
+cnf(u1853,axiom,
+    ~gufo_i_Object(X0) | owl_Thing(X0)).
+
+cnf(u1611,axiom,
+    gufo_s_TemporaryParthoodSituation(sK11)).
+
+cnf(u3234,axiom,
+    gufo_i_Endurant(sK133(sK11))).
+
+cnf(u2239,axiom,
+    owl_Thing(sK76)).
+
+cnf(u1865,axiom,
+    gufo_ho_partitions(sK85,sK84)).
+
+cnf(u1575,axiom,
+    ~gufo_s_concernsRelatedEndurant(X1,X0) | gufo_s_TemporaryRelationshipSituation(X1)).
+
+cnf(u2043,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X1,X0) | owl_Thing(X1)).
+
+cnf(u3336,axiom,
+    ~gufo_e_participatedIn(X0,sK71) | sK18(sK71) = X0).
+
+cnf(u3210,axiom,
+    gufo_i_Endurant(sK131(sK130))).
+
+cnf(u3042,axiom,
+    gufo_i_Endurant(sK18(sK71))).
+
+cnf(u2621,axiom,
+    gufo_i_Situation(sK2)).
+
+cnf(u3861,axiom,
+    gufo_i_Individual(sK132(sK143))).
+
+cnf(u3449,axiom,
+    gufo_t_EndurantType(sK103(sK113))).
+
+cnf(u2826,axiom,
+    ~gufo_ho_partitions(sK49,X0)).
+
+cnf(u3121,axiom,
+    gufo_i_Type(sK25)).
+
+cnf(u3024,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X0,sK28) | sK27 = X0).
+
+cnf(u2746,axiom,
+    gufo_i_Endurant(sK106)).
+
+cnf(u1598,axiom,
+    ~gufo_ho_categorizes(X1,X0) | gufo_i_Type(X1)).
+
+cnf(u1876,axiom,
+    ~gufo_o_FunctionalComplex(X0) | ~gufo_o_Collection(X0)).
+
+cnf(u3425,axiom,
+    gufo_i_Individual(sK52)).
+
+cnf(u1926,axiom,
+    gufo_e_historicallyDependsOn(sK100,sK101)).
+
+cnf(u2414,axiom,
+    ~gufo_s_TemporaryParthoodSituation(sK79)).
+
+cnf(u2631,axiom,
+    owl_Thing(sK141)).
+
+cnf(u1616,axiom,
+    gufo_o_Collection(sK14)).
+
+cnf(u2833,axiom,
+    owl_Thing(sK133(X0)) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u1571,axiom,
+    ~gufo_ea_Relator(X0) | gufo_ea_mediates(X0,sK0(X0))).
+
+cnf(u2308,axiom,
+    ~owl_Thing(sK17)).
+
+cnf(u2735,axiom,
+    gufo_i_Endurant(sK80)).
+
+cnf(u2620,axiom,
+    gufo_i_Event(sK138)).
+
+cnf(u2182,axiom,
+    owl_Thing(sK47)).
+
+cnf(u3522,axiom,
+    gufo_s_standsIn(sK39(sK127),sK127)).
+
+cnf(u2228,axiom,
+    owl_Thing(sK36)).
+
+cnf(u3039,axiom,
+    gufo_i_ConcreteIndividual(sK0(sK135))).
+
+cnf(u1875,axiom,
+    gufo_e_wasTerminatedIn(sK89,sK88)).
+
+cnf(u2412,axiom,
+    gufo_i_Endurant(sK27)).
+
+cnf(u2421,axiom,
+    gufo_i_ConcreteIndividual(sK27)).
+
+cnf(u2322,axiom,
+    ~gufo_i_Endurant(sK145)).
+
+cnf(u1839,axiom,
+    ~gufo_s_standsInQualifiedParthood(X0,X1) | owl_Thing(X1)).
+
+cnf(u4103,axiom,
+    gufo_ia_inheresIn(sK104,sK72(sK104))).
+
+cnf(u2093,axiom,
+    ~gufo_i_isProperPartOf(X0,X1) | owl_Thing(X1)).
+
+cnf(u1783,axiom,
+    ~gufo_t_SituationType(X0) | ~gufo_t_EndurantType(X0)).
+
+cnf(u2114,axiom,
+    owl_Thing(sK140)).
+
+cnf(u3544,axiom,
+    owl_Thing(sK90(sK7))).
+
+cnf(u4102,axiom,
+    gufo_ea_externallyDependsOn(sK104,sK131(sK104))).
+
+cnf(u2426,axiom,
+    gufo_i_Type(sK85)).
+
+cnf(u2397,axiom,
+    ~gufo_et_NonRigidType(sK87)).
+
+cnf(u2344,axiom,
+    ~gufo_et_Kind(X0) | gufo_t_EndurantType(X0)).
+
+cnf(u2307,axiom,
+    ~owl_Thing(sK81)).
+
+cnf(u4069,axiom,
+    gufo_i_Aspect(sK61)).
+
+cnf(u3853,axiom,
+    gufo_i_Individual(sK124(sK113))).
+
+cnf(u2107,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X1,X0) | ~gufo_s_standsInQualifiedConstitution(X2,X0) | ~gufo_i_Object(X2) | ~gufo_i_Object(X1) | X1 = X2).
+
+cnf(u2136,axiom,
+    gufo_i_Object(sK51)).
+
+cnf(u3847,axiom,
+    gufo_i_ConcreteIndividual(sK77)).
+
+cnf(u3255,axiom,
+    gufo_i_Individual(sK124(X0)) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u1886,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X1,X0) | owl_Thing(X0)).
+
+cnf(u2411,axiom,
+    gufo_i_ConcreteIndividual(sK147)).
+
+cnf(u2329,axiom,
+    gufo_et_Sortal(sK151)).
+
+cnf(u1628,axiom,
+    ~gufo_et_Kind(X0) | owl_Thing(X0)).
+
+cnf(u1678,axiom,
+    ~gufo_o_VariableCollection(X0) | ~gufo_o_FixedCollection(X0)).
+
+cnf(u2112,axiom,
+    gufo_i_ConcreteIndividual(sK4)).
+
+cnf(u1576,axiom,
+    ~gufo_i_Type(X0) | owl_Thing(X0)).
+
+cnf(u2932,axiom,
+    gufo_s_standsIn(sK111,sK110)).
+
+cnf(u1626,axiom,
+    ~gufo_e_historicallyDependsOn(X0,X1) | gufo_i_ConcreteIndividual(X1)).
+
+cnf(u2032,axiom,
+    ~gufo_o_Quantity(X0) | owl_Thing(X0)).
+
+cnf(u3342,axiom,
+    ~gufo_i_Endurant(sK107)).
+
+cnf(u2359,axiom,
+    ~gufo_et_NonSortal(sK151)).
+
+cnf(u2724,axiom,
+    ~gufo_i_Situation(sK105)).
+
+cnf(u2737,axiom,
+    gufo_t_EndurantType(sK103(X0)) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u1589,axiom,
+    ~gufo_ho_partitions(X0,X1) | gufo_i_Type(X0)).
+
+cnf(u3762,axiom,
+    gufo_i_ConcreteIndividual(sK15)).
+
+cnf(u3041,axiom,
+    owl_Thing(sK18(sK71))).
+
+cnf(u2516,axiom,
+    gufo_s_TemporaryParthoodSituation(sK116)).
+
+cnf(u2335,axiom,
+    ~gufo_t_EndurantType(sK91)).
+
+cnf(u1893,axiom,
+    ~gufo_et_SubKind(X0) | ~gufo_et_Kind(X0)).
+
+cnf(u1779,axiom,
+    ~gufo_et_SemiRigidType(X0) | owl_Thing(X0)).
+
+cnf(u3238,axiom,
+    gufo_i_ConcreteIndividual(sK12)).
+
+cnf(u1841,axiom,
+    ~gufo_e_contributedToTrigger(X1,X0) | owl_Thing(X1)).
+
+cnf(u1615,axiom,
+    ~gufo_o_isObjectProperPartOf(X1,X0) | gufo_i_Object(X0)).
+
+cnf(u2197,axiom,
+    gufo_t_EndurantType(sK144)).
+
+cnf(u2931,axiom,
+    gufo_o_isObjectProperPartOf(sK64,sK65)).
+
+cnf(u1785,axiom,
+    ~gufo_i_Event(X0) | ~gufo_i_Situation(X0)).
+
+cnf(u2840,axiom,
+    gufo_i_Endurant(sK115)).
+
+cnf(u2530,axiom,
+    gufo_s_TemporaryInstantiationSituation(sK110)).
+
+cnf(u2501,axiom,
+    gufo_i_ConcreteIndividual(sK126)).
+
+cnf(u3952,axiom,
+    gufo_i_Individual(sK77)).
+
+cnf(u2301,axiom,
+    ~gufo_t_RelationshipType(sK149)).
+
+cnf(u2632,axiom,
+    gufo_i_Individual(sK11)).
+
+cnf(u3849,axiom,
+    gufo_i_Individual(sK95(sK143))).
+
+cnf(u3744,axiom,
+    gufo_i_Individual(sK12)).
+
+cnf(u2506,axiom,
+    ~gufo_i_Endurant(sK98)).
+
+cnf(u3536,axiom,
+    owl_Thing(sK72(sK77))).
+
+cnf(u2552,axiom,
+    owl_Thing(sK94)).
+
+cnf(u3453,axiom,
+    gufo_i_ConcreteIndividual(sK124(sK113))).
+
+cnf(u3363,axiom,
+    ~gufo_i_Individual(sK84)).
+
+cnf(u1638,axiom,
+    ~gufo_e_contributedToTrigger(X1,X0) | owl_Thing(X0)).
+
+cnf(u2187,axiom,
+    ~gufo_s_TemporaryParthoodSituation(sK113)).
+
+cnf(u2233,axiom,
+    ~gufo_o_FunctionalComplex(sK36)).
+
+cnf(u1852,axiom,
+    ~gufo_o_Quantity(X0) | gufo_i_Object(X0)).
+
+cnf(u2942,axiom,
+    ~gufo_i_ConcreteIndividual(sK74)).
+
+cnf(u3217,axiom,
+    gufo_i_Endurant(sK132(sK143))).
+
+cnf(u1586,axiom,
+    ~gufo_ho_partitions(X0,X1) | owl_Thing(X0)).
+
+cnf(u1864,axiom,
+    ~gufo_o_isSubCollectionOf(X1,X0) | owl_Thing(X0)).
+
+cnf(u2855,axiom,
+    owl_Thing(sK44)).
+
+cnf(u2042,axiom,
+    ~gufo_s_concernsRelationshipType(X0,X1) | owl_Thing(X1)).
+
+cnf(u3339,axiom,
+    gufo_i_Individual(sK111)).
+
+cnf(u2135,axiom,
+    gufo_i_Object(sK14)).
+
+cnf(u2734,axiom,
+    gufo_o_FunctionalComplex(sK120)).
+
+cnf(u2513,axiom,
+    owl_Thing(sK35)).
+
+cnf(u3247,axiom,
+    ~gufo_i_Individual(sK70(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2439,axiom,
+    gufo_s_QualityValueAttributionSituation(sK93)).
+
+cnf(u3550,axiom,
+    ~gufo_ia_inheresIn(sK90(sK38),sK38)).
+
+cnf(u1669,axiom,
+    ~gufo_ia_IntrinsicMode(X0) | owl_Thing(X0)).
+
+cnf(u1851,axiom,
+    gufo_ea_externallyDependsOn(sK77,sK78)).
+
+cnf(u1617,axiom,
+    gufo_o_isSubQuantityOf(sK15,sK16)).
+
+cnf(u2543,axiom,
+    gufo_i_Endurant(sK89)).
+
+cnf(u1879,axiom,
+    ~gufo_ia_inheresIn(X0,X1) | ~gufo_ia_inheresIn(X0,X2) | ~gufo_i_ConcreteIndividual(X2) | ~gufo_i_ConcreteIndividual(X1) | ~gufo_ia_IntrinsicAspect(X0) | X1 = X2).
+
+cnf(u2850,axiom,
+    gufo_t_EndurantType(sK25)).
+
+cnf(u2821,axiom,
+    owl_Thing(sK115)).
+
+cnf(u1921,axiom,
+    ~gufo_t_EventType(X0) | gufo_t_ConcreteIndividualType(X0)).
+
+cnf(u2707,axiom,
+    gufo_i_ConcreteIndividual(sK96)).
+
+cnf(u3756,axiom,
+    ~gufo_i_Individual(sK37(X0)) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u2642,axiom,
+    owl_Thing(sK15)).
+
+cnf(u3253,axiom,
+    gufo_i_Type(sK103(X0)) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u2619,axiom,
+    owl_Thing(sK12)).
+
+cnf(u2832,axiom,
+    gufo_i_ConcreteIndividual(sK133(X0)) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u2923,axiom,
+    gufo_s_concernsConstitutedEndurant(sK114,sK95(sK114))).
+
+cnf(u3767,axiom,
+    gufo_i_Individual(sK114)).
+
+cnf(u3571,axiom,
+    owl_Thing(sK95(sK60))).
+
+cnf(u3243,axiom,
+    gufo_i_Individual(sK46(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2624,axiom,
+    owl_Thing(sK138)).
+
+cnf(u1874,axiom,
+    gufo_et_Category(sK87)).
+
+cnf(u2857,axiom,
+    gufo_ea_mediates(sK135,sK1(sK135))).
+
+cnf(u1932,axiom,
+    ~gufo_t_AbstractIndividualType(X0) | ~gufo_t_ConcreteIndividualType(X0)).
+
+cnf(u2206,axiom,
+    gufo_t_EndurantType(sK125)).
+
+cnf(u2544,axiom,
+    gufo_i_ConcreteIndividual(sK61)).
+
+cnf(u1666,axiom,
+    gufo_et_Phase(sK21)).
+
+cnf(u3547,axiom,
+    ~gufo_ia_inheresIn(sK7,X0) | sK90(sK7) = X0).
+
+cnf(u2225,axiom,
+    ~gufo_rt_ComparativeRelationshipType(sK58)).
+
+cnf(u3870,axiom,
+    gufo_i_Individual(sK72(sK77))).
+
+cnf(u1577,axiom,
+    ~gufo_qa_hasBeginPoint(X0,X1) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u4068,axiom,
+    gufo_i_Aspect(sK115)).
+
+cnf(u1627,axiom,
+    xsd_date(sK17)).
+
+cnf(u4150,axiom,
+    ~gufo_t_EndurantType(sK26)).
+
+cnf(u2127,axiom,
+    gufo_o_Collection(sK51)).
+
+cnf(u1881,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | gufo_i_Situation(X0)).
+
+cnf(u1591,axiom,
+    gufo_t_ConcreteIndividualType(sK6)).
+
+cnf(u1931,axiom,
+    ~gufo_qa_hasReifiedQualityValue(X1,X0) | gufo_qa_QualityValue(X0)).
+
+cnf(u2725,axiom,
+    gufo_i_Individual(sK55)).
+
+cnf(u3058,axiom,
+    ~gufo_i_isProperPartOf(sK2,X0) | gufo_i_isProperPartOf(sK3,X0)).
+
+cnf(u3328,axiom,
+    ~gufo_i_Individual(sK31)).
+
+cnf(u3064,axiom,
+    gufo_i_Endurant(sK65)).
+
+cnf(u3337,axiom,
+    gufo_i_Individual(sK106)).
+
+cnf(u2941,axiom,
+    gufo_i_Individual(sK74)).
+
+cnf(u2699,axiom,
+    gufo_i_AbstractIndividual(sK148)).
+
+cnf(u3040,axiom,
+    owl_Thing(sK0(sK135))).
+
+cnf(u1892,axiom,
+    ~gufo_ea_mediates(X0,X1) | ~gufo_ea_mediates(X1,X0)).
+
+cnf(u3851,axiom,
+    gufo_i_Type(sK103(sK113))).
+
+cnf(u1942,axiom,
+    ~gufo_s_concernsRelatedEndurant(X1,X0) | gufo_i_Endurant(X0)).
+
+cnf(u1840,axiom,
+    ~gufo_s_concernsRelatedEndurant(X1,X0) | owl_Thing(X1)).
+
+cnf(u2430,axiom,
+    gufo_t_EndurantType(sK62)).
+
+cnf(u1684,axiom,
+    ~gufo_i_isProperPartOf(X1,X0) | owl_Thing(X1)).
+
+cnf(u3065,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,sK15) | gufo_o_isObjectProperPartOf(X0,sK16)).
+
+cnf(u2647,axiom,
+    gufo_i_ConcreteIndividual(sK73)).
+
+cnf(u3343,axiom,
+    gufo_i_ConcreteIndividual(sK107)).
+
+cnf(u2406,axiom,
+    gufo_i_ConcreteIndividual(sK136)).
+
+cnf(u2951,axiom,
+    gufo_s_standsInQualifiedConstitution(sK132(sK114),sK114)).
+
+cnf(u2324,axiom,
+    gufo_i_AbstractIndividual(sK10)).
+
+cnf(u2751,axiom,
+    gufo_i_ConcreteIndividual(sK66)).
+
+cnf(u1587,axiom,
+    ~gufo_ho_partitions(X0,X1) | ~gufo_t_ConcreteIndividualType(X0)).
+
+cnf(u3863,axiom,
+    gufo_i_Individual(sK16)).
+
+cnf(u1645,axiom,
+    ~gufo_o_VariableCollection(X0) | gufo_o_Collection(X0)).
+
+cnf(u2116,axiom,
+    ~gufo_et_AntiRigidType(sK47)).
+
+cnf(u3014,axiom,
+    gufo_i_Individual(sK35)).
+
+cnf(u1891,axiom,
+    ~gufo_o_Quantity(X0) | ~gufo_o_FunctionalComplex(X0)).
+
+cnf(u2428,axiom,
+    ~gufo_i_Individual(sK85)).
+
+cnf(u1949,axiom,
+    gufo_ia_ExtrinsicAspect(sK104)).
+
+cnf(u2338,axiom,
+    gufo_i_ConcreteIndividual(sK150)).
+
+cnf(u1855,axiom,
+    ~gufo_s_concernsNonRigidType(X2,X0) | X0 = X1 | ~gufo_s_concernsNonRigidType(X2,X1)).
+
+cnf(u1671,axiom,
+    ~gufo_ia_isAspectProperPartOf(X1,X0) | gufo_i_Aspect(X0)).
+
+cnf(u2220,axiom,
+    owl_Thing(sK55)).
+
+cnf(u2109,axiom,
+    owl_Thing(sK14)).
+
+cnf(u2130,axiom,
+    owl_Thing(sK69)).
+
+cnf(u3241,axiom,
+    gufo_i_Individual(sK39(X0)) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u2820,axiom,
+    ~gufo_et_Category(sK139)).
+
+cnf(u2314,axiom,
+    owl_Thing(sK150)).
+
+cnf(u2413,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK79)).
+
+cnf(u2360,axiom,
+    gufo_i_Individual(sK50)).
+
+cnf(u2323,axiom,
+    gufo_i_ConcreteIndividual(sK145)).
+
+cnf(u3021,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X0,X1) | sK46(X1) = X0).
+
+cnf(u2234,axiom,
+    ~gufo_et_Kind(sK151)).
+
+cnf(u2717,axiom,
+    gufo_i_Endurant(sK95(X0)) | ~gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u2152,axiom,
+    owl_Thing(sK6)).
+
+cnf(u2427,axiom,
+    ~gufo_t_EndurantType(sK85)).
+
+cnf(u1902,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,X1) | owl_Thing(X0)).
+
+cnf(u2336,axiom,
+    gufo_i_ConcreteIndividual(sK40)).
+
+cnf(u2345,axiom,
+    gufo_t_EndurantType(sK21)).
+
+cnf(u1694,axiom,
+    ~gufo_s_concernsConstitutedEndurant(X0,X1) | gufo_i_Endurant(X1)).
+
+cnf(u1644,axiom,
+    ~gufo_o_FixedCollection(X0) | gufo_o_Collection(X0)).
+
+cnf(u1850,axiom,
+    gufo_i_Individual(sK76)).
+
+cnf(u2128,axiom,
+    gufo_o_Collection(sK69)).
+
+cnf(u2649,axiom,
+    owl_Thing(sK73)).
+
+cnf(u1592,axiom,
+    ~gufo_s_concernsQualityType(X1,X0) | gufo_t_EndurantType(X0)).
+
+cnf(u2510,axiom,
+    gufo_i_Situation(sK63)).
+
+cnf(u1642,axiom,
+    ~gufo_ia_inheresIn(X0,X1) | ~gufo_ia_inheresIn(X0,X2) | X1 = X2).
+
+cnf(u1920,axiom,
+    ~gufo_i_constitutes(X0,X1) | owl_Thing(X0)).
+
+cnf(u2321,axiom,
+    ~gufo_ia_IntrinsicMode(sK38)).
+
+cnf(u3840,axiom,
+    gufo_i_Individual(sK18(sK71))).
+
+cnf(u3650,axiom,
+    gufo_i_Endurant(sK132(sK60))).
+
+cnf(u3358,axiom,
+    gufo_i_Individual(sK115)).
+
+cnf(u2740,axiom,
+    gufo_i_AbstractIndividual(sK119)).
+
+cnf(u2625,axiom,
+    ~gufo_i_Endurant(sK138)).
+
+cnf(u3380,axiom,
+    ~gufo_i_Individual(sK140)).
+
+cnf(u3057,axiom,
+    ~gufo_i_ConcreteIndividual(sK94)).
+
+cnf(u2532,axiom,
+    owl_Thing(sK42)).
+
+cnf(u2351,axiom,
+    ~gufo_et_NonRigidType(sK43)).
+
+cnf(u1909,axiom,
+    ~gufo_i_AbstractIndividual(X0) | gufo_i_Individual(X0)).
+
+cnf(u1667,axiom,
+    ~gufo_s_isSituationProperPartOf(X1,X0) | gufo_i_Situation(X1)).
+
+cnf(u2716,axiom,
+    owl_Thing(sK95(X0)) | ~gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u3172,axiom,
+    gufo_i_ConcreteIndividual(sK142)).
+
+cnf(u1631,axiom,
+    ~gufo_e_Participation(X0) | gufo_e_participatedIn(sK18(X0),X0)).
+
+cnf(u2213,axiom,
+    owl_Thing(sK149)).
+
+cnf(u2508,axiom,
+    owl_Thing(sK122)).
+
+cnf(u1673,axiom,
+    ~gufo_et_RoleMixin(X0) | owl_Thing(X0)).
+
+cnf(u2546,axiom,
+    gufo_i_ConcreteIndividual(sK35)).
+
+cnf(u1935,axiom,
+    ~gufo_ia_isAspectProperPartOf(X0,X1) | owl_Thing(X1)).
+
+cnf(u2517,axiom,
+    gufo_i_Situation(sK3)).
+
+cnf(u3356,axiom,
+    ~gufo_i_Individual(sK49)).
+
+cnf(u3365,axiom,
+    ~gufo_et_Category(sK112)).
+
+cnf(u2189,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(sK143)).
+
+cnf(u2648,axiom,
+    gufo_i_Individual(sK73)).
+
+cnf(u2227,axiom,
+    gufo_t_EndurantType(sK112)).
+
+cnf(u2522,axiom,
+    owl_Thing(sK67)).
+
+cnf(u3865,axiom,
+    gufo_i_Individual(sK133(sK11))).
+
+cnf(u2440,axiom,
+    ~gufo_i_Individual(sK29)).
+
+cnf(u2531,axiom,
+    gufo_i_Endurant(sK61)).
+
+cnf(u1654,axiom,
+    ~gufo_s_concernsTemporaryWhole(X0,X1) | gufo_i_Endurant(X1)).
+
+cnf(u2121,axiom,
+    owl_Thing(sK71)).
+
+cnf(u2553,axiom,
+    owl_Thing(sK37(X0)) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u2507,axiom,
+    ~gufo_i_Situation(sK98)).
+
+cnf(u1880,axiom,
+    ~gufo_qa_hasReifiedQualityValue(X1,X0) | gufo_i_ConcreteIndividual(X1)).
+
+cnf(u2871,axiom,
+    gufo_s_standsIn(sK117,sK116)).
+
+cnf(u1930,axiom,
+    ~gufo_i_Event(X0) | ~gufo_i_Endurant(X0)).
+
+cnf(u3355,axiom,
+    ~gufo_t_EndurantType(sK49)).
+
+cnf(u2151,axiom,
+    rdfs_Literal(sK17)).
+
+cnf(u2750,axiom,
+    ~gufo_i_Endurant(sK66)).
+
+cnf(u2529,axiom,
+    gufo_i_ConcreteIndividual(sK3)).
+
+cnf(u3263,axiom,
+    gufo_i_ConcreteIndividual(sK41)).
+
+cnf(u2455,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(sK60)).
+
+cnf(u3542,axiom,
+    gufo_i_ConcreteIndividual(sK90(sK7))).
+
+cnf(u2559,axiom,
+    gufo_i_ConcreteIndividual(sK137)).
+
+cnf(u1989,axiom,
+    ~gufo_e_wasTerminatedIn(X1,X0) | gufo_i_Event(X0)).
+
+cnf(u2866,axiom,
+    gufo_i_Aspect(sK77)).
+
+cnf(u1895,axiom,
+    ~gufo_s_concernsQualityType(X0,X1) | owl_Thing(X1)).
+
+cnf(u2837,axiom,
+    gufo_i_ConcreteIndividual(sK79)).
+
+cnf(u1937,axiom,
+    ~gufo_ea_ExtrinsicMode(X0) | gufo_ia_ExtrinsicAspect(X0)).
+
+cnf(u2723,axiom,
+    ~gufo_i_Endurant(sK105)).
+
+cnf(u3772,axiom,
+    gufo_i_Individual(sK34)).
+
+cnf(u2658,axiom,
+    owl_Thing(sK114)).
+
+cnf(u3141,axiom,
+    gufo_i_ConcreteIndividual(sK32)).
+
+cnf(u3770,axiom,
+    gufo_i_Endurant(sK57)).
+
+cnf(u3875,axiom,
+    gufo_i_Individual(sK90(sK7))).
+
+cnf(u3245,axiom,
+    gufo_i_Individual(sK138)).
+
+cnf(u3459,axiom,
+    gufo_i_Individual(sK93)).
+
+cnf(u3259,axiom,
+    gufo_i_Individual(sK128(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2873,axiom,
+    ~gufo_i_Endurant(sK93)).
+
+cnf(u2640,axiom,
+    gufo_o_Quantity(sK15)).
+
+cnf(u1890,axiom,
+    ~gufo_o_isSubQuantityOf(X1,X0) | owl_Thing(X1)).
+
+cnf(u1734,axiom,
+    ~gufo_o_isCollectionMemberOf(X1,X0) | gufo_o_Collection(X0)).
+
+cnf(u1948,axiom,
+    ~gufo_s_concernsNonRigidType(X0,X2) | ~gufo_et_NonRigidType(X1) | X1 = X2 | ~gufo_s_TemporaryInstantiationSituation(X0) | ~gufo_et_NonRigidType(X2) | ~gufo_s_concernsNonRigidType(X0,X1)).
+
+cnf(u2222,axiom,
+    owl_Thing(sK136)).
+
+cnf(u2432,axiom,
+    gufo_ea_ExtrinsicMode(sK77)).
+
+cnf(u1682,axiom,
+    ~gufo_i_constitutes(X1,X0) | owl_Thing(X0)).
+
+cnf(u1740,axiom,
+    ~gufo_et_PhaseMixin(X0) | gufo_et_AntiRigidType(X0)).
+
+cnf(u3038,axiom,
+    owl_Thing(sK1(sK135))).
+
+cnf(u2113,axiom,
+    gufo_et_SemiRigidType(sK75)).
+
+cnf(u3346,axiom,
+    gufo_i_Individual(sK99)).
+
+cnf(u2863,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(sK28)).
+
+cnf(u1593,axiom,
+    ~gufo_et_NonRigidType(X0) | owl_Thing(X0)).
+
+cnf(u3678,axiom,
+    owl_Thing(sK133(sK116))).
+
+cnf(u1643,axiom,
+    ~gufo_s_concernsRelatedEndurant(X1,X0) | owl_Thing(X0)).
+
+cnf(u3138,axiom,
+    gufo_i_Type(sK151)).
+
+cnf(u2143,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(sK54)).
+
+cnf(u3368,axiom,
+    ~gufo_i_Individual(sK33)).
+
+cnf(u1947,axiom,
+    gufo_et_NonRigidType(sK103(X0)) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u2741,axiom,
+    owl_Thing(sK119)).
+
+cnf(u3868,axiom,
+    gufo_i_ConcreteIndividual(sK39(sK127))).
+
+cnf(u2946,axiom,
+    gufo_ea_externallyDependsOn(sK77,sK131(sK77))).
+
+cnf(u3160,axiom,
+    gufo_i_Endurant(sK39(sK11))).
+
+cnf(u3344,axiom,
+    gufo_i_Individual(sK88)).
+
+cnf(u3651,axiom,
+    owl_Thing(sK132(sK60))).
+
+cnf(u2952,axiom,
+    gufo_s_concernsTemporaryWhole(sK11,sK133(sK11))).
+
+cnf(u3353,axiom,
+    ~gufo_i_Endurant(sK127)).
+
+cnf(u2858,axiom,
+    gufo_ea_mediates(sK57,sK1(sK57))).
+
+cnf(u3136,axiom,
+    gufo_i_Type(sK140)).
+
+cnf(u3056,axiom,
+    gufo_i_Individual(sK94)).
+
+cnf(u1908,axiom,
+    ~gufo_ia_IntrinsicAspect(X0) | gufo_i_Aspect(X0)).
+
+cnf(u3383,axiom,
+    owl_Thing(sK0(sK57))).
+
+cnf(u2318,axiom,
+    gufo_i_Situation(sK145)).
+
+cnf(u1700,axiom,
+    ~gufo_s_concernsReifiedQualityValue(X1,X0) | gufo_qa_QualityValue(X0)).
+
+cnf(u2953,axiom,
+    gufo_s_concernsTemporaryWhole(sK116,sK133(sK116))).
+
+cnf(u1648,axiom,
+    ~gufo_e_manifestedIn(X1,X0) | gufo_i_Event(X0)).
+
+cnf(u2422,axiom,
+    owl_Thing(sK27)).
+
+cnf(u2340,axiom,
+    gufo_i_ConcreteIndividual(sK71)).
+
+cnf(u2865,axiom,
+    gufo_ea_mediates(sK57,sK0(sK57))).
+
+cnf(u4210,axiom,
+    gufo_i_Individual(sK90(X0)) | ~gufo_i_Aspect(X0) | gufo_ia_ExtrinsicAspect(X0)).
+
+cnf(u2214,axiom,
+    gufo_t_ConcreteIndividualType(sK149)).
+
+cnf(u1661,axiom,
+    ~gufo_e_participatedIn(X1,X0) | owl_Thing(X0)).
+
+cnf(u2132,axiom,
+    owl_Thing(sK109)).
+
+cnf(u3554,axiom,
+    owl_Thing(sK90(sK38))).
+
+cnf(u1907,axiom,
+    owl_Thing(sK92)).
+
+cnf(u2316,axiom,
+    gufo_i_Type(sK20)).
+
+cnf(u1965,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u2354,axiom,
+    gufo_i_Individual(sK40)).
+
+cnf(u2236,axiom,
+    gufo_et_RigidType(sK151)).
+
+cnf(u1687,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u2146,axiom,
+    owl_Thing(sK21)).
+
+cnf(u3771,axiom,
+    ~gufo_i_Object(sK57)).
+
+cnf(u3463,axiom,
+    gufo_i_ConcreteIndividual(sK131(sK130))).
+
+cnf(u1991,axiom,
+    ~gufo_et_RigidType(X0) | owl_Thing(X0)).
+
+cnf(u3374,axiom,
+    ~gufo_i_Individual(sK62)).
+
+cnf(u2339,axiom,
+    gufo_i_ConcreteIndividual(sK50)).
+
+cnf(u3257,axiom,
+    gufo_i_Individual(sK2)).
+
+cnf(u2122,axiom,
+    owl_Thing(sK75)).
+
+cnf(u3066,axiom,
+    gufo_i_isProperPartOf(sK15,sK16)).
+
+cnf(u2168,axiom,
+    owl_Thing(sK87)).
+
+cnf(u3037,axiom,
+    gufo_i_ConcreteIndividual(sK1(sK135))).
+
+cnf(u1918,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | gufo_s_concernsConstitutedEndurant(X0,sK95(X0))).
+
+cnf(u2352,axiom,
+    ~gufo_et_NonRigidType(sK112)).
+
+cnf(u2315,axiom,
+    gufo_i_Type(sK19)).
+
+cnf(u2836,axiom,
+    ~gufo_i_Endurant(sK79)).
+
+cnf(u1660,axiom,
+    ~gufo_o_isSubCollectionOf(X0,X1) | gufo_o_Collection(X0)).
+
+cnf(u1710,axiom,
+    ~gufo_ia_inheresIn(X1,X0) | ~gufo_ia_inheresIn(X0,X1)).
+
+cnf(u2144,axiom,
+    owl_Thing(sK54)).
+
+cnf(u1988,axiom,
+    ~rdfs_Literal(X0) | ~owl_Thing(X0)).
+
+cnf(u2665,axiom,
+    gufo_i_Endurant(sK0(sK57))).
+
+cnf(u2526,axiom,
+    owl_Thing(sK45)).
+
+cnf(u1658,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,X1) | gufo_i_Object(X0)).
+
+cnf(u1936,axiom,
+    ~gufo_t_SituationType(X0) | ~gufo_t_EventType(X0)).
+
+cnf(u2337,axiom,
+    gufo_i_ConcreteIndividual(sK55)).
+
+cnf(u3350,axiom,
+    gufo_i_Individual(sK78)).
+
+cnf(u3142,axiom,
+    ~gufo_ea_mediates(sK1(sK135),sK135)).
+
+cnf(u2628,axiom,
+    ~gufo_i_Endurant(sK2)).
+
+cnf(u1728,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | gufo_i_Situation(X0)).
+
+cnf(u2641,axiom,
+    owl_Thing(sK78)).
+
+cnf(u2945,axiom,
+    gufo_ea_externallyDependsOn(sK130,sK131(sK130))).
+
+cnf(u2502,axiom,
+    owl_Thing(sK126)).
+
+cnf(u2367,axiom,
+    ~gufo_t_RelationshipType(X0) | ~gufo_t_EndurantType(X0)).
+
+cnf(u2548,axiom,
+    ~gufo_i_Endurant(sK35)).
+
+cnf(u1797,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X0,X1) | gufo_s_QualityValueAttributionSituation(X1)).
+
+cnf(u1683,axiom,
+    ~gufo_s_standsIn(X0,X1) | owl_Thing(X0)).
+
+cnf(u2524,axiom,
+    gufo_i_Situation(sK116)).
+
+cnf(u1741,axiom,
+    ~gufo_o_isSubQuantityOf(X0,X1) | gufo_o_isObjectProperPartOf(X0,X1)).
+
+cnf(u2229,axiom,
+    gufo_i_Endurant(sK36)).
+
+cnf(u1647,axiom,
+    gufo_t_RelationshipType(sK19)).
+
+cnf(u1987,axiom,
+    ~gufo_rt_ComparativeRelationshipType(X0) | owl_Thing(X0)).
+
+cnf(u1689,axiom,
+    gufo_ho_categorizes(sK29,sK30)).
+
+cnf(u1951,axiom,
+    ~gufo_s_concernsTemporaryWhole(X2,X0) | X0 = X1 | ~gufo_s_concernsTemporaryWhole(X2,X1)).
+
+cnf(u2434,axiom,
+    gufo_i_Type(sK29)).
+
+cnf(u2533,axiom,
+    gufo_i_Endurant(sK42)).
+
+cnf(u3372,axiom,
+    ~gufo_i_Individual(sK48)).
+
+cnf(u3856,axiom,
+    gufo_i_Individual(sK131(sK130))).
+
+cnf(u2664,axiom,
+    gufo_ea_Relator(sK57)).
+
+cnf(u2115,axiom,
+    owl_Thing(sK52)).
+
+cnf(u3164,axiom,
+    gufo_i_Endurant(sK23)).
+
+cnf(u2538,axiom,
+    gufo_i_Situation(sK110)).
+
+cnf(u2509,axiom,
+    gufo_i_Endurant(sK122)).
+
+cnf(u2456,axiom,
+    gufo_i_Situation(sK60)).
+
+cnf(u2248,axiom,
+    gufo_i_Aspect(sK7)).
+
+cnf(u2137,axiom,
+    gufo_i_Object(sK69)).
+
+cnf(u1998,axiom,
+    ~gufo_e_isEventProperPartOf(X0,X2) | ~gufo_e_isEventProperPartOf(X1,X0) | gufo_e_isEventProperPartOf(X1,X2)).
+
+cnf(u2523,axiom,
+    owl_Thing(sK116)).
+
+cnf(u1896,axiom,
+    ~gufo_ia_isAspectProperPartOf(X0,X2) | ~gufo_ia_isAspectProperPartOf(X2,X1) | gufo_ia_isAspectProperPartOf(X0,X1)).
+
+cnf(u1946,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | gufo_s_concernsNonRigidType(X0,sK103(X0))).
+
+cnf(u2638,axiom,
+    ~gufo_i_Object(sK41)).
+
+cnf(u1688,axiom,
+    gufo_s_standsInQualifiedRelationship(sK27,sK28)).
+
+cnf(u2167,axiom,
+    ~gufo_et_Category(X0) | gufo_t_EndurantType(X0)).
+
+cnf(u1738,axiom,
+    ~gufo_ia_inheresIn(X1,X0) | gufo_i_Aspect(X1)).
+
+cnf(u3892,axiom,
+    gufo_i_ConcreteIndividual(sK95(sK114))).
+
+cnf(u1701,axiom,
+    ~gufo_e_historicallyDependsOn(X1,X0) | owl_Thing(X1)).
+
+cnf(u2742,axiom,
+    gufo_t_RelationshipType(sK31)).
+
+cnf(u2828,axiom,
+    ~gufo_t_ConcreteIndividualType(sK49)).
+
+cnf(u2005,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | gufo_s_standsInQualifiedInstantiation(sK124(X0),X0)).
+
+cnf(u1649,axiom,
+    ~gufo_s_standsIn(X1,X0) | owl_Thing(X0)).
+
+cnf(u2447,axiom,
+    owl_Thing(sK142)).
+
+cnf(u1911,axiom,
+    gufo_i_ConcreteIndividual(X0) | gufo_i_AbstractIndividual(X0) | ~gufo_i_Individual(X0)).
+
+cnf(u3268,axiom,
+    gufo_i_ConcreteIndividual(sK132(X0)) | ~gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u3157,axiom,
+    gufo_s_standsIn(sK39(sK11),sK11)).
+
+cnf(u4116,axiom,
+    owl_Thing(sK72(sK104))).
+
+cnf(u2829,axiom,
+    gufo_i_Type(sK49)).
+
+cnf(u3461,axiom,
+    gufo_i_Individual(sK22)).
+
+cnf(u4174,axiom,
+    owl_Thing(sK90(X0)) | gufo_ia_ExtrinsicAspect(X0) | ~gufo_i_Aspect(X0)).
+
+cnf(u2864,axiom,
+    gufo_ea_mediates(sK135,sK0(sK135))).
+
+cnf(u2827,axiom,
+    ~gufo_t_RelationshipType(sK49)).
+
+cnf(u3171,axiom,
+    owl_Thing(sK72(sK130))).
+
+cnf(u3873,axiom,
+    gufo_i_Individual(sK64)).
+
+cnf(u3475,axiom,
+    gufo_i_ConcreteIndividual(sK16)).
+
+cnf(u2656,axiom,
+    owl_Thing(sK72(X0)) | ~gufo_ea_ExtrinsicMode(X0)).
+
+cnf(u1906,axiom,
+    ~gufo_o_FixedCollection(X0) | owl_Thing(X0)).
+
+cnf(u1750,axiom,
+    gufo_o_FixedCollection(sK51)).
+
+cnf(u1964,axiom,
+    ~gufo_o_isObjectProperPartOf(X1,X2) | gufo_o_isObjectProperPartOf(X0,X2) | ~gufo_o_isObjectProperPartOf(X0,X1)).
+
+cnf(u2238,axiom,
+    gufo_i_ConcreteIndividual(sK143)).
+
+cnf(u3147,axiom,
+    ~gufo_ea_mediates(sK0(sK135),sK135)).
+
+cnf(u1698,axiom,
+    gufo_o_Quantity(sK36)).
+
+cnf(u1756,axiom,
+    ~gufo_t_ConcreteIndividualType(X0) | owl_Thing(X0)).
+
+cnf(u2129,axiom,
+    owl_Thing(sK51)).
+
+cnf(u2247,axiom,
+    gufo_i_Aspect(sK52)).
+
+cnf(u3362,axiom,
+    gufo_i_ConcreteIndividual(sK28)).
+
+cnf(u2879,axiom,
+    gufo_i_ConcreteIndividual(sK22)).
+
+cnf(u1659,axiom,
+    ~gufo_s_concernsQualityType(X1,X0) | gufo_s_QualityValueAttributionSituation(X1)).
+
+cnf(u1913,axiom,
+    gufo_ia_Quality(X0) | ~gufo_ia_IntrinsicAspect(X0) | gufo_ia_IntrinsicMode(X0)).
+
+cnf(u3384,axiom,
+    gufo_i_ConcreteIndividual(sK1(sK57))).
+
+cnf(u2629,axiom,
+    gufo_i_ConcreteIndividual(sK2)).
+
+cnf(u1963,axiom,
+    ~gufo_e_Participation(X0) | gufo_i_Event(X0)).
+
+cnf(u1729,axiom,
+    ~gufo_s_concernsRelationshipType(X1,X0) | gufo_s_TemporaryRelationshipSituation(X1)).
+
+cnf(u3884,axiom,
+    gufo_i_Individual(sK65)).
+
+cnf(u3176,axiom,
+    ~gufo_ia_inheresIn(sK90(sK52),sK52)).
+
+cnf(u2962,axiom,
+    ~gufo_s_concernsQualityType(sK63,X0) | sK62 = X0).
+
+cnf(u3061,axiom,
+    gufo_i_Individual(sK89)).
+
+cnf(u2754,axiom,
+    owl_Thing(sK127)).
+
+cnf(u2968,axiom,
+    ~gufo_i_Endurant(sK63)).
+
+cnf(u2874,axiom,
+    gufo_i_ConcreteIndividual(sK93)).
+
+cnf(u2731,axiom,
+    gufo_qa_QualityValue(sK119)).
+
+cnf(u2666,axiom,
+    gufo_i_Endurant(sK1(sK57))).
+
+cnf(u1796,axiom,
+    ~gufo_rt_isDerivedFrom(X0,X1) | owl_Thing(X1)).
+
+cnf(u3649,axiom,
+    gufo_s_standsIn(sK132(sK60),sK60)).
+
+cnf(u2334,axiom,
+    owl_Thing(sK143)).
+
+cnf(u1716,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | gufo_s_standsInQualifiedParthood(sK39(X0),X0)).
+
+cnf(u1986,axiom,
+    ~gufo_o_isSubCollectionOf(X1,X0) | gufo_o_isObjectProperPartOf(X1,X0)).
+
+cnf(u2969,axiom,
+    gufo_i_ConcreteIndividual(sK63)).
+
+cnf(u3880,axiom,
+    gufo_i_Individual(sK90(sK38))).
+
+cnf(u1992,axiom,
+    gufo_qa_hasReifiedQualityValue(sK118,sK119)).
+
+cnf(u3166,axiom,
+    ~gufo_ia_inheresIn(sK130,X0) | sK72(sK130) = X0).
+
+cnf(u2356,axiom,
+    ~gufo_et_Kind(X0) | ~gufo_et_NonSortal(X0)).
+
+cnf(u3570,axiom,
+    gufo_i_Endurant(sK95(sK60))).
+
+cnf(u2655,axiom,
+    gufo_i_Individual(sK72(X0)) | ~gufo_ea_ExtrinsicMode(X0)).
+
+cnf(u2230,axiom,
+    ~gufo_o_Collection(sK136)).
+
+cnf(u3046,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,sK22) | gufo_o_isObjectProperPartOf(X0,sK23)).
+
+cnf(u2148,axiom,
+    owl_Thing(sK145)).
+
+cnf(u2959,axiom,
+    ~gufo_s_concernsRelationshipType(sK32,X0) | sK31 = X0).
+
+cnf(u1795,axiom,
+    gufo_o_isSubCollectionOf(sK64,sK65)).
+
+cnf(u2332,axiom,
+    ~gufo_i_ConcreteIndividual(sK10)).
+
+cnf(u1981,axiom,
+    ~gufo_rt_MaterialRelationshipType(X0) | owl_Thing(X0)).
+
+cnf(u1739,axiom,
+    ~gufo_o_isComponentOf(X0,X1) | owl_Thing(X0)).
+
+cnf(u1993,axiom,
+    ~gufo_ia_isAspectProperPartOf(X0,X1) | owl_Thing(X0)).
+
+cnf(u2124,axiom,
+    gufo_et_AntiRigidType(sK21)).
+
+cnf(u1703,axiom,
+    ~gufo_i_Aspect(X0) | ~gufo_i_Object(X0)).
+
+cnf(u2162,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK143)).
+
+cnf(u2346,axiom,
+    gufo_t_EndurantType(sK102)).
+
+cnf(u2317,axiom,
+    gufo_i_Type(sK58)).
+
+cnf(u2138,axiom,
+    owl_Thing(sK7)).
+
+cnf(u2056,axiom,
+    ~gufo_e_manifestedIn(X0,X1) | owl_Thing(X1)).
+
+cnf(u1806,axiom,
+    ~gufo_o_isSubQuantityOf(X1,X0) | gufo_o_Quantity(X1)).
+
+cnf(u2331,axiom,
+    gufo_i_Individual(sK10)).
+
+cnf(u3175,axiom,
+    ~gufo_ia_inheresIn(sK52,X0) | sK90(sK52) = X0).
+
+cnf(u1726,axiom,
+    gufo_i_isProperPartOf(sK45,sK44)).
+
+cnf(u2004,axiom,
+    gufo_o_isObjectProperPartOf(sK122,sK123)).
+
+cnf(u4119,axiom,
+    gufo_i_Individual(sK72(sK104))).
+
+cnf(u3677,axiom,
+    ~gufo_s_concernsTemporaryWhole(sK116,X0) | sK133(sK116) = X0).
+
+cnf(u2542,axiom,
+    owl_Thing(sK107)).
+
+cnf(u1952,axiom,
+    gufo_e_wasCreatedIn(sK106,sK105)).
+
+cnf(u2353,axiom,
+    ~gufo_et_NonRigidType(sK151)).
+
+cnf(u3682,axiom,
+    sK126 = sK133(sK127)).
+
+cnf(u2759,axiom,
+    owl_Thing(sK111)).
+
+cnf(u2644,axiom,
+    gufo_i_Object(sK15)).
+
+cnf(u1744,axiom,
+    ~gufo_et_NonRigidType(X0) | gufo_t_EndurantType(X0)).
+
+cnf(u3366,axiom,
+    ~gufo_i_Individual(sK25)).
+
+cnf(u3158,axiom,
+    owl_Thing(sK39(sK11))).
+
+cnf(u2518,axiom,
+    gufo_i_Aspect(sK42)).
+
+cnf(u2961,axiom,
+    ~gufo_s_concernsRelationshipType(X0,X1) | sK70(X0) = X1).
+
+cnf(u2436,axiom,
+    owl_Thing(sK77)).
+
+cnf(u1813,axiom,
+    ~gufo_et_PhaseMixin(X0) | gufo_et_NonSortal(X0)).
+
+cnf(u1699,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | owl_Thing(X0)).
+
+cnf(u2540,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK110)).
+
+cnf(u1757,axiom,
+    gufo_i_Object(sK55)).
+
+cnf(u1663,axiom,
+    ~gufo_s_standsInQualifiedParthood(X0,X1) | gufo_s_TemporaryParthoodSituation(X1)).
+
+cnf(u2117,axiom,
+    ~gufo_et_AntiRigidType(sK75)).
+
+cnf(u2003,axiom,
+    ~gufo_t_RelationshipType(X0) | gufo_i_Type(X0)).
+
+cnf(u1705,axiom,
+    ~gufo_e_wasTerminatedIn(X1,X0) | gufo_i_Endurant(X1)).
+
+cnf(u2549,axiom,
+    ~gufo_i_Situation(sK35)).
+
+cnf(u2450,axiom,
+    gufo_s_TemporaryConstitutionSituation(sK60)).
+
+cnf(u1967,axiom,
+    ~gufo_et_SemiRigidType(X0) | gufo_et_NonRigidType(X0)).
+
+cnf(u3388,axiom,
+    gufo_i_ConcreteIndividual(sK69)).
+
+cnf(u3664,axiom,
+    gufo_i_Endurant(sK132(sK114))).
+
+cnf(u2680,axiom,
+    ~gufo_i_Individual(sK20)).
+
+cnf(u2242,axiom,
+    gufo_et_Sortal(sK21)).
+
+cnf(u2131,axiom,
+    owl_Thing(sK86)).
+
+cnf(u3180,axiom,
+    owl_Thing(sK90(sK52))).
+
+cnf(u2554,axiom,
+    gufo_i_ConcreteIndividual(sK89)).
+
+cnf(u2525,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK116)).
+
+cnf(u2472,axiom,
+    gufo_i_Individual(sK143)).
+
+cnf(u2435,axiom,
+    gufo_ia_ExtrinsicAspect(sK77)).
+
+cnf(u3137,axiom,
+    gufo_i_Type(sK144)).
+
+cnf(u2539,axiom,
+    ~gufo_s_TemporaryParthoodSituation(sK110)).
+
+cnf(u2235,axiom,
+    owl_Thing(sK43)).
+
+cnf(u2264,axiom,
+    owl_Thing(sK91)).
+
+cnf(u2153,axiom,
+    gufo_et_AntiRigidType(sK125)).
+
+cnf(u2448,axiom,
+    owl_Thing(sK120)).
+
+cnf(u2014,axiom,
+    ~gufo_ia_Quality(X0) | ~gufo_ia_IntrinsicMode(X0)).
+
+cnf(u2457,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(sK60)).
+
+cnf(u1912,axiom,
+    ~gufo_rt_MaterialRelationshipType(X0) | gufo_t_RelationshipType(X0)).
+
+cnf(u2761,axiom,
+    gufo_s_TemporaryInstantiationSituation(sK107)).
+
+cnf(u1962,axiom,
+    gufo_s_standsInQualifiedInstantiation(sK111,sK110)).
+
+cnf(u2240,axiom,
+    owl_Thing(sK10)).
+
+cnf(u2654,axiom,
+    gufo_s_TemporaryConstitutionSituation(sK114)).
+
+cnf(u1704,axiom,
+    ~gufo_s_concernsNonRigidType(X1,X0) | owl_Thing(X1)).
+
+cnf(u2055,axiom,
+    gufo_e_isEventProperPartOf(sK137,sK138)).
+
+cnf(u1754,axiom,
+    ~gufo_s_standsInQualifiedParthood(X0,X1) | gufo_i_Endurant(X0)).
+
+cnf(u2433,axiom,
+    owl_Thing(sK29)).
+
+cnf(u3167,axiom,
+    ~gufo_ia_inheresIn(sK72(sK130),sK130)).
+
+cnf(u2487,axiom,
+    gufo_t_EndurantType(sK108)).
+
+cnf(u2630,axiom,
+    gufo_i_Individual(sK141)).
+
+cnf(u3976,axiom,
+    gufo_i_Individual(sK57)).
+
+cnf(u3700,axiom,
+    ~gufo_i_Individual(sK75)).
+
+cnf(u2463,axiom,
+    gufo_i_ConcreteIndividual(sK56)).
+
+cnf(u2021,axiom,
+    owl_Thing(sK129)).
+
+cnf(u2627,axiom,
+    owl_Thing(sK2)).
+
+cnf(u1799,axiom,
+    ~gufo_s_isSituationProperPartOf(X0,X1) | gufo_i_Situation(X1)).
+
+cnf(u2869,axiom,
+    gufo_e_participatedIn(sK18(sK71),sK71)).
+
+cnf(u1969,axiom,
+    ~time_Instant(X0) | gufo_i_AbstractIndividual(X0)).
+
+cnf(u1743,axiom,
+    gufo_i_Event(sK50)).
+
+cnf(u3882,axiom,
+    gufo_i_ConcreteIndividual(sK95(sK60))).
+
+cnf(u3284,axiom,
+    gufo_i_ConcreteIndividual(sK114)).
+
+cnf(u2562,axiom,
+    ~gufo_i_Situation(sK137)).
+
+cnf(u2845,axiom,
+    gufo_i_Individual(sK27)).
+
+cnf(u3491,axiom,
+    gufo_i_Individual(sK116)).
+
+cnf(u2672,axiom,
+    gufo_i_Endurant(sK34)).
+
+cnf(u1794,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u1766,axiom,
+    ~gufo_et_Category(X0) | owl_Thing(X0)).
+
+cnf(u1980,axiom,
+    ~gufo_t_EventType(X0) | owl_Thing(X0)).
+
+cnf(u2126,axiom,
+    gufo_et_RigidType(sK112)).
+
+cnf(u1714,axiom,
+    gufo_ia_Quality(sK38)).
+
+cnf(u3663,axiom,
+    gufo_s_standsIn(sK132(sK114),sK114)).
+
+cnf(u1772,axiom,
+    ~gufo_et_AntiRigidType(X0) | owl_Thing(X0)).
+
+cnf(u3467,axiom,
+    gufo_i_Individual(sK60)).
+
+cnf(u2145,axiom,
+    ~gufo_i_Object(sK150)).
+
+cnf(u3378,axiom,
+    ~gufo_i_Individual(sK102)).
+
+cnf(u2854,axiom,
+    gufo_s_TemporaryRelationshipSituation(sK28)).
+
+cnf(u3710,axiom,
+    ~gufo_i_Individual(sK144)).
+
+cnf(u3354,axiom,
+    gufo_i_ConcreteIndividual(sK127)).
+
+cnf(u1801,axiom,
+    ~gufo_s_concernsNonRigidType(X0,X1) | owl_Thing(X1)).
+
+cnf(u2645,axiom,
+    ~gufo_o_Collection(sK15)).
+
+cnf(u1979,axiom,
+    ~gufo_t_ConcreteIndividualType(X0) | ~gufo_t_RelationshipType(X0)).
+
+cnf(u1745,axiom,
+    ~gufo_o_isCollectionMemberOf(X0,X1) | owl_Thing(X0)).
+
+cnf(u2978,axiom,
+    ~gufo_s_concernsNonRigidType(sK107,X0) | sK108 = X0).
+
+cnf(u2949,axiom,
+    gufo_s_standsInQualifiedConstitution(sK132(sK143),sK143)).
+
+cnf(u3376,axiom,
+    ~gufo_i_Individual(sK86)).
+
+cnf(u2770,axiom,
+    gufo_i_ConcreteIndividual(sK88)).
+
+cnf(u2984,axiom,
+    ~gufo_o_isSubCollectionOf(X0,sK64) | gufo_o_isSubCollectionOf(X0,sK65)).
+
+cnf(u3385,axiom,
+    owl_Thing(sK1(sK57))).
+
+cnf(u3901,axiom,
+    gufo_i_ConcreteIndividual(sK124(sK107))).
+
+cnf(u2747,axiom,
+    gufo_i_ConcreteIndividual(sK80)).
+
+cnf(u3899,axiom,
+    gufo_t_EndurantType(sK103(sK110))).
+
+cnf(u3665,axiom,
+    owl_Thing(sK132(sK114))).
+
+cnf(u2682,axiom,
+    owl_Thing(sK99)).
+
+cnf(u1812,axiom,
+    ~gufo_rt_ComparativeRelationshipType(X0) | gufo_t_RelationshipType(X0)).
+
+cnf(u3361,axiom,
+    ~gufo_i_Endurant(sK28)).
+
+cnf(u1862,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,X1) | gufo_i_isProperPartOf(X0,X1)).
+
+cnf(u2752,axiom,
+    gufo_i_Type(sK31)).
+
+cnf(u2350,axiom,
+    gufo_i_Aspect(sK135)).
+
+cnf(u1604,axiom,
+    ~gufo_ia_inheresIn(X1,X0) | owl_Thing(X1)).
+
+cnf(u2002,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X0,X1) | owl_Thing(X0)).
+
+cnf(u2985,axiom,
+    ~gufo_s_concernsTemporaryWhole(sK127,X0) | sK126 = X0).
+
+cnf(u2567,axiom,
+    owl_Thing(sK82)).
+
+cnf(u3391,axiom,
+    gufo_i_Individual(sK1(sK135))).
+
+cnf(u2008,axiom,
+    gufo_et_PhaseMixin(sK125)).
+
+cnf(u1869,axiom,
+    gufo_et_RigidType(X0) | gufo_et_NonRigidType(X0) | ~gufo_t_EndurantType(X0)).
+
+cnf(u3458,axiom,
+    ~gufo_i_Object(sK77)).
+
+cnf(u2118,axiom,
+    owl_Thing(sK19)).
+
+cnf(u1565,axiom,
+    ~gufo_e_historicallyDependsOn(X0,X1) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u2164,axiom,
+    gufo_ia_IntrinsicAspect(sK7)).
+
+cnf(u2975,axiom,
+    ~gufo_i_Endurant(sK116)).
+
+cnf(u1811,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X1,X0) | owl_Thing(X0)).
+
+cnf(u2348,axiom,
+    gufo_i_Aspect(sK104)).
+
+cnf(u2009,axiom,
+    ~gufo_qa_hasAssociatedQualityValueType(X1,X0) | owl_Thing(X1)).
+
+cnf(u1755,axiom,
+    gufo_s_TemporaryRelationshipSituation(sK54)).
+
+cnf(u2357,axiom,
+    ~gufo_et_NonSortal(sK21)).
+
+cnf(u2255,axiom,
+    gufo_t_ConcreteIndividualType(sK91)).
+
+cnf(u2140,axiom,
+    ~gufo_o_FixedCollection(sK69)).
+
+cnf(u1719,axiom,
+    ~gufo_e_broughtAbout(X0,X1) | gufo_i_Event(X0)).
+
+cnf(u2050,axiom,
+    gufo_i_Type(sK134)).
+
+cnf(u2333,axiom,
+    owl_Thing(sK11)).
+
+cnf(u4172,axiom,
+    gufo_i_ConcreteIndividual(sK90(X0)) | ~gufo_i_Aspect(X0) | gufo_ia_ExtrinsicAspect(X0)).
+
+cnf(u2154,axiom,
+    ~gufo_i_Endurant(sK54)).
+
+cnf(u2637,axiom,
+    gufo_i_Endurant(sK41)).
+
+cnf(u2072,axiom,
+    gufo_ia_inheresIn(sK142,sK141)).
+
+cnf(u3465,axiom,
+    gufo_i_ConcreteIndividual(sK132(sK143))).
+
+cnf(u1822,axiom,
+    ~gufo_ea_ExtrinsicMode(X0) | gufo_ia_inheresIn(X0,sK72(X0))).
+
+cnf(u2048,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | gufo_s_concernsTemporaryWhole(X0,sK133(X0))).
+
+cnf(u1614,axiom,
+    ~gufo_ea_mediates(X0,X0)).
+
+cnf(u2020,axiom,
+    ~gufo_ea_Relator(X0) | owl_Thing(X0)).
+
+cnf(u1968,axiom,
+    gufo_et_SemiRigidType(X0) | ~gufo_et_NonRigidType(X0) | gufo_et_AntiRigidType(X0)).
+
+cnf(u2569,axiom,
+    ~gufo_i_Situation(sK82)).
+
+cnf(u2558,axiom,
+    owl_Thing(sK65)).
+
+cnf(u2868,axiom,
+    gufo_s_standsIn(sK115,sK114)).
+
+cnf(u2019,axiom,
+    rdfs_Literal(X0) | owl_Thing(X0)).
+
+cnf(u2775,axiom,
+    owl_Thing(sK30)).
+
+cnf(u2660,axiom,
+    gufo_i_Situation(sK114)).
+
+cnf(u1760,axiom,
+    ~gufo_qa_hasReifiedQualityValue(X1,X0) | owl_Thing(X1)).
+
+cnf(u3698,axiom,
+    ~gufo_i_Individual(sK68)).
+
+cnf(u3382,axiom,
+    gufo_i_ConcreteIndividual(sK0(sK57))).
+
+cnf(u2534,axiom,
+    ~gufo_i_Object(sK42)).
+
+cnf(u2977,axiom,
+    ~gufo_i_isProperPartOf(sK44,X0) | gufo_i_isProperPartOf(sK45,X0)).
+
+cnf(u2452,axiom,
+    owl_Thing(sK22)).
+
+cnf(u1829,axiom,
+    ~gufo_o_FunctionalComplex(X0) | gufo_i_Object(X0)).
+
+cnf(u1715,axiom,
+    gufo_i_Endurant(sK39(X0)) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u2636,axiom,
+    owl_Thing(sK41)).
+
+cnf(u1773,axiom,
+    ~gufo_i_Object(X0) | gufo_i_Endurant(X0)).
+
+cnf(u2244,axiom,
+    owl_Thing(sK4)).
+
+cnf(u2133,axiom,
+    gufo_et_AntiRigidType(sK139)).
+
+cnf(u1721,axiom,
+    ~gufo_o_isComponentOf(X1,X0) | gufo_i_Object(X1)).
+
+cnf(u2556,axiom,
+    gufo_i_Event(sK137)).
+
+cnf(u2437,axiom,
+    ~gufo_ho_categorizes(sK109,X0)).
+
+cnf(u2466,axiom,
+    gufo_i_ConcreteIndividual(sK101)).
+
+cnf(u1983,axiom,
+    gufo_s_standsInQualifiedConstitution(sK115,sK114)).
+
+cnf(u2568,axiom,
+    ~gufo_i_Endurant(sK82)).
+
+cnf(u2237,axiom,
+    ~gufo_i_Endurant(sK143)).
+
+cnf(u2258,axiom,
+    owl_Thing(sK53)).
+
+cnf(u2147,axiom,
+    ~gufo_et_Phase(sK139)).
+
+cnf(u3196,axiom,
+    ~gufo_s_concernsNonRigidType(sK113,X0) | sK103(sK113) = X0).
+
+cnf(u2442,axiom,
+    ~gufo_t_EndurantType(sK29)).
+
+cnf(u2541,axiom,
+    owl_Thing(sK110)).
+
+cnf(u2488,axiom,
+    owl_Thing(sK108)).
+
+cnf(u2451,axiom,
+    gufo_i_Object(sK123)).
+
+cnf(u3779,axiom,
+    ~gufo_i_Individual(sK103(X0)) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u2280,axiom,
+    ~gufo_t_RelationshipType(sK109)).
+
+cnf(u2123,axiom,
+    owl_Thing(sK112)).
+
+cnf(u1574,axiom,
+    ~gufo_et_PhaseMixin(X0) | owl_Thing(X0)).
+
+cnf(u2169,axiom,
+    ~gufo_ia_ExtrinsicAspect(sK7)).
+
+cnf(u3693,axiom,
+    ~gufo_i_Individual(sK47)).
+
+cnf(u2464,axiom,
+    owl_Thing(sK56)).
+
+cnf(u2555,axiom,
+    owl_Thing(sK89)).
+
+cnf(u1800,axiom,
+    ~gufo_ia_inheresIn(X1,X0) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u3903,axiom,
+    gufo_i_ConcreteIndividual(sK131(sK77))).
+
+cnf(u2777,axiom,
+    gufo_i_Endurant(sK130)).
+
+cnf(u2256,axiom,
+    ~gufo_i_Object(sK52)).
+
+cnf(u1770,axiom,
+    ~gufo_o_isComponentOf(X0,X1) | gufo_o_isObjectProperPartOf(X0,X1)).
+
+cnf(u1720,axiom,
+    ~gufo_s_QualityValueAttributionSituation(X0) | owl_Thing(X0)).
+
+cnf(u2071,axiom,
+    ~gufo_et_Sortal(X0) | ~gufo_et_NonSortal(X0)).
+
+cnf(u2670,axiom,
+    gufo_i_Object(sK34)).
+
+cnf(u2449,axiom,
+    gufo_i_Object(sK22)).
+
+cnf(u3183,axiom,
+    gufo_i_Endurant(sK95(sK143))).
+
+cnf(u2753,axiom,
+    owl_Thing(sK31)).
+
+cnf(u1605,axiom,
+    ~gufo_o_isComponentOf(X1,X0) | owl_Thing(X0)).
+
+cnf(u2646,axiom,
+    owl_Thing(sK28)).
+
+cnf(u2860,axiom,
+    ~gufo_s_TemporaryParthoodSituation(sK28)).
+
+cnf(u2479,axiom,
+    gufo_i_Object(sK16)).
+
+cnf(u2037,axiom,
+    ~gufo_t_EventType(X0) | ~gufo_t_EndurantType(X0)).
+
+cnf(u1815,axiom,
+    ~gufo_qa_hasEndPoint(X1,X0) | gufo_i_ConcreteIndividual(X1)).
+
+cnf(u2643,axiom,
+    ~gufo_o_FunctionalComplex(sK15)).
+
+cnf(u1857,axiom,
+    ~gufo_e_manifestedIn(X1,X0) | gufo_i_Aspect(X1)).
+
+cnf(u1759,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u2578,axiom,
+    gufo_i_ConcreteIndividual(sK46(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2947,axiom,
+    gufo_i_Individual(sK98)).
+
+cnf(u2861,axiom,
+    gufo_i_Situation(sK28)).
+
+cnf(u3493,axiom,
+    ~gufo_ea_mediates(sK1(sK57),sK57)).
+
+cnf(u2859,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK28)).
+
+cnf(u3075,axiom,
+    gufo_i_isProperPartOf(sK121,sK120)).
+
+cnf(u3469,axiom,
+    gufo_i_Individual(sK123)).
+
+cnf(u2560,axiom,
+    owl_Thing(sK137)).
+
+cnf(u1810,axiom,
+    ~gufo_ea_externallyDependsOn(X1,X0) | owl_Thing(X0)).
+
+cnf(u2249,axiom,
+    gufo_i_Individual(sK53)).
+
+cnf(u1782,axiom,
+    time_Instant(sK59)).
+
+cnf(u1868,axiom,
+    ~gufo_et_RigidType(X0) | gufo_t_EndurantType(X0)).
+
+cnf(u2142,axiom,
+    ~gufo_i_Endurant(sK4)).
+
+cnf(u1602,axiom,
+    ~gufo_et_SemiRigidType(X0) | ~gufo_et_AntiRigidType(X0)).
+
+cnf(u1788,axiom,
+    gufo_s_concernsConstitutedEndurant(sK60,sK61)).
+
+cnf(u2958,axiom,
+    ~gufo_ia_inheresIn(sK142,X0) | sK141 = X0).
+
+cnf(u3483,axiom,
+    gufo_i_Individual(sK122)).
+
+cnf(u2279,axiom,
+    owl_Thing(sK135)).
+
+cnf(u4114,axiom,
+    gufo_i_ConcreteIndividual(sK72(sK104))).
+
+cnf(u2870,axiom,
+    gufo_o_isObjectProperPartOf(sK22,sK23)).
+
+cnf(u3702,axiom,
+    ~gufo_i_Individual(sK87)).
+
+cnf(u2063,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X0,X1) | gufo_i_Endurant(X0)).
+
+cnf(u1817,axiom,
+    gufo_t_RelationshipType(sK70(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u3370,axiom,
+    ~gufo_i_Individual(sK43)).
+
+cnf(u2661,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(sK114)).
+
+cnf(u1761,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u3162,axiom,
+    ~gufo_s_standsInQualifiedParthood(X0,sK11) | sK39(sK11) = X0).
+
+cnf(u3080,axiom,
+    gufo_i_Individual(sK137)).
+
+cnf(u2023,axiom,
+    gufo_ea_ExtrinsicMode(sK130)).
+
+cnf(u2994,axiom,
+    ~gufo_s_concernsReifiedQualityValue(sK93,X0) | sK94 = X0).
+
+cnf(u2965,axiom,
+    gufo_i_ConcreteIndividual(sK122)).
+
+cnf(u3000,axiom,
+    ~gufo_e_participatedIn(X1,sK71) | X0 = X1 | ~gufo_e_participatedIn(X0,sK71)).
+
+cnf(u3184,axiom,
+    owl_Thing(sK95(sK143))).
+
+cnf(u2635,axiom,
+    gufo_i_Aspect(sK41)).
+
+cnf(u4003,axiom,
+    gufo_i_Individual(sK39(sK127))).
+
+cnf(u2976,axiom,
+    gufo_i_ConcreteIndividual(sK116)).
+
+cnf(u1828,axiom,
+    ~gufo_o_isSubQuantityOf(X1,X0) | owl_Thing(X0)).
+
+cnf(u3283,axiom,
+    ~gufo_i_Endurant(sK114)).
+
+cnf(u1878,axiom,
+    ~gufo_ia_IntrinsicAspect(X0) | gufo_ia_inheresIn(X0,sK90(X0))).
+
+cnf(u3681,axiom,
+    gufo_i_Endurant(sK133(sK116))).
+
+cnf(u2366,axiom,
+    ~gufo_i_Object(sK104)).
+
+cnf(u1620,axiom,
+    ~gufo_ea_mediates(X0,X1) | gufo_i_Endurant(X1)).
+
+cnf(u2018,axiom,
+    ~gufo_s_concernsQualityType(X0,X1) | owl_Thing(X0)).
+
+cnf(u3001,axiom,
+    gufo_i_Individual(sK61)).
+
+cnf(u2583,axiom,
+    ~gufo_s_TemporaryParthoodSituation(sK32)).
+
+cnf(u1568,axiom,
+    ~gufo_o_Collection(X0) | owl_Thing(X0)).
+
+cnf(u2024,axiom,
+    ~gufo_ea_ExtrinsicMode(X0) | gufo_ea_externallyDependsOn(X0,sK131(X0))).
+
+cnf(u3198,axiom,
+    owl_Thing(sK103(sK113))).
+
+cnf(u4014,axiom,
+    gufo_i_Individual(sK95(sK114))).
+
+cnf(u2687,axiom,
+    time_Instant(sK148)).
+
+cnf(u2241,axiom,
+    gufo_t_EndurantType(sK151)).
+
+cnf(u2134,axiom,
+    owl_Thing(sK113)).
+
+cnf(u1581,axiom,
+    rdfs_Literal(sK5)).
+
+cnf(u3704,axiom,
+    ~gufo_i_Individual(sK108)).
+
+cnf(u3092,axiom,
+    ~gufo_i_isProperPartOf(sK42,X0) | gufo_i_isProperPartOf(sK41,X0)).
+
+cnf(u1827,axiom,
+    ~gufo_s_concernsRelationshipType(X0,X1) | owl_Thing(X0)).
+
+cnf(u2950,axiom,
+    gufo_s_standsInQualifiedConstitution(sK132(sK60),sK60)).
+
+cnf(u1885,axiom,
+    ~gufo_qa_hasEndPoint(X0,X1) | owl_Thing(X0)).
+
+cnf(u3266,axiom,
+    gufo_i_Endurant(sK15)).
+
+cnf(u2025,axiom,
+    gufo_i_ConcreteIndividual(sK131(X0)) | ~gufo_ea_ExtrinsicMode(X0)).
+
+cnf(u2271,axiom,
+    gufo_ia_ExtrinsicAspect(sK130)).
+
+cnf(u2156,axiom,
+    gufo_t_EndurantType(sK140)).
+
+cnf(u1607,axiom,
+    ~gufo_t_RelationshipType(X0) | owl_Thing(X0)).
+
+cnf(u2066,axiom,
+    gufo_et_Role(sK139)).
+
+cnf(u2349,axiom,
+    gufo_i_Aspect(sK130)).
+
+cnf(u2653,axiom,
+    owl_Thing(sK70(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2088,axiom,
+    ~gufo_et_Role(X0) | gufo_et_Sortal(X0)).
+
+cnf(u2986,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,sK122) | gufo_o_isObjectProperPartOf(X0,sK123)).
+
+cnf(u2957,axiom,
+    gufo_i_isProperPartOf(sK137,sK138)).
+
+cnf(u1838,axiom,
+    ~gufo_ia_inheresIn(X0,X0)).
+
+cnf(u2363,axiom,
+    gufo_i_Situation(sK113)).
+
+cnf(u2778,axiom,
+    ~gufo_i_Object(sK130)).
+
+cnf(u1580,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X0,X1) | gufo_i_Endurant(X0)).
+
+cnf(u1630,axiom,
+    ~gufo_e_Participation(X0) | gufo_i_Object(sK18(X0))).
+
+cnf(u2064,axiom,
+    ~gufo_et_RigidType(X0) | ~gufo_et_NonRigidType(X0)).
+
+cnf(u2036,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X0,X1) | owl_Thing(X0)).
+
+cnf(u3457,axiom,
+    gufo_i_Endurant(sK77)).
+
+cnf(u2585,axiom,
+    owl_Thing(sK32)).
+
+cnf(u1578,axiom,
+    gufo_s_isSituationProperPartOf(sK3,sK2)).
+
+cnf(u1856,axiom,
+    ~gufo_rt_MaterialRelationshipType(X0) | ~gufo_rt_ComparativeRelationshipType(X0)).
+
+cnf(u3487,axiom,
+    gufo_i_ConcreteIndividual(sK64)).
+
+cnf(u2993,axiom,
+    gufo_i_ConcreteIndividual(sK110)).
+
+cnf(u2791,axiom,
+    ~gufo_et_Category(sK21)).
+
+cnf(u2767,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK107)).
+
+cnf(u1776,axiom,
+    ~gufo_rt_isDerivedFrom(X0,X1) | owl_Thing(X0)).
+
+cnf(u2561,axiom,
+    ~gufo_i_Endurant(sK137)).
+
+cnf(u2652,axiom,
+    gufo_i_Type(sK70(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2550,axiom,
+    gufo_o_Collection(sK65)).
+
+cnf(u2468,axiom,
+    gufo_i_Individual(sK101)).
+
+cnf(u2444,axiom,
+    owl_Thing(sK93)).
+
+cnf(u1845,axiom,
+    ~gufo_t_SituationType(X0) | gufo_t_ConcreteIndividualType(X0)).
+
+cnf(u1603,axiom,
+    ~gufo_s_concernsReifiedQualityValue(X1,X0) | gufo_s_QualityValueAttributionSituation(X1)).
+
+cnf(u1789,axiom,
+    ~gufo_e_wasTerminatedIn(X1,X0) | owl_Thing(X1)).
+
+cnf(u2260,axiom,
+    owl_Thing(sK58)).
+
+cnf(u2149,axiom,
+    gufo_i_Type(sK6)).
+
+cnf(u1567,axiom,
+    ~gufo_ia_Quality(X0) | owl_Thing(X0)).
+
+cnf(u2035,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | owl_Thing(X0)).
+
+cnf(u1609,axiom,
+    gufo_e_manifestedIn(sK9,sK8)).
+
+cnf(u3784,axiom,
+    gufo_i_Individual(sK132(X0)) | ~gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u2482,axiom,
+    owl_Thing(sK98)).
+
+cnf(u2453,axiom,
+    gufo_i_Endurant(sK22)).
+
+cnf(u2125,axiom,
+    gufo_et_NonSortal(sK75)).
+
+cnf(u2584,axiom,
+    gufo_i_Situation(sK32)).
+
+cnf(u2163,axiom,
+    ~gufo_i_ConcreteIndividual(sK53)).
+
+cnf(u2458,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK60)).
+
+cnf(u2557,axiom,
+    gufo_i_Object(sK65)).
+
+cnf(u4151,axiom,
+    gufo_i_Type(sK26)).
+
+cnf(u2467,axiom,
+    gufo_i_Object(sK18(sK71))).
+
+cnf(u3287,axiom,
+    sK37(sK63) = sK62).
+
+cnf(u2250,axiom,
+    gufo_i_Individual(sK146)).
+
+cnf(u2139,axiom,
+    owl_Thing(sK68)).
+
+cnf(u2296,axiom,
+    gufo_i_Endurant(sK52)).
+
+cnf(u2057,axiom,
+    ~gufo_et_Sortal(X0) | gufo_t_EndurantType(X0)).
+
+cnf(u2480,axiom,
+    ~gufo_o_Collection(sK16)).
+
+cnf(u2046,axiom,
+    ~gufo_et_SubKind(X0) | owl_Thing(X0)).
+
+cnf(u2443,axiom,
+    gufo_i_Situation(sK93)).
+
+cnf(u1786,axiom,
+    ~gufo_s_concernsQualityType(X0,X2) | ~gufo_s_concernsQualityType(X0,X1) | X1 = X2).
+
+cnf(u2489,axiom,
+    gufo_i_Event(sK8)).
+
+cnf(u1866,axiom,
+    gufo_t_EndurantType(sK86)).
+
+cnf(u2272,axiom,
+    gufo_ia_ExtrinsicAspect(sK135)).
+
+cnf(u2161,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK11)).
+
+cnf(u1608,axiom,
+    gufo_ia_IntrinsicMode(sK7)).
+
+cnf(u2087,axiom,
+    gufo_t_SituationType(sK149)).
+
+cnf(u2686,axiom,
+    gufo_i_Aspect(sK9)).
+
+cnf(u2964,axiom,
+    ~gufo_s_concernsQualityType(X0,X1) | sK37(X0) = X1).
+
+cnf(u2391,axiom,
+    gufo_et_Sortal(sK139)).
+
+cnf(u4170,axiom,
+    ~gufo_ia_inheresIn(sK90(X0),X0) | gufo_ia_ExtrinsicAspect(X0) | ~gufo_i_Aspect(X0)).
+
+cnf(u2769,axiom,
+    gufo_i_Type(sK30)).
+
+cnf(u1621,axiom,
+    ~gufo_e_Participation(X0) | owl_Thing(X0)).
+
+cnf(u2662,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK114)).
+
+cnf(u3604,axiom,
+    sK108 = sK103(sK107)).
+
+cnf(u1569,axiom,
+    sK1(X0) != sK0(X0) | ~gufo_ea_Relator(X0)).
+
+cnf(u2495,axiom,
+    owl_Thing(sK8)).
+
+cnf(u1925,axiom,
+    gufo_e_contributedToTrigger(sK99,sK98)).
+
+cnf(u1775,axiom,
+    ~gufo_rt_isDerivedFrom(X1,X0) | gufo_rt_MaterialRelationshipType(X1) | gufo_rt_ComparativeRelationshipType(X1)).
+
+cnf(u1831,axiom,
+    ~gufo_o_isSubQuantityOf(X2,X1) | ~gufo_o_isSubQuantityOf(X0,X2) | gufo_o_isSubQuantityOf(X0,X1)).
+
+cnf(u1873,axiom,
+    gufo_i_Object(X0) | ~gufo_i_Endurant(X0) | gufo_i_Aspect(X0)).
+
+cnf(u3708,axiom,
+    ~gufo_i_Individual(sK125)).
+
+cnf(u2659,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(sK114)).
+
+cnf(u3270,axiom,
+    gufo_i_Individual(sK133(X0)) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u3706,axiom,
+    ~gufo_i_Individual(sK112)).
+
+cnf(u2792,axiom,
+    ~gufo_et_Category(sK151)).
+
+cnf(u2243,axiom,
+    owl_Thing(sK146)).
+
+cnf(u3776,axiom,
+    gufo_i_Individual(sK95(X0)) | ~gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u3485,axiom,
+    gufo_i_Individual(sK63)).
+
+cnf(u3395,axiom,
+    gufo_i_Type(sK139)).
+
+cnf(u1884,axiom,
+    ~gufo_s_concernsConstitutedEndurant(X1,X0) | owl_Thing(X1)).
+
+cnf(u1826,axiom,
+    ~gufo_et_RoleMixin(X0) | gufo_et_NonSortal(X0)).
+
+cnf(u1670,axiom,
+    gufo_o_isCollectionMemberOf(sK22,sK23)).
+
+cnf(u2265,axiom,
+    gufo_i_Type(sK91)).
+
+cnf(u2158,axiom,
+    owl_Thing(sK130)).
+
+cnf(u3789,axiom,
+    gufo_i_ConcreteIndividual(sK120)).
+
+cnf(u1618,axiom,
+    ~gufo_et_RoleMixin(X0) | ~gufo_et_PhaseMixin(X0)).
+
+cnf(u2887,axiom,
+    ~gufo_i_Endurant(sK60)).
+
+cnf(u1676,axiom,
+    gufo_i_Endurant(sK24(X0)) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u2766,axiom,
+    ~gufo_s_TemporaryParthoodSituation(sK107)).
+
+cnf(u2295,axiom,
+    gufo_i_Endurant(sK150)).
+
+cnf(u2052,axiom,
+    gufo_ea_Relator(sK135)).
+
+cnf(u4020,axiom,
+    gufo_i_Individual(sK124(sK107))).
+
+cnf(u3386,axiom,
+    gufo_i_ConcreteIndividual(sK51)).
+
+cnf(u1579,axiom,
+    gufo_i_Situation(sK4)).
+
+cnf(u3074,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,sK121) | gufo_o_isObjectProperPartOf(X0,sK120)).
+
+cnf(u2079,axiom,
+    ~gufo_s_concernsReifiedQualityValue(X2,X0) | ~gufo_s_concernsReifiedQualityValue(X2,X1) | X0 = X1).
+
+cnf(u1833,axiom,
+    ~gufo_e_participatedIn(X0,X1) | gufo_i_Object(X0)).
+
+cnf(u2956,axiom,
+    gufo_s_standsIn(sK24(X0),X0) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u1777,axiom,
+    gufo_rt_MaterialRelationshipType(sK58)).
+
+cnf(u3178,axiom,
+    gufo_i_ConcreteIndividual(sK90(sK52))).
+
+cnf(u3096,axiom,
+    gufo_i_isProperPartOf(sK64,sK65)).
+
+cnf(u3994,axiom,
+    ~gufo_i_Individual(sK103(sK113))).
+
+cnf(u2802,axiom,
+    owl_Thing(sK128(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2888,axiom,
+    gufo_i_ConcreteIndividual(sK60)).
+
+cnf(u2992,axiom,
+    ~gufo_i_Endurant(sK110)).
+
+cnf(u2586,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(sK32)).
+
+cnf(u1844,axiom,
+    ~gufo_ho_partitions(X0,X1) | gufo_ho_categorizes(X0,X1)).
+
+cnf(u2955,axiom,
+    gufo_s_standsIn(sK13,sK12)).
+
+cnf(u1894,axiom,
+    ~gufo_et_SubKind(X0) | gufo_et_RigidType(X0)).
+
+cnf(u4147,axiom,
+    gufo_t_RelationshipType(sK26)).
+
+cnf(u2784,axiom,
+    ~gufo_i_Endurant(sK99)).
+
+cnf(u1636,axiom,
+    ~gufo_i_constitutes(X0,X1) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u2034,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | owl_Thing(X0)).
+
+cnf(u2889,axiom,
+    ~gufo_ia_inheresIn(sK141,sK142)).
+
+cnf(u2599,axiom,
+    owl_Thing(sK117)).
+
+cnf(u1584,axiom,
+    ~gufo_i_Situation(X0) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u2358,axiom,
+    ~gufo_et_NonSortal(sK102)).
+
+cnf(u2040,axiom,
+    ~gufo_i_Event(X0) | gufo_i_ConcreteIndividual(X0)).
+
+cnf(u4030,axiom,
+    gufo_i_Individual(sK133(sK116))).
+
+cnf(u2575,axiom,
+    gufo_i_Endurant(sK121)).
+
+cnf(u2257,axiom,
+    gufo_i_Situation(sK11)).
+
+cnf(u2150,axiom,
+    gufo_i_Situation(sK54)).
+
+cnf(u1597,axiom,
+    ~gufo_ho_categorizes(X1,X0) | owl_Thing(X1)).
+
+cnf(u1843,axiom,
+    ~gufo_t_SituationType(X0) | owl_Thing(X0)).
+
+cnf(u3822,axiom,
+    ~gufo_i_Individual(sK139)).
+
+cnf(u1787,axiom,
+    ~gufo_o_VariableCollection(X0) | owl_Thing(X0)).
+
+cnf(u4182,axiom,
+    ~gufo_ia_inheresIn(X0,X1) | gufo_ia_ExtrinsicAspect(X0) | sK90(X0) = X1).
+
+cnf(u2041,axiom,
+    gufo_i_Situation(X0) | gufo_i_Endurant(X0) | ~gufo_i_ConcreteIndividual(X0) | gufo_i_Event(X0)).
+
+cnf(u2172,axiom,
+    ~gufo_ea_ExtrinsicMode(sK135)).
+
+cnf(u2082,axiom,
+    gufo_t_ConcreteIndividualType(X0) | ~gufo_t_EndurantType(X0)).
+
+cnf(u2757,axiom,
+    gufo_i_Endurant(sK111)).
+
+cnf(u2365,axiom,
+    gufo_i_Endurant(sK104)).
+
+cnf(u3304,axiom,
+    gufo_i_Individual(sK105)).
+
+cnf(u2755,axiom,
+    gufo_i_ConcreteIndividual(sK106)).
+
+cnf(u2669,axiom,
+    ~gufo_ea_ExtrinsicMode(sK57)).
+
+cnf(u1646,axiom,
+    gufo_o_VariableCollection(X0) | gufo_o_FixedCollection(X0) | ~gufo_o_Collection(X0)).
+
+cnf(u3095,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,sK64) | gufo_o_isObjectProperPartOf(X0,sK65)).
+
+cnf(u1854,axiom,
+    gufo_s_concernsRelatedEndurant(sK79,sK80)).
+
+cnf(u2973,axiom,
+    ~gufo_o_isSubQuantityOf(X0,sK15) | gufo_o_isSubQuantityOf(X0,sK16)).
+
+cnf(u3169,axiom,
+    gufo_i_ConcreteIndividual(sK72(sK130))).
+
+cnf(u1596,axiom,
+    ~gufo_ea_externallyDependsOn(X0,X1) | gufo_ea_ExtrinsicMode(X0)).
+
+cnf(u2794,axiom,
+    gufo_i_ConcreteIndividual(sK104)).
+
+cnf(u2080,axiom,
+    ~gufo_s_standsInQualifiedParthood(X0,X1) | owl_Thing(X0)).
+
+cnf(u1924,axiom,
+    gufo_i_constitutes(sK97,sK96)).
+
+cnf(u3399,axiom,
+    gufo_i_Individual(sK136)).
+
+cnf(u2601,axiom,
+    owl_Thing(sK118)).
+
+cnf(u1594,axiom,
+    ~gufo_ia_IntrinsicAspect(X0) | owl_Thing(X0)).
+
+cnf(u2462,axiom,
+    owl_Thing(sK105)).
+
+cnf(u4112,axiom,
+    ~gufo_ia_inheresIn(sK72(sK104),sK104)).
+
+cnf(u3503,axiom,
+    sK117 = sK39(sK116)).
+
+cnf(u2807,axiom,
+    owl_Thing(sK132(X0)) | ~gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u2564,axiom,
+    owl_Thing(sK39(X0)) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u1664,axiom,
+    ~gufo_o_isCollectionMemberOf(X1,X0) | gufo_o_isObjectProperPartOf(X1,X0)).
+
+cnf(u2577,axiom,
+    gufo_s_TemporaryRelationshipSituation(sK32)).
+
+cnf(u3294,axiom,
+    gufo_i_ConcreteIndividual(sK9)).
+
+cnf(u2438,axiom,
+    ~gufo_t_ConcreteIndividualType(sK29)).
+
+cnf(u2668,axiom,
+    gufo_ia_ExtrinsicAspect(sK57)).
+
+cnf(u2484,axiom,
+    gufo_i_Individual(sK97)).
+
+cnf(u2881,axiom,
+    gufo_i_isProperPartOf(sK3,sK2)).
+
+cnf(u1619,axiom,
+    ~gufo_et_RoleMixin(X0) | gufo_et_AntiRigidType(X0)).
+
+cnf(u2460,axiom,
+    gufo_i_Endurant(sK123)).
+
+cnf(u1583,axiom,
+    ~gufo_qa_hasBeginPoint(X1,X0) | owl_Thing(X1)).
+
+cnf(u2276,axiom,
+    ~gufo_i_Individual(sK134)).
+
+cnf(u2165,axiom,
+    gufo_t_EndurantType(sK33)).
+
+cnf(u1923,axiom,
+    ~gufo_s_TemporaryParthoodSituation(X0) | gufo_i_Situation(X0)).
+
+cnf(u1625,axiom,
+    ~gufo_s_standsInQualifiedConstitution(X1,X0) | gufo_s_standsIn(X1,X0)).
+
+cnf(u2469,axiom,
+    owl_Thing(sK101)).
+
+cnf(u2370,axiom,
+    ~gufo_t_EndurantType(sK109)).
+
+cnf(u1887,axiom,
+    ~gufo_ia_ExtrinsicAspect(X0) | owl_Thing(X0)).
+
+cnf(u2252,axiom,
+    gufo_i_Individual(sK54)).
+
+cnf(u2141,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK113)).
+
+cnf(u2290,axiom,
+    gufo_t_EndurantType(sK47)).
+
+cnf(u2051,axiom,
+    ~time_Instant(X0) | owl_Thing(X0)).
+
+cnf(u3813,axiom,
+    gufo_i_Individual(sK28)).
+
+cnf(u3584,axiom,
+    gufo_i_Endurant(sK95(sK114))).
+
+cnf(u2445,axiom,
+    ~gufo_i_Individual(sK149)).
+
+cnf(u2392,axiom,
+    gufo_et_RigidType(sK87)).
+
+cnf(u2483,axiom,
+    owl_Thing(sK61)).
+
+cnf(u2266,axiom,
+    ~gufo_i_Endurant(sK11)).
+
+cnf(u2155,axiom,
+    gufo_i_ConcreteIndividual(sK54)).
+
+cnf(u2184,axiom,
+    ~gufo_t_EndurantType(sK149)).
+
+cnf(u2073,axiom,
+    gufo_s_TemporaryConstitutionSituation(sK143)).
+
+cnf(u4023,axiom,
+    gufo_i_Individual(sK131(sK77))).
+
+cnf(u1934,axiom,
+    ~gufo_s_isSituationProperPartOf(X0,X1) | owl_Thing(X1)).
+
+cnf(u2459,axiom,
+    owl_Thing(sK123)).
+
+cnf(u1832,axiom,
+    ~gufo_ea_mediates(X1,X0) | gufo_ea_Relator(X1)).
+
+cnf(u2574,axiom,
+    owl_Thing(sK121)).
+
+cnf(u2103,axiom,
+    ~gufo_s_standsInQualifiedParthood(X2,X0) | X1 = X2 | ~gufo_s_standsInQualifiedParthood(X1,X0) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u2288,axiom,
+    ~gufo_i_Endurant(sK71)).
+
+cnf(u2049,axiom,
+    gufo_i_Endurant(sK133(X0)) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u1624,axiom,
+    ~gufo_e_wasCreatedIn(X0,X1) | owl_Thing(X1)).
+
+cnf(u2809,axiom,
+    gufo_t_EndurantType(sK48)).
+
+cnf(u1674,axiom,
+    ~gufo_s_standsInQualifiedParthood(X0,X1) | gufo_s_standsIn(X0,X1)).
+
+cnf(u2980,axiom,
+    gufo_i_Individual(sK3)).
+
+cnf(u2481,axiom,
+    gufo_et_NonRigidType(sK108)).
+
+cnf(u3087,axiom,
+    ~gufo_i_isProperPartOf(sK123,X0) | gufo_i_isProperPartOf(sK122,X0)).
+
+cnf(u2785,axiom,
+    gufo_i_ConcreteIndividual(sK99)).
+
+cnf(u2772,axiom,
+    ~gufo_i_Endurant(sK88)).
+
+cnf(u1637,axiom,
+    ~gufo_s_concernsNonRigidType(X1,X0) | gufo_et_NonRigidType(X0)).
+
+cnf(u2678,axiom,
+    gufo_i_ConcreteIndividual(sK52)).
+
+cnf(u4018,axiom,
+    gufo_i_Type(sK103(sK110))).
+
+cnf(u1585,axiom,
+    ~gufo_et_Mixin(X0) | gufo_et_SemiRigidType(X0)).
+
+cnf(u1941,axiom,
+    ~gufo_o_isComponentOf(X1,X0) | gufo_o_FunctionalComplex(X0)).
+
+cnf(u1847,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X1,X0) | owl_Thing(X0)).
+
+cnf(u3810,axiom,
+    gufo_i_Individual(sK127)).
+
+cnf(u1889,axiom,
+    ~gufo_i_constitutes(X0,X1) | gufo_i_ConcreteIndividual(X1)).
+
+cnf(u1791,axiom,
+    gufo_s_concernsQualityType(sK63,sK62)).
+
+cnf(u3596,axiom,
+    gufo_i_ConcreteIndividual(sK65)).
+
+cnf(u3204,axiom,
+    gufo_s_standsIn(sK124(sK113),sK113)).
+
+cnf(u2979,axiom,
+    ~gufo_ia_isAspectProperPartOf(sK42,X0) | gufo_ia_isAspectProperPartOf(sK41,X0)).
+
+cnf(u3397,axiom,
+    gufo_i_Individual(sK0(sK135))).
+
+cnf(u2808,axiom,
+    gufo_i_Endurant(sK132(X0)) | ~gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u3107,axiom,
+    gufo_i_ConcreteIndividual(sK121)).
+
+cnf(u4025,axiom,
+    gufo_i_Individual(sK132(sK60))).
+
+cnf(u3411,axiom,
+    gufo_i_ConcreteIndividual(sK38)).
+
+cnf(u2592,axiom,
+    gufo_i_Endurant(sK142)).
+
+cnf(u1842,axiom,
+    ~gufo_o_isCollectionMemberOf(X1,X0) | owl_Thing(X0)).
+
+cnf(u1686,axiom,
+    gufo_rt_isDerivedFrom(sK26,sK25)).
+
+cnf(u1900,axiom,
+    ~gufo_et_Phase(X0) | gufo_et_Sortal(X0)).
+
+cnf(u3083,axiom,
+    gufo_i_Type(sK84)).
+
+cnf(u1634,axiom,
+    ~gufo_o_isSubQuantityOf(X0,X1) | gufo_o_Quantity(X1)).
+
+cnf(u2990,axiom,
+    ~gufo_s_concernsRelatedEndurant(X0,X1) | sK128(X0) = X1).
+
+cnf(u2068,axiom,
+    ~gufo_e_historicallyDependsOn(X0,X1) | owl_Thing(X1)).
+
+cnf(u2782,axiom,
+    gufo_i_Situation(sK99)).
+
+cnf(u3908,axiom,
+    gufo_i_ConcreteIndividual(sK132(sK60))).
+
+cnf(u3828,axiom,
+    gufo_i_Individual(sK7)).
+
+cnf(u3090,axiom,
+    gufo_i_Individual(sK82)).
+
+cnf(u2758,axiom,
+    gufo_i_ConcreteIndividual(sK111)).
+
+cnf(u2972,axiom,
+    ~gufo_e_historicallyDependsOn(X0,sK100) | gufo_e_historicallyDependsOn(X0,sK101)).
+
+cnf(u1849,axiom,
+    ~gufo_i_isProperPartOf(X2,X0) | ~gufo_i_isProperPartOf(X0,X1) | gufo_i_isProperPartOf(X2,X1)).
+
+cnf(u2565,axiom,
+    gufo_i_Event(sK82)).
+
+cnf(u1899,axiom,
+    ~gufo_qa_QualityValue(X0) | owl_Thing(X0)).
+
+cnf(u1665,axiom,
+    ~gufo_o_Collection(X0) | gufo_i_Object(X0)).
+
+cnf(u1927,axiom,
+    gufo_et_Sortal(sK102)).
+
+cnf(u2898,axiom,
+    gufo_s_standsIn(sK27,sK28)).
+
+cnf(u2997,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X0,X1) | sK24(X1) = X0).
+
+cnf(u4010,axiom,
+    gufo_i_Individual(sK95(sK60))).
+
+cnf(u3603,axiom,
+    gufo_et_NonRigidType(sK103(sK110))).
+
+cnf(u3301,axiom,
+    sK80 = sK128(sK79)).
+
+cnf(u3815,axiom,
+    gufo_i_Individual(sK51)).
+
+cnf(u2602,axiom,
+    owl_Thing(sK57)).
+
+cnf(u3315,axiom,
+    gufo_i_Endurant(sK120)).
+
+cnf(u2971,axiom,
+    gufo_i_Endurant(sK64)).
+
+cnf(u1910,axiom,
+    ~gufo_i_ConcreteIndividual(X0) | gufo_i_Individual(X0)).
+
+cnf(u3585,axiom,
+    owl_Thing(sK95(sK114))).
+
+cnf(u2800,axiom,
+    gufo_i_ConcreteIndividual(sK83)).
+
+cnf(u1652,axiom,
+    ~gufo_t_AbstractIndividualType(X0) | owl_Thing(X0)).
+
+cnf(u1922,axiom,
+    ~gufo_s_concernsReifiedQualityValue(X1,X0) | owl_Thing(X0)).
+
+cnf(u2615,axiom,
+    ~gufo_i_Individual(sK91)).
+
+cnf(u2254,axiom,
+    gufo_ia_IntrinsicAspect(sK38)).
+
+cnf(u3291,axiom,
+    gufo_i_ConcreteIndividual(sK34)).
+
+cnf(u1928,axiom,
+    ~gufo_e_wasCreatedIn(X0,X1) | gufo_i_Event(X1)).
+
+cnf(u2273,axiom,
+    owl_Thing(sK50)).
+
+cnf(u2166,axiom,
+    gufo_t_EndurantType(sK75)).
+
+cnf(u2982,axiom,
+    gufo_i_ConcreteIndividual(sK42)).
+
+cnf(u3124,axiom,
+    gufo_i_Type(sK43)).
+
+cnf(u1917,axiom,
+    gufo_i_Object(sK95(X0)) | ~gufo_s_TemporaryConstitutionSituation(X0)).
+
+cnf(u1675,axiom,
+    gufo_s_standsInQualifiedAttribution(sK24(X0),X0) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u3298,axiom,
+    ~gufo_i_ConcreteIndividual(sK148)).
+
+cnf(u2060,axiom,
+    ~gufo_ia_ExtrinsicAspect(X0) | gufo_i_Aspect(X0)).
+
+cnf(u1639,axiom,
+    ~gufo_et_Mixin(X0) | gufo_et_NonSortal(X0)).
+
+cnf(u2773,axiom,
+    ~gufo_i_Situation(sK88)).
+
+cnf(u4028,axiom,
+    gufo_i_Individual(sK132(sK114))).
+
+cnf(u2074,axiom,
+    ~gufo_qa_hasEndPoint(X1,X0) | owl_Thing(X0)).
+
+cnf(u2685,axiom,
+    owl_Thing(sK88)).
+
+cnf(u4153,axiom,
+    ~gufo_i_Individual(sK26)).
+
+cnf(u4117,axiom,
+    gufo_i_ConcreteIndividual(sK131(sK104))).
+
+cnf(u1939,axiom,
+    ~gufo_ia_ExtrinsicAspect(X0) | gufo_ea_ExtrinsicMode(X0) | gufo_ea_Relator(X0)).
+
+cnf(u2890,axiom,
+    gufo_s_standsInQualifiedParthood(sK39(sK11),sK11)).
+
+cnf(u3817,axiom,
+    gufo_i_Individual(sK0(sK57))).
+
+cnf(u3803,axiom,
+    gufo_i_Individual(sK107)).
+
+cnf(u3489,axiom,
+    gufo_i_ConcreteIndividual(sK133(sK11))).
+
+cnf(u2810,axiom,
+    gufo_i_ConcreteIndividual(sK78)).
+
+cnf(u1662,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | owl_Thing(X0)).
+
+cnf(u1940,axiom,
+    ~gufo_i_Event(X0) | owl_Thing(X0)).
+
+cnf(u2617,axiom,
+    gufo_s_QualityValueAttributionSituation(sK12)).
+
+cnf(u1990,axiom,
+    gufo_s_standsInQualifiedParthood(sK117,sK116)).
+
+cnf(u2478,axiom,
+    ~gufo_o_FunctionalComplex(sK16)).
+
+cnf(u1888,axiom,
+    gufo_t_EventType(sK91)).
+
+cnf(u1732,axiom,
+    gufo_i_Endurant(sK46(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u3519,axiom,
+    gufo_i_Individual(sK110)).
+
+cnf(u3289,axiom,
+    gufo_i_Aspect(sK57)).
+
+cnf(u2695,axiom,
+    gufo_i_Individual(sK90(X0)) | ~gufo_ia_IntrinsicAspect(X0)).
+
+cnf(u2580,axiom,
+    gufo_o_Collection(sK23)).
+
+cnf(u2593,axiom,
+    ~gufo_i_Object(sK142)).
+
+cnf(u3116,axiom,
+    ~gufo_t_EndurantType(sK20)).
+
+cnf(u2454,axiom,
+    owl_Thing(sK60)).
+
+cnf(u2799,axiom,
+    ~gufo_i_Endurant(sK83)).
+
+cnf(u2372,axiom,
+    ~gufo_i_Endurant(sK113)).
+
+cnf(u2897,axiom,
+    gufo_o_isObjectProperPartOf(sK15,sK16)).
+
+cnf(u1635,axiom,
+    ~gufo_et_Phase(X0) | gufo_et_AntiRigidType(X0)).
+
+cnf(u2292,axiom,
+    owl_Thing(sK59)).
+
+cnf(u1693,axiom,
+    gufo_s_concernsRelationshipType(sK32,sK31)).
+
+cnf(u1599,axiom,
+    ~gufo_t_AbstractIndividualType(X1) | ~gufo_ho_categorizes(X1,X0)).
+
+cnf(u2053,axiom,
+    gufo_o_FunctionalComplex(sK136)).
+
+cnf(u2476,axiom,
+    gufo_i_ConcreteIndividual(sK97)).
+
+cnf(u1641,axiom,
+    ~gufo_et_Kind(X0) | gufo_et_RigidType(X0)).
+
+cnf(u1997,axiom,
+    ~gufo_i_Endurant(X0) | owl_Thing(X0)).
+
+cnf(u2485,axiom,
+    owl_Thing(sK97)).
+
+cnf(u1903,axiom,
+    ~gufo_ia_isAspectProperPartOf(X0,X1) | gufo_i_isProperPartOf(X0,X1)).
+
+cnf(u2765,axiom,
+    gufo_i_Situation(sK107)).
+
+cnf(u2268,axiom,
+    ~gufo_i_Endurant(sK50)).
+
+cnf(u2157,axiom,
+    ~gufo_ia_ExtrinsicAspect(sK52)).
+
+cnf(u2178,axiom,
+    gufo_i_Endurant(sK14)).
+
+cnf(u2067,axiom,
+    ~gufo_ho_categorizes(X1,X0) | owl_Thing(X0)).
+
+cnf(u2408,axiom,
+    gufo_i_Endurant(sK1(sK135))).
+
+cnf(u2490,axiom,
+    owl_Thing(sK66)).
+
+cnf(u2461,axiom,
+    gufo_i_Endurant(sK56)).
+
+cnf(u2065,axiom,
+    ~gufo_e_broughtAbout(X0,X1) | owl_Thing(X1)).
+
+cnf(u2371,axiom,
+    ~gufo_et_Category(sK102)).
+
+cnf(u2393,axiom,
+    ~gufo_et_NonSortal(sK139)).
+
+cnf(u2282,axiom,
+    gufo_i_Event(sK71)).
+
+cnf(u2171,axiom,
+    owl_Thing(sK33)).
+
+cnf(u2200,axiom,
+    gufo_et_NonSortal(sK125)).
+
+cnf(u2089,axiom,
+    gufo_i_Aspect(sK150)).
+
+cnf(u1950,axiom,
+    ~gufo_e_manifestedIn(X0,X1) | owl_Thing(X0)).
+
+cnf(u2384,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK54)).
+
+cnf(u2475,axiom,
+    gufo_o_Quantity(sK16)).
+
+cnf(u1848,axiom,
+    ~gufo_e_wasTerminatedIn(X1,X0) | owl_Thing(X0)).
+
+cnf(u1742,axiom,
+    ~gufo_qa_hasAssociatedQualityValueType(X1,X0) | owl_Thing(X0)).
+
+cnf(u1898,axiom,
+    ~gufo_i_Individual(X0) | owl_Thing(X0)).
+
+cnf(u2176,axiom,
+    owl_Thing(sK139)).
+
+cnf(u2697,axiom,
+    gufo_i_ConcreteIndividual(sK118)).
+
+cnf(u1640,axiom,
+    ~gufo_s_concernsConstitutedEndurant(X0,X1) | owl_Thing(X1)).
+
+cnf(u2590,axiom,
+    owl_Thing(sK49)).
+
+cnf(u1690,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X0,X1) | gufo_s_TemporaryInstantiationSituation(X1)).
+
+cnf(u2369,axiom,
+    ~gufo_t_EndurantType(X0) | gufo_i_Type(X0)).
+
+cnf(u3406,axiom,
+    ~gufo_i_isProperPartOf(sK23,X0) | gufo_i_isProperPartOf(sK22,X0)).
+
+cnf(u2423,axiom,
+    owl_Thing(sK85)).
+
+cnf(u2801,axiom,
+    gufo_i_ConcreteIndividual(sK128(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2788,axiom,
+    owl_Thing(sK124(X0)) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u1653,axiom,
+    ~gufo_qa_hasEndPoint(X1,X0) | time_Instant(X0)).
+
+cnf(u2566,axiom,
+    gufo_i_ConcreteIndividual(sK82)).
+
+cnf(u3636,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X0,sK107) | sK124(sK107) = X0).
+
+cnf(u3906,axiom,
+    gufo_i_Individual(sK23)).
+
+cnf(u2399,axiom,
+    gufo_t_EndurantType(sK87)).
+
+cnf(u1957,axiom,
+    ~gufo_e_wasCreatedIn(X1,X0) | gufo_i_Endurant(X1)).
+
+cnf(u2563,axiom,
+    gufo_i_ConcreteIndividual(sK39(X0)) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u2261,axiom,
+    gufo_i_Aspect(sK38)).
+
+cnf(u1905,axiom,
+    ~gufo_i_ConcreteIndividual(X0) | owl_Thing(X0)).
+
+cnf(u1679,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u3109,axiom,
+    ~gufo_i_isProperPartOf(sK138,X0) | gufo_i_isProperPartOf(sK137,X0)).
+
+cnf(u2995,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X0,sK12) | sK13 = X0).
+
+cnf(u3404,axiom,
+    gufo_i_ConcreteIndividual(sK18(sK71))).
+
+cnf(u3413,axiom,
+    ~gufo_i_isProperPartOf(sK16,X0) | gufo_i_isProperPartOf(sK15,X0)).
+
+cnf(u2696,axiom,
+    owl_Thing(sK90(X0)) | ~gufo_ia_IntrinsicAspect(X0)).
+
+cnf(u3599,axiom,
+    ~gufo_s_concernsNonRigidType(sK110,X0) | sK103(sK110) = X0).
+
+cnf(u3123,axiom,
+    gufo_i_Type(sK37(X0)) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u3517,axiom,
+    gufo_i_Individual(sK42)).
+
+cnf(u2608,axiom,
+    gufo_i_ConcreteIndividual(sK13)).
+
+cnf(u1702,axiom,
+    ~gufo_s_isSituationProperPartOf(X0,X1) | gufo_i_isProperPartOf(X0,X1)).
+
+cnf(u2251,axiom,
+    gufo_i_Individual(sK4)).
+
+cnf(u2297,axiom,
+    owl_Thing(sK102)).
+
+cnf(u1916,axiom,
+    gufo_s_concernsReifiedQualityValue(sK93,sK94)).
+
+cnf(u2062,axiom,
+    ~gufo_e_broughtAbout(X1,X0) | owl_Thing(X1)).
+
+cnf(u3281,axiom,
+    sK70(sK32) = sK31).
+
+cnf(u1650,axiom,
+    gufo_rt_ComparativeRelationshipType(sK20)).
+
+cnf(u2919,axiom,
+    gufo_i_Endurant(sK16)).
+
+cnf(u1708,axiom,
+    gufo_s_concernsQualityType(X0,sK37(X0)) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u2798,axiom,
+    owl_Thing(sK83)).
+
+cnf(u2199,axiom,
+    gufo_t_RelationshipType(sK20)).
+
+cnf(u2084,axiom,
+    gufo_i_ConcreteIndividual(sK146)).
+
+cnf(u3646,axiom,
+    owl_Thing(sK131(sK77))).
+
+cnf(u3622,axiom,
+    gufo_i_Individual(sK121)).
+
+cnf(u3128,axiom,
+    gufo_i_Type(sK68)).
+
+cnf(u2503,axiom,
+    gufo_s_QualityValueAttributionSituation(sK63)).
+
+cnf(u2774,axiom,
+    ~gufo_i_Individual(sK30)).
+
+cnf(u1733,axiom,
+    ~xsd_date(X0) | rdfs_Literal(X0)).
+
+cnf(u2111,axiom,
+    owl_Thing(sK134)).
+
+cnf(u2988,axiom,
+    ~gufo_s_concernsRelatedEndurant(sK79,X0) | sK80 = X0).
+
+cnf(u2581,axiom,
+    gufo_i_Aspect(sK142)).
+
+cnf(u1915,axiom,
+    ~gufo_ia_Quality(X0) | gufo_ia_IntrinsicAspect(X0)).
+
+cnf(u1681,axiom,
+    ~gufo_i_Situation(X0) | ~gufo_i_Endurant(X0)).
+
+cnf(u2780,axiom,
+    gufo_i_Endurant(sK135)).
+
+cnf(u1731,axiom,
+    gufo_s_standsInQualifiedRelationship(sK46(X0),X0) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u1943,axiom,
+    ~gufo_o_FunctionalComplex(X0) | owl_Thing(X0)).
+
+cnf(u2914,axiom,
+    gufo_ia_inheresIn(sK52,sK90(sK52))).
+
+cnf(u1985,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X1,X0) | owl_Thing(X1)).
+
+cnf(u3317,axiom,
+    gufo_i_Individual(sK80)).
+
+cnf(u3923,axiom,
+    gufo_i_ConcreteIndividual(sK132(sK114))).
+
+cnf(u2618,axiom,
+    gufo_i_Situation(sK12)).
+
+cnf(u3203,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X0,sK113) | sK124(sK113) = X0).
+
+cnf(u2987,axiom,
+    ~gufo_e_isEventProperPartOf(X0,sK137) | gufo_e_isEventProperPartOf(X0,sK138)).
+
+cnf(u1798,axiom,
+    ~gufo_e_isEventProperPartOf(X1,X0) | gufo_i_Event(X0)).
+
+cnf(u3601,axiom,
+    owl_Thing(sK103(sK110))).
+
+cnf(u1938,axiom,
+    ~gufo_ea_Relator(X0) | gufo_ia_ExtrinsicAspect(X0)).
+
+cnf(u2921,axiom,
+    gufo_s_concernsConstitutedEndurant(sK143,sK95(sK143))).
+
+cnf(u1996,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X0,X1) | gufo_s_standsIn(X0,X1)).
+
+cnf(u2270,axiom,
+    ~gufo_t_EventType(sK149)).
+
+cnf(u1730,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X2,X0) | ~gufo_s_standsInQualifiedRelationship(X3,X0) | ~gufo_i_Endurant(X3) | ~gufo_i_Endurant(X2) | ~gufo_s_TemporaryRelationshipSituation(X0) | X2 = X3).
+
+cnf(u3118,axiom,
+    ~gufo_t_EndurantType(sK58)).
+
+cnf(u2289,axiom,
+    ~gufo_i_Situation(sK71)).
+
+cnf(u2054,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X0,X1) | gufo_s_standsIn(X0,X1)).
+
+cnf(u3624,axiom,
+    sK111 = sK124(sK110)).
+
+cnf(u3498,axiom,
+    ~gufo_ea_mediates(sK0(sK57),sK57)).
+
+cnf(u2998,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X0,sK110) | sK111 = X0).
+
+cnf(u1805,axiom,
+    ~gufo_et_Role(X0) | owl_Thing(X0)).
+
+cnf(u1691,axiom,
+    ~gufo_ea_externallyDependsOn(X0,X0)).
+
+cnf(u1945,axiom,
+    ~gufo_s_standsIn(X1,X0) | gufo_i_Situation(X0)).
+
+cnf(u2191,axiom,
+    gufo_et_NonRigidType(sK21)).
+
+cnf(u2076,axiom,
+    gufo_s_QualityValueAttributionSituation(sK145)).
+
+cnf(u1655,axiom,
+    ~gufo_e_contributedToTrigger(X1,X0) | gufo_i_Event(X0)).
+
+cnf(u1995,axiom,
+    ~gufo_ho_categorizes(X0,X1) | gufo_i_Type(X1)).
+
+cnf(u3416,axiom,
+    ~gufo_i_isProperPartOf(sK120,X0) | gufo_i_isProperPartOf(sK121,X0)).
+
+cnf(u3830,axiom,
+    gufo_i_Individual(sK38)).
+
+cnf(u3916,axiom,
+    gufo_i_Individual(sK15)).
+
+cnf(u3637,axiom,
+    gufo_s_standsIn(sK124(sK107),sK107)).
+
+cnf(u4108,axiom,
+    owl_Thing(sK131(sK104))).
+
+cnf(u2787,axiom,
+    gufo_i_ConcreteIndividual(sK124(X0)) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u2090,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X0,X1) | gufo_s_TemporaryRelationshipSituation(X1)).
+
+cnf(u2573,axiom,
+    gufo_i_Object(sK121)).
+
+cnf(u3401,axiom,
+    gufo_i_Individual(sK36)).
+
+cnf(u4122,axiom,
+    gufo_i_Individual(sK131(sK104))).
+
+cnf(u3312,axiom,
+    gufo_i_Individual(sK119)).
+
+cnf(u2763,axiom,
+    gufo_i_Event(sK88)).
+
+cnf(u3833,axiom,
+    gufo_i_Individual(sK130)).
+
+cnf(u3127,axiom,
+    gufo_i_Type(sK62)).
+
+cnf(u1956,axiom,
+    ~gufo_i_AbstractIndividual(X0) | owl_Thing(X0)).
+
+cnf(u4111,axiom,
+    ~gufo_ia_inheresIn(sK104,X0) | sK72(sK104) = X0).
+
+cnf(u2006,axiom,
+    gufo_i_Endurant(sK124(X0)) | ~gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u1904,axiom,
+    ~gufo_o_isSubCollectionOf(X1,X2) | gufo_o_isSubCollectionOf(X0,X2) | ~gufo_o_isSubCollectionOf(X0,X1)).
+
+cnf(u2494,axiom,
+    gufo_i_ConcreteIndividual(sK8)).
+
+cnf(u1748,axiom,
+    ~gufo_ho_partitions(X0,X1) | owl_Thing(X1)).
+
+cnf(u2596,axiom,
+    owl_Thing(sK106)).
+
+cnf(u1696,axiom,
+    gufo_e_participatedIn(sK34,sK35)).
+
+cnf(u2609,axiom,
+    owl_Thing(sK13)).
+
+cnf(u3326,axiom,
+    gufo_i_Individual(sK66)).
+
+cnf(u2470,axiom,
+    gufo_i_ConcreteIndividual(sK36)).
+
+cnf(u2572,axiom,
+    ~gufo_i_Object(sK7)).
+
+cnf(u2913,axiom,
+    gufo_i_isProperPartOf(sK122,sK123)).
+
+cnf(u1919,axiom,
+    ~gufo_s_concernsConstitutedEndurant(X0,X1) | X1 = X2 | ~gufo_s_concernsConstitutedEndurant(X0,X2) | ~gufo_s_TemporaryConstitutionSituation(X0) | ~gufo_i_Object(X1) | ~gufo_i_Object(X2)).
+
+cnf(u1651,axiom,
+    ~gufo_t_EndurantType(X0) | owl_Thing(X0)).
+
+cnf(u2262,axiom,
+    ~gufo_ia_ExtrinsicAspect(sK38)).
+
+cnf(u1955,axiom,
+    ~gufo_s_concernsRelationshipType(X0,X1) | gufo_t_RelationshipType(X1)).
+
+cnf(u2180,axiom,
+    gufo_i_Endurant(sK55)).
+
+cnf(u2069,axiom,
+    gufo_et_NonRigidType(sK140)).
+
+cnf(u2492,axiom,
+    gufo_i_Endurant(sK126)).
+
+cnf(u1657,axiom,
+    ~gufo_et_Role(X0) | gufo_et_AntiRigidType(X0)).
+
+cnf(u2013,axiom,
+    ~gufo_ea_externallyDependsOn(X0,X1) | gufo_i_Endurant(X1)).
+
+cnf(u2402,axiom,
+    owl_Thing(sK64)).
+
+cnf(u2373,axiom,
+    gufo_i_ConcreteIndividual(sK113)).
+
+cnf(u2284,axiom,
+    gufo_et_NonRigidType(sK47)).
+
+cnf(u1735,axiom,
+    gufo_et_SemiRigidType(sK47)).
+
+cnf(u2194,axiom,
+    gufo_et_NonRigidType(sK139)).
+
+cnf(u2083,axiom,
+    ~gufo_s_TemporaryRelationshipSituation(X0) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u3132,axiom,
+    gufo_i_Type(sK102)).
+
+cnf(u2477,axiom,
+    owl_Thing(sK16)).
+
+cnf(u2424,axiom,
+    ~gufo_t_ConcreteIndividualType(sK85)).
+
+cnf(u2059,axiom,
+    gufo_et_Sortal(X0) | ~gufo_t_EndurantType(X0) | gufo_et_NonSortal(X0)).
+
+cnf(u2781,axiom,
+    ~gufo_i_Object(sK135)).
+
+cnf(u2216,axiom,
+    ~gufo_o_Collection(sK36)).
+
+cnf(u2400,axiom,
+    gufo_i_Individual(sK100)).
+
+cnf(u2491,axiom,
+    time_Instant(sK74)).
+
+cnf(u3819,axiom,
+    gufo_i_Individual(sK69)).
+
+cnf(u2409,axiom,
+    gufo_i_Endurant(sK0(sK135))).
+
+cnf(u2192,axiom,
+    gufo_et_NonRigidType(sK68)).
+
+cnf(u1758,axiom,
+    gufo_ea_mediates(sK57,sK56)).
+
+cnf(u2081,axiom,
+    ~gufo_ea_externallyDependsOn(X0,X1) | owl_Thing(X0)).
+
+cnf(u1656,axiom,
+    ~gufo_s_concernsRelationshipType(X0,X1) | X1 = X2 | ~gufo_s_concernsRelationshipType(X0,X2)).
+
+cnf(u2606,axiom,
+    owl_Thing(sK26)).
+
+cnf(u1706,axiom,
+    ~gufo_o_isSubCollectionOf(X0,X1) | gufo_o_Collection(X1)).
+
+cnf(u1984,axiom,
+    ~gufo_s_concernsNonRigidType(X0,X1) | gufo_s_TemporaryInstantiationSituation(X0)).
+
+cnf(u3119,axiom,
+    ~gufo_t_EndurantType(sK70(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2311,axiom,
+    owl_Thing(sK151)).
+
+cnf(u3422,axiom,
+    gufo_i_ConcreteIndividual(sK39(sK11))).
+
+cnf(u2804,axiom,
+    gufo_i_Individual(sK131(X0)) | ~gufo_ea_ExtrinsicMode(X0)).
+
+cnf(u2689,axiom,
+    owl_Thing(sK148)).
+
+cnf(u2582,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK32)).
+
+cnf(u2415,axiom,
+    gufo_i_Situation(sK79)).
+
+cnf(u1973,axiom,
+    gufo_et_Kind(sK112)).
+
+cnf(u3444,axiom,
+    gufo_i_Individual(sK104)).
+
+cnf(u2579,axiom,
+    owl_Thing(sK46(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2277,axiom,
+    ~gufo_i_Individual(sK6)).
+
+cnf(u1793,axiom,
+    ~gufo_t_AbstractIndividualType(X0) | gufo_i_Type(X0)).
+
+cnf(u1695,axiom,
+    gufo_et_NonSortal(sK33)).
+
+cnf(u1737,axiom,
+    gufo_qa_hasAssociatedQualityValueType(sK48,sK49)).
+
+cnf(u3125,axiom,
+    gufo_i_Type(sK47)).
+
+cnf(u2920,axiom,
+    gufo_i_isProperPartOf(sK41,sK42)).
+
+cnf(u3429,axiom,
+    gufo_i_Individual(sK72(sK130))).
+
+cnf(u2253,axiom,
+    gufo_t_RelationshipType(sK58)).
+
+cnf(u2712,axiom,
+    gufo_i_Individual(sK145)).
+
+cnf(u2504,axiom,
+    gufo_i_ConcreteIndividual(sK98)).
+
+cnf(u3639,axiom,
+    gufo_i_Endurant(sK124(sK107))).
+
+cnf(u3297,axiom,
+    gufo_i_Individual(sK148)).
+
+cnf(u2267,axiom,
+    gufo_i_ConcreteIndividual(sK11)).
+
+cnf(u2185,axiom,
+    ~gufo_i_Situation(sK50)).
+
+cnf(u1718,axiom,
+    gufo_i_Endurant(sK40)).
+
+cnf(u1804,axiom,
+    gufo_s_standsIn(sK67,sK66)).
+
+cnf(u2078,axiom,
+    ~gufo_rt_isDerivedFrom(X1,X0) | gufo_t_EndurantType(X0)).
+
+cnf(u3115,axiom,
+    ~gufo_t_EndurantType(sK19)).
+
+cnf(u2935,axiom,
+    gufo_s_standsInQualifiedInstantiation(sK124(sK107),sK107)).
+
+cnf(u1944,axiom,
+    ~gufo_i_Type(X0) | ~gufo_i_Individual(X0)).
+
+cnf(u1724,axiom,
+    ~gufo_t_ConcreteIndividualType(X0) | gufo_i_Type(X0)).
+
+cnf(u1994,axiom,
+    gufo_o_isComponentOf(sK121,sK120)).
+
+cnf(u3419,axiom,
+    ~gufo_i_isProperPartOf(sK65,X0) | gufo_i_isProperPartOf(sK64,X0)).
+
+cnf(u2215,axiom,
+    gufo_i_Endurant(sK136)).
+
+cnf(u2814,axiom,
+    ~gufo_s_QualityValueAttributionSituation(sK127)).
+
+cnf(u4129,axiom,
+    gufo_ia_inheresIn(X0,sK90(X0)) | gufo_ia_ExtrinsicAspect(X0) | ~gufo_i_Aspect(X0)).
+
+cnf(u3638,axiom,
+    owl_Thing(sK124(sK107))).
+
+cnf(u2519,axiom,
+    gufo_i_ConcreteIndividual(sK24(X0)) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u3122,axiom,
+    gufo_i_Type(sK33)).
+
+cnf(u3004,axiom,
+    ~gufo_s_standsInQualifiedParthood(X0,sK116) | sK117 = X0).
+
+cnf(u1749,axiom,
+    ~gufo_ea_ExtrinsicMode(X0) | owl_Thing(X0)).
+
+cnf(u2790,axiom,
+    owl_Thing(sK48)).
+
+cnf(u1803,axiom,
+    ~gufo_o_isObjectProperPartOf(X0,X1) | owl_Thing(X1)).
+
+cnf(u2597,axiom,
+    gufo_i_Endurant(sK117)).
+
+cnf(u1697,axiom,
+    ~gufo_e_participatedIn(X1,X0) | gufo_i_Event(X0)).
+
+cnf(u2796,axiom,
+    gufo_i_Situation(sK83)).
+
+cnf(u1747,axiom,
+    ~gufo_ia_IntrinsicAspect(X0) | ~gufo_ia_ExtrinsicAspect(X0)).
+
+cnf(u1959,axiom,
+    ~gufo_s_concernsTemporaryWhole(X0,X1) | owl_Thing(X0)).
+
+cnf(u2901,axiom,
+    gufo_i_ConcreteIndividual(sK123)).
+
+cnf(u2001,axiom,
+    ~gufo_s_concernsRelatedEndurant(X2,X1) | ~gufo_s_concernsRelatedEndurant(X2,X0) | X0 = X1).
+
+cnf(u3205,axiom,
+    owl_Thing(sK124(sK113))).
+
+cnf(u3120,axiom,
+    gufo_i_Type(sK21)).
+
+cnf(u2571,axiom,
+    gufo_i_Endurant(sK7)).
+
+cnf(u3309,axiom,
+    sK24(sK12) = sK13).
+
+cnf(u2912,axiom,
+    gufo_ho_categorizes(sK85,sK84)).
+
+cnf(u3921,axiom,
+    gufo_i_ConcreteIndividual(sK57)).
+
+cnf(u1954,axiom,
+    ~gufo_t_AbstractIndividualType(X0) | ~gufo_t_RelationshipType(X0)).
+
+cnf(u3523,axiom,
+    owl_Thing(sK39(sK127))).
+
+cnf(u2012,axiom,
+    gufo_s_concernsTemporaryWhole(sK127,sK126)).
+
+cnf(u2286,axiom,
+    gufo_i_AbstractIndividual(sK59)).
+
+cnf(u2496,axiom,
+    ~gufo_i_Endurant(sK8)).
+
+cnf(u1746,axiom,
+    ~gufo_s_standsInQualifiedRelationship(X1,X0) | gufo_s_standsIn(X1,X0)).
+
+cnf(u3134,axiom,
+    gufo_i_Type(sK112)).
+
+cnf(u2623,axiom,
+    gufo_i_ConcreteIndividual(sK138)).
+
+cnf(u2177,axiom,
+    owl_Thing(sK144)).
+
+cnf(u2070,axiom,
+    ~gufo_e_isEventProperPartOf(X1,X0) | gufo_i_isProperPartOf(X1,X0)).
+
+cnf(u1821,axiom,
+    gufo_e_Participation(sK71)).
+
+cnf(u1707,axiom,
+    gufo_t_EndurantType(sK37(X0)) | ~gufo_s_QualityValueAttributionSituation(X0)).
+
+cnf(u2092,axiom,
+    ~gufo_et_Category(X0) | gufo_et_RigidType(X0)).
+
+cnf(u1961,axiom,
+    gufo_t_AbstractIndividualType(sK109)).
+
+cnf(u2011,axiom,
+    ~gufo_s_QualityValueAttributionSituation(X0) | gufo_i_Situation(X0)).
+
+cnf(u2805,axiom,
+    owl_Thing(sK131(X0)) | ~gufo_ea_ExtrinsicMode(X0)).
+
+cnf(u3932,axiom,
+    gufo_i_Individual(sK120)).
+
+cnf(u2106,axiom,
+    ~gufo_s_standsInQualifiedInstantiation(X2,X0) | ~gufo_s_standsInQualifiedInstantiation(X1,X0) | X1 = X2).
+
+cnf(u2922,axiom,
+    gufo_s_concernsConstitutedEndurant(sK60,sK95(sK60))).
+
+cnf(u3200,axiom,
+    gufo_et_NonRigidType(sK103(sK113))).
+
+cnf(u1566,axiom,
+    ~gufo_o_isSubCollectionOf(X0,X1) | owl_Thing(X0)).
+
+cnf(u3393,axiom,
+    gufo_i_Individual(sK14)).
+
+cnf(u2382,axiom,
+    gufo_t_EndurantType(sK139)).
+
+cnf(u1792,axiom,
+    ~gufo_s_TemporaryInstantiationSituation(X0) | ~gufo_s_TemporaryParthoodSituation(X0)).
+
+cnf(u1764,axiom,
+    ~gufo_et_NonSortal(X0) | gufo_t_EndurantType(X0)).
+
+cnf(u3825,axiom,
+    gufo_i_Individual(sK1(sK57))).
+
+cnf(u2727,axiom,
+    gufo_i_Individual(sK150)).
+
+cnf(u2612,axiom,
+    ~gufo_i_Object(sK38)).
+
+cnf(u1712,axiom,
+    ~gufo_et_Phase(X0) | owl_Thing(X0)).
+
+cnf(u4107,axiom,
+    gufo_i_Endurant(sK131(sK104))).
+
+cnf(u2486,axiom,
+    owl_Thing(sK80)).
+
+cnf(u2929,axiom,
+    gufo_s_concernsNonRigidType(sK110,sK103(sK110))).
+
+cnf(u2703,axiom,
+    gufo_i_Individual(sK118)).
+
+cnf(u2588,axiom,
+    owl_Thing(sK23)).
+
+cnf(u2278,axiom,
+    ~gufo_i_Individual(sK109)).
+
+cnf(u1725,axiom,
+    gufo_et_RigidType(sK43)).
+
+cnf(u4037,axiom,
+    ~gufo_i_Individual(sK103(sK110))).
+
+cnf(u2085,axiom,
+    ~gufo_i_Situation(X0) | owl_Thing(X0)).
+
+cnf(u3126,axiom,
+    gufo_i_Type(sK48)).
+
+cnf(u3527,axiom,
+    ~gufo_s_standsInQualifiedParthood(X0,sK127) | sK39(sK127) = X0).
+
+cnf(u2029,axiom,
+    ~gufo_s_TemporaryConstitutionSituation(X0) | gufo_s_standsInQualifiedConstitution(sK132(X0),X0)).
+
+cnf(u2418,axiom,
+    owl_Thing(sK147)).
+
+cnf(u1807,axiom,
+    gufo_et_RoleMixin(sK68)).
+
+cnf(u2061,axiom,
+    ~gufo_ia_inheresIn(X0,X1) | owl_Thing(X1)).
+
+cnf(u2300,axiom,
+    ~gufo_t_RelationshipType(sK6)).
+
+cnf(u1751,axiom,
+    gufo_ia_IntrinsicAspect(sK52)).
+
+cnf(u2210,axiom,
+    gufo_i_Object(sK136)).
+
+cnf(u2099,axiom,
+    ~gufo_s_concernsTemporaryWhole(X0,X2) | ~gufo_s_concernsTemporaryWhole(X0,X3) | ~gufo_s_TemporaryParthoodSituation(X0) | X2 = X3).
+
+cnf(u3835,axiom,
+    gufo_i_Individual(sK135)).
+
+cnf(u3733,axiom,
+    gufo_i_ConcreteIndividual(sK23)).
+
+cnf(u2493,axiom,
+    gufo_i_Event(sK98)).
+
+cnf(u2312,axiom,
+    owl_Thing(sK40)).
+
+cnf(u3645,axiom,
+    gufo_i_Endurant(sK131(sK77))).
+
+cnf(u3321,axiom,
+    sK27 = sK46(sK28)).
+
+cnf(u2797,axiom,
+    gufo_i_Endurant(sK78)).
+
+cnf(u2075,axiom,
+    gufo_et_AntiRigidType(sK144)).
+
+cnf(u2232,axiom,
+    owl_Thing(sK104)).
+
+cnf(u2416,axiom,
+    owl_Thing(sK79)).
+
+cnf(u1982,axiom,
+    gufo_s_TemporaryInstantiationSituation(sK113)).
+
+cnf(u2729,axiom,
+    gufo_i_Individual(sK71)).
+
+cnf(u2425,axiom,
+    ~gufo_ho_partitions(sK109,X0)).
+
+cnf(u1802,axiom,
+    ~gufo_ia_isAspectProperPartOf(X0,X1) | gufo_i_Aspect(X0)).
+
+cnf(u1774,axiom,
+    ~gufo_s_concernsReifiedQualityValue(X1,X0) | owl_Thing(X1)).
+
+cnf(u2208,axiom,
+    ~gufo_s_TemporaryParthoodSituation(sK54)).
+
+cnf(u2097,axiom,
+    ~gufo_s_standsInQualifiedAttribution(X1,X0) | ~gufo_s_standsInQualifiedAttribution(X2,X0) | X1 = X2).
+
+cnf(u2900,axiom,
+    gufo_o_isObjectProperPartOf(sK121,sK120)).
+
+cnf(u2622,axiom,
+    gufo_i_ConcreteIndividual(sK141)).
+
+cnf(u1722,axiom,
+    gufo_et_NonSortal(X0) | ~gufo_et_Category(X0)).
+
+cnf(u2000,axiom,
+    ~gufo_e_contributedToTrigger(X0,X1) | gufo_i_Situation(X0)).
+
+cnf(u2401,axiom,
+    owl_Thing(sK100)).
+
+cnf(u3135,axiom,
+    gufo_i_Type(sK125)).
+
+cnf(u2692,axiom,
+    gufo_i_Endurant(sK9)).
+
+cnf(u2705,axiom,
+    ~gufo_i_Individual(sK58)).
+
+cnf(u2598,axiom,
+    gufo_i_ConcreteIndividual(sK117)).
+
+cnf(u2431,axiom,
+    owl_Thing(sK62)).
+
+cnf(u1861,axiom,
+    ~gufo_qa_hasBeginPoint(X0,X1) | owl_Thing(X1)).
+
+cnf(u2293,axiom,
+    gufo_i_Individual(sK59)).
+
+cnf(u2595,axiom,
+    owl_Thing(sK84)).
+
+cnf(u1809,axiom,
+    gufo_o_VariableCollection(sK69)).
+
+cnf(u1711,axiom,
+    ~gufo_e_isEventProperPartOf(X1,X0) | gufo_i_Event(X1)).
+
+cnf(u3206,axiom,
+    gufo_i_Endurant(sK124(sK113))).
+
+cnf(u1753,axiom,
+    gufo_i_AbstractIndividual(sK53)).
+
+cnf(u2899,axiom,
+    gufo_s_standsIn(sK46(X0),X0) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2498,axiom,
+    gufo_i_Object(sK122)).
+
+cnf(u2015,axiom,
+    gufo_i_Endurant(sK128(X0)) | ~gufo_s_TemporaryRelationshipSituation(X0)).
+
+cnf(u2269,axiom,
+    ~gufo_t_ConcreteIndividualType(sK109)).
+
+% (58329)# SZS output end Saturation.
+% (58329)------------------------------
+% (58329)Version: Vampire 4.8 (commit 4017145ee on 2023-10-05 17:46:18 +0200)
+% (58329)Linked with Z3 4.12.2.0 e417f7d78509b2d0c9ebc911fee7632e6ef546b6 z3-4.8.4-7517-ge417f7d78
+% (58329)Termination reason: Satisfiable
+
+% (58329)Memory used [KB]: 2766
+% (58329)Time elapsed: 0.088 s
+% (58329)Instructions burned: 79 (million)
+% (58329)------------------------------
+% (58329)------------------------------
+% (58303)Success in time 0.333 s
+% Vampire---4.8 exiting
+
+% END OF SYSTEM OUTPUT
+RESULT: SOT_qRAhiP - Vampire---4.8 says Satisfiable - CPU = 2.84 WC = 1.15 
+OUTPUT: SOT_qRAhiP - Vampire---4.8 says Saturation - CPU = 2.84 WC = 1.21 
+
